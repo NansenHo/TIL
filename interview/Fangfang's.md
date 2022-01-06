@@ -40,8 +40,10 @@ meta viewport 是用来适配移动设备的。为了使不同宽度的页面都
 [HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)（如果你说出一个标签，却不知道它有哪些API，那么你就会被扣分）
 
 + img 
-+ p
++ p 
 + button 
 + h 系列的标题标签 
-+ form 
-+ input
++ form  
++ input 
+
+### 
