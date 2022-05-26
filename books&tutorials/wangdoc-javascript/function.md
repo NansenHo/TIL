@@ -163,4 +163,68 @@ var result = f1();
 result(); // 999
 ```
 
+闭包就是函数 `f2`，即能够读取其他函数内部变量的函数。
+
+因此可以把闭包简单理解成“定义在一个函数内部的函数”。
+闭包最大的特点，就是它可以“记住”诞生的环境，比如 f2 记住了它诞生的环境 f1 ，所以从 f2 可以得到 f1 的内部变量。
+在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁。
+
+```javascript
+function createIncrementor(start) {
+  // return 的函数尽量不要写成箭头函数
+  return function () {
+    return start++;
+  };
+}
+
+var inc = createIncrementor(5);
+
+inc() // 5
+inc() // 6
+inc() // 7
+```
+
+为什么闭包能够返回外层函数的内部变量？
+
+闭包（上例的inc）用到了外层变量（start），导致外层函数（createIncrementor）不能从内存释放。
+只要闭包没有被垃圾回收机制清除，外层函数提供的运行环境也不会被清除，它的内部变量就始终保存着当前值，供闭包读取。
+
+闭包内存消耗大，滥用闭包会造成网页的性能问题。
+
+#### 闭包的使用场景
+
+1. 创建私有变量
+2. 延长变量的生命周期
+
+柯里化函数和闭包结合起来：
+
+柯里化的目的在于避免频繁调用具有相同参数函数的同时，又能够轻松的重用
+
+```javascript
+// 假设我们有一个求长方形面积的函数
+function getArea(width, height) {
+    return width * height
+}
+// 如果我们碰到的长方形的宽老是10
+const area1 = getArea(10, 20)
+const area2 = getArea(10, 30)
+const area3 = getArea(10, 40)
+
+// 我们可以使用闭包柯里化这个计算面积的函数
+function getArea(width) {
+    return height => {
+        return width * height
+    }
+}
+
+const getTenWidthArea = getArea(10)
+
+// 之后碰到宽度为10的长方形就可以这样计算面积
+const area1 = getTenWidthArea(20)
+
+// 而且如果遇到宽度偶尔变化也可以轻松复用
+const getTwentyWidthArea = getArea(20)
+```
+
+
 ### 立即调用函数 IIFE
