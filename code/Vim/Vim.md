@@ -153,6 +153,9 @@ normal 模式里也可以用 command c/v；
 
 ![](../../images/Vim/d操作符.jpg)
 
+然后我们再输入动作。比如
+
+
 
 ## Vim 相关软件使用经验
 
