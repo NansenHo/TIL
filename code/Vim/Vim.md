@@ -137,7 +137,22 @@ normal 模式里也可以用 command c/v；
 ### 如何在多个 VScode 窗口中快速切换
 
 `command` + `
-## Day 3
+## Day 3 - Vim 语法
+
+> Vim 语法 = 操作符 operation + 动作（区域范围）
+
+动作：hjkl o O 等移动都是属于动作。
+
+### 三个操作符
+
+1. 删除符号 `d`
+2. 删除并进入 insert 模式 `c`
+3. 复制 `y`
+
+输入一个 `d` 之后，会在底部进入一个 pendding 的状态
+
+![](../../images/Vim/d操作符.jpg)
+
 
 ## Vim 相关软件使用经验
 
