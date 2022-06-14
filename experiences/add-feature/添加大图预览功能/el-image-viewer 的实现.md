@@ -1,2 +1,2 @@
-# el-image-viewer 的实现方式
+# 实现一个自己的 el-image-viewer 组件
 
