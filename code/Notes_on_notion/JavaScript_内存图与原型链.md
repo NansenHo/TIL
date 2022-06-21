@@ -27,7 +27,7 @@
 JS 代码下载之后，会被放到内存里面，但具体是放在内存里哪呢？
 
 
-![](assset/../assets/JavaScript%20内存图与原型链/2020-08-26_17.59.35.png)
+![](assset/../assets/JavaScript%20内存图与原型链/内存.png)
 
 1. JS 引擎首先会把代码放到内存里；
 2. 操作系统占的内存其实很小，大部分是被服务占据了。
@@ -82,7 +82,7 @@ JS 代码下载之后，会被放到内存里面，但具体是放在内存里�
 
 Heap 堆区存进每一个数据都是随机放置的。
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%201.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%201.png)
+![](assets/JavaScript%20内存图与原型链/Heap.png)
 
 Heap 堆区里存的数据后来被下一个数据占住了怎么办呢？
 
@@ -97,7 +97,7 @@ Heap 堆区里存的数据后来被下一个数据占住了怎么办呢？
 
 ## Stack 栈区和 Heap 堆区举例
 
-![JS 的所有数字都是 64 位的。](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%202.png)
+![JS 的所有数字都是 64 位的。](assets/JavaScript%20内存图与原型链/Stack&Heap.png)
 
 JS 的所有数字都是 64 位的。
 
@@ -109,7 +109,7 @@ JS 的所有数字都是 64 位的。
 
 如果我们把 person2 的 name 改成了 x ，那 person 的 name 是会变成 x 呢，还是说依然是 nansen？
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%203.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%203.png)
+![](assets/JavaScript%20内存图与原型链/对象属性更改.png)
 
 是 x 。
 
@@ -119,7 +119,7 @@ person2 和 person 用的是用一块内存。
 
 要是我改变了 Obj 的 toString ，那我新建的 Obj2 的 toString 是不是也改变了？
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%204.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%204.png)
+![](assets/JavaScript%20内存图与原型链/toString方法的更改.png)
 
 不会。你直觉觉得不会改变，JS 也不会去改变。
 
@@ -141,7 +141,6 @@ person2 和 person 用的是用一块内存。
     - 只有数字、字符串、布尔不是对象。
 
 > 看到代码，脑子里面就有内存图。
-> 
 
 ## 我还没写 JS 代码之前，我的内存长什么样子？
 
@@ -174,7 +173,7 @@ person2 和 person 用的是用一块内存。
 
 实际的内存图
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%205.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%205.png)
+![](assets/JavaScript%20内存图与原型链/实际的内存图.png)
 
 1. 所有的对象都挂在 window 上，所以 window 肯定是个变量。
    
@@ -192,7 +191,7 @@ person2 和 person 用的是用一块内存。
 
 抽象的内存图
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%206.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%206.png)
+![](assets/JavaScript%20内存图与原型链/抽象的内存图.png)
 
 1. 指向和引用的意思就是，保存了其地址值。
 2. Object 是一个函数，也属于对象。
@@ -205,7 +204,7 @@ dir 的意思就是，打出它的结构。
 
 （这个 API 只有在内存这里才会用到。）
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%207.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%207.png)
+![](assets/JavaScript%20内存图与原型链/consoledir.png)
 
 我们可以看到，它虽然作为一个函数，但也有很多属性。
 
@@ -216,7 +215,7 @@ dir 的意思就是，打出它的结构。
 
 </aside>
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%208.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%208.png)
+![](assets/JavaScript%20内存图与原型链/new_Array.png)
 
 用 `new Array()` 或者 `[]` 可以产生一个新的数组。如果不用这两个，就产生不了一个数组。
 
@@ -261,7 +260,7 @@ Object 里的 prototype 只是一个属性而已，它真正对应的是一个�
 
 这个对象可以这样拿出来看看，长这个样子：
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%209.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%209.png)
+![](assets/JavaScript%20内存图与原型链/原型链.png)
 
 prototype 里的这些函数看起来毫无用处
 
@@ -276,7 +275,7 @@ obj.toString()
 
 因为 obj 作为一个空对象，根本没有 toString 属性，怎么它还执行 obj.toString() 了呢？
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2010.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2010.png)
+![](assets/JavaScript%20内存图与原型链/toString不报错.png)
 
 **我们可以在控制台中打出 prototype 的全部属性**
 
@@ -284,7 +283,7 @@ obj.toString()
 console.dir(window.Object.prototype)
 ```
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2011.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2011.png)
+![](assets/JavaScript%20内存图与原型链/prototype的全部属性.png)
 
 1. 隐藏属性是你看不见的属性。
 2. 隐藏属性里存的地址值为什么是 #409 呢？
@@ -296,9 +295,12 @@ console.dir(window.Object.prototype)
     obj.toString() 发现 obj 上没有 toString ，就回去隐藏属性 xxx 对应的对象里面去找，即去 Object.prototype ，于是就找到了里面的 toString 。
     
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2012.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2012.png)
+![](assets/JavaScript%20内存图与原型链/等价的toString.png)
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_18.01.45.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_18.01.45.png)
+```javascript
+obj.toString === window.Object.prototype.toString
+// true
+```
 
 可以看出这两就是等价的。
 
@@ -318,9 +320,12 @@ var a [1,2,3]
 a push(4)
 ```
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2013.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2013.png)
+![](assets/JavaScript%20内存图与原型链/等价的push.png)
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_17.59.35.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_17.59.35.png)
+```javascript
+arr.push === window.Array.prototype.push
+// true
+```
 
 可以看出这两就是等价的。
 
@@ -340,22 +345,37 @@ a push(4)
 
 **如果没有这个原型呢？**
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_22.40.29.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/2020-08-26_22.40.29.png)
+```javascript
+var obj = {
+  toString: window.Object.prototype.toString,
+  hasOwnPropertyOf: window.Object.prototype.hasOwnPropertyOf,
+}
+obj.toString()
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2014.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2014.png)
+var obj2 = {
+  toString: window.Object.prototype.toString,
+  hasOwnPropertyOf: window.Object.prototype.hasOwnPropertyOf,
+}
+obj2.toString()
 
-> 每个对象都有一个隐藏属性，指向跟其他对象的共有属性。
-> 
+obj3 ... ...
+obj4 ... ...
+... ...
+
+// 这样大家都要把原型里提供了的方法重新写一遍
+```
+
+> 每个对象都有一个隐藏属性，指向跟其他对象的共有属性。 
 
 **共有属性就叫原型。**
 
 原型让你无需重复声明共有属性，省代码省内存。
 
-⬅️｜
+![](assets/JavaScript%20内存图与原型链/隐藏属性.png)
 
-可以看出所有对象都是有隐藏属性的。
+从上图可以看出所有对象都是有隐藏属性的。
 
-黄框的，是因为它们要用 console.dir 才能将它的结构弄出来。
+黄框的，是因为它们要用 `console.dir` 才能将它的结构弄出来。
 
 甚至 Object 也有隐藏属性。
 
@@ -391,7 +411,7 @@ a push(4)
 
 下图是 console.dir(Array.prototype) 打出来的。
 
-![JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2015.png](JavaScript%20%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%20bd152c554b624d6bb56bcdaef88ecde0/Untitled%2015.png)
+![](assets/JavaScript%20内存图与原型链/hasOwnProperty.png)
 
 # 变量声明提升与函数声明提升
 
