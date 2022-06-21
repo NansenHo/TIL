@@ -270,16 +270,14 @@ obj.toString()
 console.dir(window.Object.prototype)
 ```
 
-![](assets/JavaScript%20内存图与原型链/prototype的全部属性.png)
-
 1. 隐藏属性是你看不见的属性。
-2. 隐藏属性里存的地址值为什么是 #409 呢？
+2. 隐藏属性里存的地址值为什么是 `#409` 呢？
    
-    因为生成的是一个对象，对象存的就是 Object 对应的 prototype 的地址值 #409 。
+    因为生成的是一个对象，对象存的就是 Object 对应的 prototype 的地址值 `#409` 。
     
     只要生成的是对象，它就会存 Object 里的 prototype 的地址值。
     
-    obj.toString() 发现 obj 上没有 toString ，就回去隐藏属性 xxx 对应的对象里面去找，即去 Object.prototype ，于是就找到了里面的 toString 。
+    `obj.toString()` 发现 obj 上没有 toString ，就回去隐藏属性 xxx 对应的对象里面去找，即去 `Object.prototype` ，于是就找到了里面的 toString 。
     
 
 ![](assets/JavaScript%20内存图与原型链/等价的toString.png)
@@ -297,13 +295,13 @@ obj.toString === window.Object.prototype.toString
 
 这个新建的数组又存了 Array 里的 prototype 的地址值。
 
-```bash
+```javascript
 var a [1,2,3]
 ```
 
 再在数组里面加一个 4
 
-```bash
+```javascript
 a push(4)
 ```
 
@@ -381,9 +379,8 @@ obj4 ... ...
 > 如果我们尝试去篡改共有属性，会发现是改不了的。
 因为改的时候，我们是得不到共有属性的；
 只有在读的时候，会得到共有属性。
-> 
 
-如果调用的是 arr.hasOwnProperty ，
+如果调用的是 `arr.hasOwnProperty` ，
 
 而这个 hasOwnProperty 在 Object 里的 prototype 里放着。
 
