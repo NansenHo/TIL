@@ -6,9 +6,9 @@ TIL：Today I Learn
 
 ## 目录
 
-- [编码相关的内容（编码相关的书也在这里面）](https://github.com/NansenHo/TIL/tree/main/code)
-- [书籍](https://github.com/NansenHo/TIL/tree/main/books)
-- 
+- [编码相关的内容（编码相关的书也在这里面）](code)
+- [书籍](books)
+- [notion 笔记](code/Notes_on_notion)
 
 
 
