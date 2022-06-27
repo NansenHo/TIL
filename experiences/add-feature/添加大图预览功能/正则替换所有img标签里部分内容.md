@@ -10,6 +10,7 @@ let data = `<p><strong><span style=\"color: var(--n100);\"><span style=\"font-si
 function smallImg (data) {
   let reg = /<img(.*?)width="(.*?)"(.*?)src="(.*?)"(.*?)\/?>/gi;
   let finalData = data.replace(reg, function(match, p1, p2, p3, p4, p5) {
+    // p1 ~ p5 分别对应正则里面第 n 个括号匹配的字符串
     if (parseInt(p2) > 880) {
       let smallImgUrl = `<img width="${p2}" ${p3} src="${p4}?fop=imageView/2/w/880" ${p5} />`;
       return smallImgUrl;
@@ -21,3 +22,7 @@ function smallImg (data) {
 
 smallImg(data);
 ```
+
+## 参考链接
+
+- [String.prototype.replace() MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
