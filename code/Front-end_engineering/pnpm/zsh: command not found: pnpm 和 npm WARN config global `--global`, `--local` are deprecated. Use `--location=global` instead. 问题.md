@@ -1,6 +1,6 @@
-# zsh: command not found: pnpm
+# zsh: command not found: pnpm 和 npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 问题
 
-- [zsh: command not found: pnpm](#zsh-command-not-found-pnpm)
+- [zsh: command not found: pnpm 和 npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead. 问题](#zsh-command-not-found-pnpm-和-npm-warn-config-global---global---local-are-deprecated-use---locationglobal-instead-问题)
   - [问题描述](#问题描述)
   - [解决方法](#解决方法)
     - [1. 终端中执行 `open .zshrc`](#1-终端中执行-open-zshrc)
