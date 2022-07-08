@@ -42,7 +42,6 @@ methods: {
 
 但这是在 Vue2 中的写法，Vue3 中貌似不可以这样写了，要换其他实现方式了。
 
-
 **相关链接**
 
 - [Vue项目中使用$.once(‘hook:beforeDestory‘,() =＞ {})清理定时器问题](https://blog.csdn.net/qq_37600506/article/details/105208307)
