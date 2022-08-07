@@ -1,8 +1,6 @@
-## 第二章、模块打包
+# CommonJS
 
-### 2.1 CommonJS
-
-#### commonJS 是什么
+## commonJS 是什么
 
 > CommonJS 是由 JavaScript 社区于 **2009 年**提出的 **包含模块、文件、IO、控制台在内的一系列标准**。
 
@@ -10,7 +8,7 @@
 
 > 现在一般谈到 CommonJS 其实是 Node.js 中的版本，而非它的原始定义。
 
-#### Browserify
+## Browserify
 
 > CommonJS 最初只为服务端而设计，直到有了 [Browserify](https://github.com/browserify/browserify) (一个运行在 Node.js 环境下的模块打包工具)。
 > **它可以将 CommonJS 模块打包为浏览器可以运行的单个文件**。
@@ -18,20 +16,20 @@
 
 > CommonJS 中规定每个文件是一个模块。
 
-#### commonJS 模块 和 script 标签的不同之处
+## commonJS 模块 和 script 标签的不同之处
 
 > 将一个 JavaScript 文件直接通过 script 标签插入页面中与封装成 CommonJS 模块最大的不同在于
 > 1. script 标签的顶层作用域是全局作用域，在进行变量及函数声明时会污染全局环境；
 > 2. commonJS 模块会形成一个属于模块自身的作用域，所有的变量及函数只有自己能访问，对外是不可见的。
 
-#### commonJS 的导出
+## commonJS 的导出
 
 > 导出是一个模块向外暴露自身的唯一方式。
 > 在 CommonJS 中，通过 `module.exports` 可以导出模块中的内容。
 
 > CommonJS 模块内部会用一个 **module 对象**存放当前模块的信息。
 
-#### 简化的导出方式：直接 exports 
+## 简化的导出方式：直接 exports 
 
 > 为了书写方便，CommonJS 也支持另一种简化的导出方式：直接使用 exports。
 > ```javascript
@@ -47,9 +45,7 @@
 
 > 由于对 exports 进行了赋值操作，使其指向了新的对象，而 module.exports 却仍然指向原来的空对象。
 
-#### 
-
-> 为了提高可读性，不建议采用下面的写法，而是应该将 module.exports 及 exports 语句放在模块的末尾。
+> 为了提高可读性，不建议采用下面的写法，而是应该将 `module.exports` 及 `exports` 语句放在模块的末尾。
 > ```javascript
 > module.exports = {
 >     name: 'calculater'
@@ -58,7 +54,7 @@
 > console.log('end');
 > ```
 
-#### commonJS 的导入
+## commonJS 的导入
 
 > 在 CommonJS 中使用 require 语法进行模块导入。
 
@@ -75,4 +71,3 @@
 > 后面再次加载时检查到 module.loaded 为 true，则不会再次执行模块代码。
 
 > require 函数可以接收表达式，借助这个特性我们可以动态地指定模块加载路径。
-
