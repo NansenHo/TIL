@@ -56,3 +56,8 @@ for (const [key, value] of Object.entries(object1)) {
   console.log(object2);
   // { a: 2, b: 4, c: 6 }
   ```
+
+### Object.assign()
+
+通过复制一个或多个对象来创建一个新的对象。
+
