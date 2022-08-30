@@ -38,7 +38,37 @@ CommonJS等动态模块系统中，无论采用哪种方式，本质上导入的
 
 在导入一个模块时
 
-1. 对于CommonJS来说获取的是一份导出值的副本；
+1. 对于 CommonJS 来说获取的是一份导出值的副本；
 
-2. 在ES6 Module中则是值的动态映射，并且这个映射是只读的。
+2. 在 ES6 Module 中则是值的动态映射，并且这个映射是只读的。
+   ES6Module 规定不能对导入的变量进行修改。
 
+## 循环依赖
+
+```js
+// a.js
+import b from './b.js'
+
+// b.js
+import a from './a.js'
+```
+
+> 一般来说工程中应该尽量避免循环依赖的产生，因为从软件设计的角度来说，单向的依赖关系更加清晰，循环依赖则会带来一定的复杂度。
+> 
+> 但在实际开发中，循环依赖有时会在我们不经意间产生，因为当工程的复杂度上升到足够大时，就容易出现隐藏的循环依赖关系。
+> 
+> 所以，循环依赖问题往往是开发者必须要面对的问题。
+
+### 下面代码的执行顺序分析
+
+```js
+// foo.js
+const bar = require('./bar.js')
+console.log('value of bar: ', bar)
+module.export = 'This is foo.js'
+
+// bar.js
+const foo = require('./foo.js')
+console.log('value of foo: ', foo)
+module.export = 'This is bar.js'
+```
