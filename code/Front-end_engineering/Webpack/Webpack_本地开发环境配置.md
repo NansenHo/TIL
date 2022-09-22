@@ -21,6 +21,19 @@
     }
     ```
 
+    ```js
+    // 重定向
+    onProxyRes: function (proxyRes) {
+        let location = proxyRes.headers['location']
+        // 在本地开发环境，退出登录会跳转到测试环境登录页，很不方便，需要重定向到本地开发环境登录页
+        let local_login = 'http://localhost:9000/login/Login.html?from=http%3A%2F%2Flocalhost%3A9000%2F%23%2F',
+            logout = 'https://login.xxx.com/logout/';
+        if (location && location.split('?')[0] === logout) {
+            proxyRes.headers['location'] = local_login
+        }
+    },
+    ```
+
 3. onProxyReq：对代理接口 request 处理，执行在请求前，常用来设置 cookie、header 等操作。
 
     ```js
