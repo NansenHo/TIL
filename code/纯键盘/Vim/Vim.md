@@ -23,7 +23,7 @@
 
 这需要我们进入 VScode Vim 插件的官网，将上面的设置命令依次都在终端里执行一次即可。
 
-![](../../images/Vim/VScode-Vim快速移动设置.jpg)
+![](../assets/VScode-Vim快速移动设置.jpg)
 
 #### 移动到行首和行尾
 
@@ -95,6 +95,6 @@ normal 模式里也可以用 command c/v；
 
 输入一个 `d` 之后，会在底部进入一个 pendding 的状态
 
-![](../../images/Vim/d操作符.jpg)
+![](../assets/d操作符.jpg)
 
 然后我们再输入动作。比如

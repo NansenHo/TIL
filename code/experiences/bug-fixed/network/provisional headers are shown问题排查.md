@@ -6,10 +6,7 @@
 
 在 Edge 里，该接口请求显示 provisional headers are shown。
 
-![](../../../images/bug-fixed/provisional%20headers%20are%20shown.jpg)
-
-
-
+![](../assets/provisional%20headers%20are%20shown.jpg)
 
 ### 参考文章
 

@@ -5,6 +5,6 @@
 
 Alfred 4 以上的版本可以参照下图取消 shift 预览。
 
-![](../../images/Vim/Alfred%20取消%20shift%20预览.jpg)
+![](../assets/Alfred%20取消%20shift%20预览.jpg)
 
-取消后，可以通过 command + y 来预览。
+取消后，可以通过 `command` + `y` 来预览。

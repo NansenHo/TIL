@@ -3,7 +3,7 @@
 
 #### 将 control 键更改成 caps lock 键
 
-![](../../images/Vim/更改按键-%20macOS.jpg)
+![](../assets/更改按键-%20macOS.jpg)
 
 这样我们按 `control` + `[` 快捷键就会轻松很多。
 
@@ -16,7 +16,7 @@
 #### 替换 caps_lock 和 control 键
 
 - [将中英切换键改成 shift](https://sspai.com/post/43324)
-![Karabiner中更换caps_lock和control](../../images/Vim/karabiner更改caps_lock键和control键.jpg)
+![Karabiner中更换caps_lock和control](../assets/karabiner更改caps_lock键和control键.jpg)
 
 这里操作之后，就不需要去苹果系统设置里再做修改了，否则反而会失效。
 
