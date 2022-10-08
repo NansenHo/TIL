@@ -6,6 +6,7 @@
     - [Webpack 中接入 Babel](#webpack-中接入-babel)
     - [使用 `.babelrc` 文件或 `rule.options` 属性配置 Babel 功能逻辑](#使用-babelrc-文件或-ruleoptions-属性配置-babel-功能逻辑)
   - [使用 TypeScript](#使用-typescript)
+  - [使用 ESLint](#使用-eslint)
 
 
 本文介绍了 ESLint、TypeScript、Babel 三类工程化工具的历史背景、功能，
@@ -138,4 +139,73 @@ Preset 是 Babel 的主要应用方式之一，社区已经针对不同应用场
 > 按照约定，loader 通常被命名为 xxx-loader（例如 json-loader）。
 
 ## 使用 TypeScript
+
+从 1999年 ECMAScript 发布第二个版本到 2015年发布 ES6 之间十余年时间内，JavaScript 语言本身并没有发生太大变化，语言本身许多老旧特性、不合理设计、功能缺失已经很难满足日益复杂的 Web 应用场景。为了解决这一问题，社区陆续推出了一些 JavaScript 超集方言，例如 TypeScript、CoffeeScript、Flow。
+
+TypeScript 借鉴 C# 语言，在 JavaScript 基础上提供了一系列类型约束特性。
+
+Webpack 有很多种接入 TypeScript 的方法，
+包括 `ts-loader`、`awesome-ts-loader`、 `babel-loader`。
+通常可使用 `ts-loader` 构建 TypeScript 代码。
+
+`@babel/preset-typescript` 规则集也可以完成 JavaScript 与 TypeScript 的转码工作。
+但是它只是简单完成代码转换，并未做类似 `ts-loader` 的类型检查工作。
+
+## 使用 ESLint
+
+JavaScript 被设计成一种高度灵活的动态、弱类型脚本语言，这使得语言本身的上手成本极低，开发者只需要经过短暂学习就可以开始构建简单应用。但与其它编译语言相比，JavaScript 很难在编译过程发现语法、类型，或其它可能影响稳定性的错误，特别在多人协作的复杂项目下，语言本身的弱约束可能会开发效率与质量产生不小的影响，ESLint 的出现正是为了解决这一问题。
+
+ESLint 是一种扩展性极佳的 JavaScript 代码风格检查工具，它能够自动识别违反风格规则的代码并予以修复。
+
+Webpack 下，使用 `eslint-webpack-plugin` 接入 ESLint 工具的步骤：
+
+1. 安装依赖
+```shell
+# 安装 webpack 依赖
+yarn add -D webpack webpack-cli
+
+# 安装 eslint 
+yarn add -D eslint eslint-webpack-plugin
+
+# 简单起见，这里直接使用 standard 规范
+yarn add -D eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+```
+
+2. 在项目根目录添加 `.eslintrc` 配置文件，内容：
+
+```json
+// .eslintrc
+{
+  "extends": "standard"
+}
+```
+
+[关于 ESLint 配置项的更多信息](https://eslint.org/docs/latest/user-guide/configuring/)
+
+3. 在 `webpack.config.js` / `webpack.dev.conf.js` 配置文件中补充 `eslint-webpack-plugin` 配置：
+
+> `webpack.pro.conf.js` 文件中不需要 eslint 相关配置
+
+```js
+// webpack.config.js
+const path = require('path')
+const ESLintPlugin = require('eslint-webpack-plugin') // *
+
+module.exports = {
+  entry: './src/index',
+  mode: 'development',
+  devtool: false,
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  // 添加 eslint-webpack-plugin 插件实例
+  plugins: [new ESLintPlugin()] // *
+}
+```
+
+1. 执行编译命令
+```
+npx webpack
+```
 
