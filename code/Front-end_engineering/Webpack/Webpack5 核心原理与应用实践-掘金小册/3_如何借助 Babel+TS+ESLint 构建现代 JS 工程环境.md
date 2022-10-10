@@ -7,6 +7,7 @@
     - [使用 `.babelrc` 文件或 `rule.options` 属性配置 Babel 功能逻辑](#使用-babelrc-文件或-ruleoptions-属性配置-babel-功能逻辑)
   - [使用 TypeScript](#使用-typescript)
   - [使用 ESLint](#使用-eslint)
+  - [思考](#思考)
 
 
 本文介绍了 ESLint、TypeScript、Babel 三类工程化工具的历史背景、功能，
@@ -209,3 +210,10 @@ module.exports = {
 npx webpack
 ```
 
+## 思考
+
+ESLint、TypeScript、Babel 三种工具都分别提供了独立 CLI 形态的使用方法，为何还需要被接入到 Webpack 工作流程中？这种做法有什么收益？
+
+1. 通过 webpack 管理控制项目代码的整个构建编译流程，简化多个工具独立操作的工作
+2. 通过 webpack 进行编译流程控制，传递 module 工具的编译结果，及时终止编译出错的编译流程
+3. 通过 webpack 控制根据配置规则 rule 对指定类型文件进行使用特定工具进行编译操作
