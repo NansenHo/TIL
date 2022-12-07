@@ -67,6 +67,10 @@
 
 # Algorithm
 
+## Data Structure
+
+1. [链表和数组](Algorithm/Data_Structure/链表和数组.md)
+
 1. [最简单的抽奖算法](Algorithm/抽奖算法.md)
 2. [算法复杂度](Algorithm/算法复杂度的计算.md)
 
