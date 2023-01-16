@@ -1,4 +1,4 @@
-# JS
+# JavaScript
 
 1. [JavaScript 内存图](JavaScript/JavaScript_内存图.md)
 2. [JavaScript 进程与线程](JavaScript/JavaScript_进程与线程.md)
@@ -26,6 +26,18 @@
 
 1. [Remove duplicate items from Array](JavaScript/Most_Used_Functions/Remove_duplicate_items_from_array.md)
 2. [Build A Tree Array From A Flat Array](JavaScript/Most_Used_Functions/Build_A_Tree_Array_From_A_Flat_Array.md)
+
+## 你不知道的JavaScript 上
+
+1. [JavaScript 学习建议](JavaScript/Books/你不知道的JavaScript/上/JavaSrcipt学习建议.md)
+
+## CodeWhy 高级 JS
+
+1. [编程语言的三个阶段](JavaScript/CodeWhy_高级JS/编程语言的三个阶段.md)
+2. [浏览器内核（渲染引擎）](JavaScript/CodeWhy_高级JS/浏览器内核（渲染引擎）.md)
+3. [浏览器渲染过程]()
+4. [JavaScript代码在浏览器里是如何被执行的]()
+5. [script标签里的async和defer属性]()
 
 # React
 
