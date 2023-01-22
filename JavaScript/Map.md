@@ -28,7 +28,7 @@ console.log(arr, _Map)
 
 ### `Map.prototype.get(key)`
 
-返回与 key 关联的值，若不存在关联的值，则返回 undefined。
+返回与 key 关联的值，若不存在关联的值，则返回 `undefined`。
 
 ### `Map.prototype.set(key, value)`
 
