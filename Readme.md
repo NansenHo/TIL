@@ -30,6 +30,9 @@
 ## 你不知道的JavaScript 上
 
 1. [JavaScript 学习建议](JavaScript/Books/你不知道的JavaScript/上/JavaSrcipt学习建议.md)
+2. [JavaScript 是一门编译型语言](JavaScript/Books/你不知道的JavaScript/上/JavaScript是一门编译型语言.md)
+3. [传统编译型语言的编译过程](JavaScript/Books/你不知道的JavaScript/上/传统编译型语言的编译过程.md)
+4. [作用域是什么](JavaScript/Books/你不知道的JavaScript/上/作用域是什么.md)
 
 ## CodeWhy 高级 JS
 
