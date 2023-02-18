@@ -1,20 +1,19 @@
-- [Object.entries(obj) and Object.fromEntries(iterable)](#objectentriesobj-and-objectfromentriesiterable)
-  - [Object.entries(obj)](#objectentriesobj)
-  - [Object.fromEntries(iterable)](#objectfromentriesiterable)
-  - [常用用法](#常用用法)
-
-# Object.entries(obj) and Object.fromEntries(iterable)
+# Object.entries(obj) and Object.fromEntries(iterable)  {ignore=true}
 
 `Object.entries()` 和 `Object.fromEntries()` 是互逆的操作。
 
+[toc]
+
 ## Object.entries(obj)
+
+> entries: /ˈen.tri/ 项目，条目，（一则）记录
 
 返回值：`object` 的**可枚举属性的键值对**组成的数组。返回的数组的排序，和 `for...in` 遍历该对象时返回的顺序一致。
 
 > Warning: 
 > `for...in` 还会遍历原型链中的属性。
 
-```js
+```javascript
 const object1 = {
   a: 'somestring',
   b: 42
