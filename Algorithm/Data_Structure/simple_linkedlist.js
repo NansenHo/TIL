@@ -13,6 +13,7 @@ class LinkedList {
     this.length = 0
   }
   append(val){
+    // p 是用来遍历链表的一个临时变量
     let p = this.head
     let node = new Node(val)
     if(this.head){
