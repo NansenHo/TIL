@@ -175,4 +175,3 @@
 
 - Other
   - [Tips On Learning To Code](Other/Tips_On_Learning_To_Code.md)
-  - [面试题库](Interview/README.md)
