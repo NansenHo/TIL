@@ -22,6 +22,8 @@ export const enum ShapeFlags {
 
 上面代码将每一种虚拟 DOM 类型**标记了一个 2 进制位**。
 
+## 授权、验证、删除授权
+
 然后用 `|` 按位或运算来进行授权。用 `&` 按位与运算来进行权限验证。 
 
 如：
@@ -29,11 +31,22 @@ export const enum ShapeFlags {
 let BOSS = 1,
     PG = 1<<1,
     PM = 1<<2,
-    HR = 1<<3;
+    TL = 1<<3,
+    HR = 1<<4;
 
+// 授权
 let Tom = PG | PM
+
+// 验证
 console.log('Tom是PG', !!(Tom&PG))
 console.log('Tom是PM', !!(Tom&PM))
 console.log('Tom是HR', !!(Tom&HR))
 console.log('Tom是BOSS', !!(Tom&BOSS))
+
+// 删除授权
+Tom = Tom ^ PM
+console.log('Tom是PM', !!(Tom&PM))
+
+// 授权
+Tom = Tom | TL
 ```
