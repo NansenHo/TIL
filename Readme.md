@@ -86,7 +86,7 @@
   - [链表和数组](Algorithm/Data_Structure/链表和数组.md)
   - [JS实现简单链表](Algorithm/Data_Structure/JS实现简单链表.md)
     - [simple_linkedlist.js](Algorithm/Data_Structure/simple_linkedlist.js)
-  - 1 | two sum | easy | 两数之和
+  - 1 | two sum | Easy | 两数之和
     - [last_index_of.js](Algorithm/Data_Structure/1_two_sum/last_index_of.js)
     - [one_time_loop.js](Algorithm/Data_Structure/1_two_sum/one_time_loop.js)
     - [two_times_loop.js](Algorithm/Data_Structure/1_two_sum/two_times_loop.js)
@@ -94,12 +94,21 @@
   - 203 | remove linked list elements
     - [loop_sentry.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/loop_sentry.js)
     - [recursion.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/recursion.js)
-  - 141 | linked list cycle | easy | 环形链表
+  - 141 | linked list cycle | Easy | 环形链表
     - [cache.js](Algorithm/Data_Structure/141_Linked_List_Cycle/cache.js)
     - [fast_slow_pointers.js](Algorithm/Data_Structure/141_Linked_List_Cycle/fast_slow_pointers.js)
   - 146 | LRU Cache | Medium | LRU 缓存
     - [Keep-alive 组件中的 LRU Cache 缓存机制](Algorithm/Data_Structure/146_LRU_Cache/Keep-alive组件中的LRU_Cache缓存机制.md)
     - [map.js](Algorithm/Data_Structure/146_LRU_Cache/map.js)
+  - 位运算
+    - [位运算](Algorithm/Data_Structure/位运算/位运算.md)
+    - [位运算在Vue源码中的运用](Algorithm/Data_Structure/位运算/位运算在Vue源码中的运用.md)
+  - 231 | Power of Two | Easy | 
+    - [bitwise.js](Algorithm/Data_Structure/231_Power_of_Two/bitwise.js)
+  - 136 | Single Number | Easy | 
+    - [异或](Algorithm/Data_Structure/136_Single_Number/异或.md)
+    - [bitwise.js](Algorithm/Data_Structure/136_Single_Number/bitwise.js)
+
 
 - Data Structure
   - [链表和数组](Algorithm/Data_Structure/链表和数组.md)
