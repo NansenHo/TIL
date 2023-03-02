@@ -86,8 +86,9 @@
     - [recursion.js](Algorithm/Data_Structure/100_Same_Tree/recrusion.js)
 
 - Test
-  - 前端单元测试
-    - [为什么要写测试](Test/前端单元测试/为什么要写测试.md)
+  - Frontend Unit Testing
+    - [为什么要写测试](Test/Frontend_Unit_Testing/为什么要写测试.md)
+    - [单元测试在修改代码时的好处](Test/Frontend_Unit_Testing/单元测试在修改代码时的好处.md)
 
 - React
   - [React 起源](React/React_起源.md)
