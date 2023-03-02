@@ -1,27 +1,29 @@
 # Table of Contents
 
-- JavaScript
-  - [JavaScript 内存图](JavaScript/JavaScript_内存图.md)
-  - [JavaScript 进程与线程](JavaScript/JavaScript_进程与线程.md)
-  - [JavaScript 原型链](JavaScript/JavaScript_原型链.md)
-  - [JavaScript 变量和函数提升](JavaScript/JavaScript_变量和函数提升.md)
-  - [Let And Const](JavaScript/Let_and_Const.md)
-  - [Destructuring assignment（解构赋值）](JavaScript/Destructuring_Assignment.md)
-  - [Spread Syntax(...) 拓展运算符](JavaScript/Spread_Syntax.md)
-  - [Loop Through An Array](JavaScript/Loop_Through_An_Array.md)
-  - [Optional Chaining](JavaScript/Optional_Chaining.md)
-  - [Promise](JavaScript/Promise.md)
-  - [Recording A Bug For Using Array.splice()](JavaScript/Recording_A_Bug_For_Using_Array.splice().md)
-  - [setTimeout](JavaScript/setTimeout.md)
-  - [The Differences Between CurrentTarget And Target](JavaScript/The_Difference_Between_CurrentTarget_And_Target.md)
-  - [WindowOrWorkerGlobalScope](JavaScript/WindowOrWorkerGlobalScope.md)
-  - [EventLoop: MicroTask And MacroTask](JavaScript/EventLoop%3A_Microtasks_And_Macrotasks.md)
-  - [The Nature of Array](JavaScript/The_Nature_of_Array.md)
-  - [IIFE 立即执行函数](JavaScript/IIFE.md)
-  - [eval()](JavaScript/eval.md)
-  - [Map](JavaScript/Map.md)
-  - [Object.entries() And Object.fromEntries()](JavaScript/Object.entries()_and_Object.fromEntries().md)
-  - [Popup And Window Methods](JavaScript/Popups_And_Window_Methods.md)
+- JavaScript / TypeScript
+  - TypeScript
+  - JavaScript
+    - [JavaScript 内存图](JavaScript/JavaScript_内存图.md)
+    - [JavaScript 进程与线程](JavaScript/JavaScript_进程与线程.md)
+    - [JavaScript 原型链](JavaScript/JavaScript_原型链.md)
+    - [JavaScript 变量和函数提升](JavaScript/JavaScript_变量和函数提升.md)
+    - [Let And Const](JavaScript/Let_and_Const.md)
+    - [Destructuring assignment（解构赋值）](JavaScript/Destructuring_Assignment.md)
+    - [Spread Syntax(...) 拓展运算符](JavaScript/Spread_Syntax.md)
+    - [Loop Through An Array](JavaScript/Loop_Through_An_Array.md)
+    - [Optional Chaining](JavaScript/Optional_Chaining.md)
+    - [Promise](JavaScript/Promise.md)
+    - [Recording A Bug For Using Array.splice()](JavaScript/Recording_A_Bug_For_Using_Array.splice().md)
+    - [setTimeout](JavaScript/setTimeout.md)
+    - [The Differences Between CurrentTarget And Target](JavaScript/The_Difference_Between_CurrentTarget_And_Target.md)
+    - [WindowOrWorkerGlobalScope](JavaScript/WindowOrWorkerGlobalScope.md)
+    - [EventLoop: MicroTask And MacroTask](JavaScript/EventLoop%3A_Microtasks_And_Macrotasks.md)
+    - [The Nature of Array](JavaScript/The_Nature_of_Array.md)
+    - [IIFE 立即执行函数](JavaScript/IIFE.md)
+    - [eval()](JavaScript/eval.md)
+    - [Map](JavaScript/Map.md)
+    - [Object.entries() And Object.fromEntries()](JavaScript/Object.entries()_and_Object.fromEntries().md)
+    - [Popup And Window Methods](JavaScript/Popups_And_Window_Methods.md)
 
   - Most Used Functions
     - [Remove duplicate items from Array](JavaScript/Most_Used_Functions/Remove_duplicate_items_from_array.md)
@@ -46,6 +48,46 @@
     - [Parse](JavaScript/CodeWhy_高级JS/Parse.md)
     - [AST 抽象语法树](JavaScript/CodeWhy_高级JS/抽象语法树.md)
     - [Ignition](JavaScript/CodeWhy_高级JS/Ignition.md)
+
+- Algorithm
+  - [最简单的抽奖算法](Algorithm/抽奖算法.md)
+  - [算法复杂度](Algorithm/算法复杂度的计算.md)
+  - [链表和数组](Algorithm/Data_Structure/链表和数组.md)
+  - [JS实现简单链表](Algorithm/Data_Structure/JS实现简单链表.md)
+    - [simple_linkedlist.js](Algorithm/Data_Structure/simple_linkedlist.js)
+  - 1 | two sum | Easy | 两数之和
+    - [last_index_of.js](Algorithm/Data_Structure/1_two_sum/last_index_of.js)
+    - [one_time_loop.js](Algorithm/Data_Structure/1_two_sum/one_time_loop.js)
+    - [two_times_loop.js](Algorithm/Data_Structure/1_two_sum/two_times_loop.js)
+    - [sheet.js](Algorithm/Data_Structure/1_two_sum/sheet.js)
+  - 203 | remove linked list elements
+    - [loop_sentry.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/loop_sentry.js)
+    - [recursion.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/recursion.js)
+  - 141 | linked list cycle | Easy | 环形链表
+    - [cache.js](Algorithm/Data_Structure/141_Linked_List_Cycle/cache.js)
+    - [fast_slow_pointers.js](Algorithm/Data_Structure/141_Linked_List_Cycle/fast_slow_pointers.js)
+  - 146 | LRU Cache | Medium | LRU 缓存
+    - [Keep-alive 组件中的 LRU Cache 缓存机制](Algorithm/Data_Structure/146_LRU_Cache/Keep-alive组件中的LRU_Cache缓存机制.md)
+    - [map.js](Algorithm/Data_Structure/146_LRU_Cache/map.js)
+  - 位运算
+    - [位运算](Algorithm/Data_Structure/位运算/位运算.md)
+    - [位运算在Vue源码中的运用](Algorithm/Data_Structure/位运算/位运算在Vue源码中的运用.md)
+  - 231 | Power of Two | Easy | 
+    - [bitwise.js](Algorithm/Data_Structure/231_Power_of_Two/bitwise.js)
+  - 136 | Single Number | Easy | 
+    - [异或](Algorithm/Data_Structure/136_Single_Number/异或.md)
+    - [bitwise.js](Algorithm/Data_Structure/136_Single_Number/bitwise.js)
+  - 104 | Maximum Depth of Binary Tree | Easy
+    - [recursion.js](Algorithm/Data_Structure/104_Maximum_Depth_of_Binary_Tree/recursion.js)
+    - [树结构入门](Algorithm/Data_Structure/104_Maximum_Depth_of_Binary_Tree/树结构入门.md)
+  - 226 | Invert Binary Tree | Easy
+    - [recursion.js](Algorithm/Data_Structure/226_Invert_Binary_Tree/recurision.js)
+  - 100 | Same Tree | Easy
+    - [recursion.js](Algorithm/Data_Structure/100_Same_Tree/recrusion.js)
+
+- Test
+  - 前端单元测试
+    - [为什么要写测试](Test/前端单元测试/为什么要写测试.md)
 
 - React
   - [React 起源](React/React_起源.md)
@@ -79,36 +121,6 @@
 - TypeScript
   - [Type System](TypeScript/Type_System.md)
   - [Non-Null Assertion Operator !](TypeScript/Non-Null_Assertion_Operator.md)
-
-- Algorithm
-  - [最简单的抽奖算法](Algorithm/抽奖算法.md)
-  - [算法复杂度](Algorithm/算法复杂度的计算.md)
-  - [链表和数组](Algorithm/Data_Structure/链表和数组.md)
-  - [JS实现简单链表](Algorithm/Data_Structure/JS实现简单链表.md)
-    - [simple_linkedlist.js](Algorithm/Data_Structure/simple_linkedlist.js)
-  - 1 | two sum | Easy | 两数之和
-    - [last_index_of.js](Algorithm/Data_Structure/1_two_sum/last_index_of.js)
-    - [one_time_loop.js](Algorithm/Data_Structure/1_two_sum/one_time_loop.js)
-    - [two_times_loop.js](Algorithm/Data_Structure/1_two_sum/two_times_loop.js)
-    - [sheet.js](Algorithm/Data_Structure/1_two_sum/sheet.js)
-  - 203 | remove linked list elements
-    - [loop_sentry.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/loop_sentry.js)
-    - [recursion.js](Algorithm/Data_Structure/203_Remove_Linked_List_Elements/recursion.js)
-  - 141 | linked list cycle | Easy | 环形链表
-    - [cache.js](Algorithm/Data_Structure/141_Linked_List_Cycle/cache.js)
-    - [fast_slow_pointers.js](Algorithm/Data_Structure/141_Linked_List_Cycle/fast_slow_pointers.js)
-  - 146 | LRU Cache | Medium | LRU 缓存
-    - [Keep-alive 组件中的 LRU Cache 缓存机制](Algorithm/Data_Structure/146_LRU_Cache/Keep-alive组件中的LRU_Cache缓存机制.md)
-    - [map.js](Algorithm/Data_Structure/146_LRU_Cache/map.js)
-  - 位运算
-    - [位运算](Algorithm/Data_Structure/位运算/位运算.md)
-    - [位运算在Vue源码中的运用](Algorithm/Data_Structure/位运算/位运算在Vue源码中的运用.md)
-  - 231 | Power of Two | Easy | 
-    - [bitwise.js](Algorithm/Data_Structure/231_Power_of_Two/bitwise.js)
-  - 136 | Single Number | Easy | 
-    - [异或](Algorithm/Data_Structure/136_Single_Number/异或.md)
-    - [bitwise.js](Algorithm/Data_Structure/136_Single_Number/bitwise.js)
-
 
 - Data Structure
   - [链表和数组](Algorithm/Data_Structure/链表和数组.md)
