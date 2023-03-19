@@ -87,6 +87,10 @@
     - [recursion.js](Algorithm/Data_Structure/226_Invert_Binary_Tree/recurision.js)
   - 100 | Same Tree | Easy
     - [recursion.js](Algorithm/Data_Structure/100_Same_Tree/recrusion.js)
+  - 20 | Valid Parentheses | Easy
+    - [stack.ts](Algorithm/Data_Structure/20_Valid_Parentheses/stack.ts)
+  - 71 | Simplify Path | Medium
+    - [stack.ts](Algorithm/Data_Structure/71_Simplify_Path/stack.ts)
 
 - Test
   - Frontend Unit Testing
