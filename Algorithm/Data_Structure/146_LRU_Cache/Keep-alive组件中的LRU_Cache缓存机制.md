@@ -7,11 +7,19 @@
 ### 三种淘汰机制
 
 缓存模块里，都需要一个合适的淘汰机制：
-- 在组件里，适合使用 **LRU Cache**（LRU 缓存，全称 **Least Recently Used**，即**最近最少使用**）。
-  选择最近最久未使用的项目予以淘汰。
-- 在任务里，适合使用队列（First-in, First-out. FIFO）。
-- LF-Cache，淘汰掉出现次数最少的一项。
-  这种方式需要做数据统计，耗费计算量和内存。
+
+1. **LRU Cache**
+LRU 缓存，全称 **Least Recently Used**，即**最近最少使用**
+选择最近最久未使用的项目予以淘汰。
+在**组件里**，适合使用 LRU Cache。
+
+2. **队列**
+**队列（First-in, First-out. FIFO）**
+在**任务里**，适合使用队列。
+
+3. **LF-Cache**
+**淘汰掉出现次数最少的一项**。
+这种方式**需要做数据统计，耗费计算量和内存**。
 
 ### LRU Cache 举例
 
@@ -39,7 +47,9 @@
 
 因为 LRU Cache 需要频繁做插入删除操作，所以适合用链表去实现。
 
-> - 在 Vue 源码中，compiler-sfc 解析单文件组件时所用到的缓存就是 lru-cache。
+> 在 Vue 源码中，
+>
+> - compiler-sfc 解析单文件组件时所用到的缓存就是 lru-cache 库。
 > - keep-alive 里的缓存也是用的 LRU 缓存机制。
 但并没有使用 lru-cache 库，而是 Vue 团队自己实现的。
 >

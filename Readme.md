@@ -177,7 +177,7 @@
 - Image
   - [Base64](Image/Base64.md)
 
-- nginx
+- Nginx
 
 - SVN
 

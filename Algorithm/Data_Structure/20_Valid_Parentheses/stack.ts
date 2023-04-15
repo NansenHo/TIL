@@ -1,10 +1,10 @@
 function isValid(s: string): boolean {
   let stack:string[] = []
   // hash table 构建不同括号对应关系
-  type table = {
+  type Table = {
     [key: string]: string
   }
-  const obj:table = {
+  const obj:Table = {
     '(': ')',
     '[': ']',
     '{': '}'
@@ -31,3 +31,4 @@ console.log(isValid('{}()'))
 console.log(isValid('{})'))
 console.log(isValid('[{()}]'))
 console.log(isValid('[{(}]'))
+console.log(isValid('}})'))
