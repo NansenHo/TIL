@@ -4,6 +4,7 @@
 
 Base64 is a group of similar **binary-to-text encoding**(A binary-to-text encoding is encoding of data in plain text.) schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation.
 
+Base64（基底64）是一种基于64个可打印字符来表示二进制数据的表示方法。
 
 ## Why use Base64
 

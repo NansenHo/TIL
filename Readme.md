@@ -182,8 +182,9 @@
 - SVN
 
 - Using keyboard only
+  - Vim 实用技巧
+    - [Vim命令](Using_Keyboard_Only/Vim实用技巧/Vim命令.md)
   - [HHKB](Using_Keyboard_Only/HHKB.md)
-  - [Vim](Using_Keyboard_Only/Vim.md)
 
 - HTML
   - [Tim Berners-Lee And HTML](HTML/Tim_Berners-Lee_And_HTML.md)
