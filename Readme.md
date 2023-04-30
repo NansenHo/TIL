@@ -1,7 +1,7 @@
 # Table of Contents
 
 - JavaScript / TypeScript
-  - TypeScript
+  - [TypeScript](./TypeScript/README.md)
   - JavaScript
     - [JavaScript 内存图](JavaScript/JavaScript_内存图.md)
     - [JavaScript 进程与线程](JavaScript/JavaScript_进程与线程.md)
