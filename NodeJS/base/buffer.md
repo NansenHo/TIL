@@ -44,7 +44,7 @@ If you are going to **store data in memory that you have yet to receive**, youâ€
 
 ### `Buffer.alloc(size[, fill[, encoding]])`
 
-To create a new buffer, we used the global vailible `Buffer` class, which has the `alloc()` method.
+To create a new buffer, we used the global available `Buffer` class, which has the `alloc()` method.
 
 created a buffer that was 1kB (kilobyte) large, equivalent to 1024 bytes.
 
