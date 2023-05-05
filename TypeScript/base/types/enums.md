@@ -1,6 +1,4 @@
-# Enums {ignore=true}
-
-[toc]
+# Enums
 
 ## What's enums
 

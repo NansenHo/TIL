@@ -1,6 +1,4 @@
-# object {ignore=true}
-
-[toc]
+# object
 
 ## how to write object type
 

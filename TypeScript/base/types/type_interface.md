@@ -1,6 +1,4 @@
-# type and interface {ignore=true}
-
-[toc]
+# type and interface
 
 ```ts
 type stringOrNumber = string | number; // union type

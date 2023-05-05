@@ -1,6 +1,4 @@
-# RegExp {ignore=true}
-
-[toc]
+# RegExp
 
 ```ts
 let re: RegExp = /\w+/g;

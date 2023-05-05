@@ -1,6 +1,4 @@
-# any {ignore=true}
-
-[toc]
+# any
 
 ## What's any
 

@@ -1,6 +1,4 @@
-# array {ignore=true}
-
-[toc]
+# array
 
 ## how to write array type
 

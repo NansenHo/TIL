@@ -1,8 +1,4 @@
-# Tuple {ignore=true}
-
-[toc]
-
-## What's Tuple
+# Tuple
 
 Tuple is a more strict array that has a type in a specific element position and a specific length.
 
