@@ -14,3 +14,11 @@ mixedArr = myTuple; // legal
 myTuple = mixedArr; // illegal
 // because mixedArr may not have three elements.
 ```
+
+```ts
+type T1 = [a: number, b: string, c: Function]
+const t1: T1 = [1, 'hello', ()=>{console.log('hello')}]
+
+console.log(t1)
+t1[2]() // hello
+```

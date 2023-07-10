@@ -1,6 +1,4 @@
-# Generics 泛型 {ignore=true}
-
-[toc]
+# Generics (Type Placeholder)
 
 ## what's generics
 
@@ -8,7 +6,7 @@
 
 > 泛型：泛化的類型
 
-我们在声明方法时，当在完成方法功能时如果有未知的数据需要参 与，这些未知的数据需要在调用方法时才能确定，那么我们把这样的数据通过**形参**表示。在方法体中，**用这个形参名来代表那个未知的数据，而调用者在调用时，对应的传入实参就可以了**。
+我们在声明方法时，当在完成方法功能时如果有未知的数据需要参与，这些未知的数据需要在调用方法时才能确定，那么我们把这样的数据通过**形参**表示。在方法体中，**用这个形参名来代表那个未知的数据，而调用者在调用时，对应的传入实参就可以了**。
 
 受此啟發，誕生了泛型的概念。
 
@@ -16,6 +14,8 @@
 這個類型參數代表**未知的某種通用的類型**。
 
 ## how to use generics
+
+### generics with function
 
 ```ts
 function identity<T>(value: T) ：T {
@@ -46,4 +46,91 @@ function identity<T, U>(value: T, message: U): T {
 identity<number, string>(1999, '1999')
 // 也可以不显式指定，让 TypeScript 自动完成类型推导
 identity(1998, 1998)
+```
+
+### generics with interface and function
+
+```ts
+const isObj = <T>(arg: T): boolean => {
+	// Object.prototype.toString.call('hhh').slice(8,-1) === 'Object'
+	return (
+		typeof arg === 'object' &&
+		!Array.isArray(arg) &&
+		arg !== null
+	)
+}
+
+interface defineArg<T> {
+	value: T,
+	is: boolean
+}
+
+const isTrue = <T>(arg: T): defineArg<T> => {
+	if (Array.isArray(arg) && !arg.length) {
+		return { value: arg, is: false}
+	}
+	if (isObj(arg) && !Object.keys(arg as keyof T).length) {
+		return { value: arg, is: false}
+	}
+	return { value: arg, is: !!arg}
+}
+
+console.log(isTrue(''))
+console.log(isTrue(1))
+console.log(isTrue(0))
+console.log(isTrue(null))
+console.log(isTrue({}))
+console.log(isTrue([]))
+console.log(isTrue([1, 2]))
+console.log(isTrue({name: 'nansen'}))
+console.log(isTrue(true))
+console.log(isTrue(false))
+console.log(isTrue(NaN))
+console.log(isTrue(-0))
+console.log(isTrue(undefined))
+```
+
+### generics with interface and extends
+
+```ts
+interface Id {
+  id: number
+}
+
+function userEcho<T extends Id>(user: T): T {
+	return user
+}
+
+console.log(userEcho({id: 0, name: 'nansen'}))
+console.log(userEcho({id: 0}))
+```
+
+more complex example:
+
+```ts
+interface UserId {
+  id: number;
+}
+
+const getUserProperty = <T extends UserId, K extends keyof T>(
+  users: T[],
+  key: K
+): T[K][] => {
+  return users.map((user) => user[key]);
+};
+
+let userArray = [
+	{id: 0, name: 'John', email: 'xxxxxx.com'},
+	{id: 1, name: 'Ross', email: 'xxxxxx.com'},
+	{id: 2, name: 'Max', email: 'xxxxxx.com'},
+	{id: 3, name: 'Halen', email: 'xxxxxx.com'},
+];
+
+console.log(getUserProperty(userArray, 'name'));
+```
+
+### generics with class
+
+```ts
+
 ```
