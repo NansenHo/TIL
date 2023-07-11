@@ -1,6 +1,12 @@
-# package.json 中版本号前的特殊符号
+# package.json 
 
-## 版本号格式规则
+```json
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+```
+
+## The rules of version number
 
 版本号一般是 `major.minor.patch` 的格式。从右往左依次表示：
 
@@ -10,18 +16,14 @@
 
 3. `major` 通常是**设计变动、模块重构、新的架构调整等**，可能不兼容老版本，
 
-## 依赖版本号规则
+## The `^` and `~` before the version number
 
 仔细观察，你会发现 package.json 中有些包的版本号前，有这两个符号：
-1. `major.minor.patch`：必须安装某个版本。比如 `1.1.2`。
 
-2. `^major.minor.patch`
+1. `^major.minor.patch`
+
+The `^` symbol signifies that any higher `MINOR` or `PATCH` version would satisfy this version constraint. 
    
-3. `~`
+2. `~major.minor.patch`
 
-那版本号前有无符号，以及这两个符号分别是什么意思呢
-
-1. `^` 大版本不变，小版本和补丁版本会安装最新的。
-   比如，`"@alifd/next": "^1.22.11",` 表示
-
-2. 
+The `~` symbol signifies that any higher `PATCH` version would satisfy the version constraint. 
