@@ -18,3 +18,8 @@ public class Main {
 
 Java 源码只能定义一个 `public` 类型的 class，而且 class 名称必须要与文件名完全一致。
 
+`public` 是访问修饰符，不写 `public` 也可以编译，但这个类将无法从命令行执行。
+
+> Java 规定，入口方法必须是静态方法，方法名必须为 `main`，括号内的参数必须是 `String[]`。
+
+> Java 的每一行语句必须以 `;` 结尾。

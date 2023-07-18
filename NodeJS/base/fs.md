@@ -14,7 +14,7 @@ The `fs` module supports interacting with files synchronously, asynchronously, o
 
 ## usage of fs
 
-### fs.writeFile(file, data[, options], callback)
+### `fs.writeFile(file, data[, options], callback)`
 
 - file `<string>` | `<Buffer>` | `<URL>` | `<integer>` filename or file descriptor
 - data `<string>` | `<Buffer>` | `<TypedArray>` | `<DataView>` | `<Object>`
