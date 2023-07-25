@@ -1,6 +1,4 @@
-# Usage of Map {ignore=true}
-
-[toc]
+# Usage of Map
 
 ### `Map.prototype.get(key)`
 

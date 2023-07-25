@@ -1,6 +1,4 @@
-# Map 和 Object 的区别 {ignore=true}
-
-[toc]
+# Map 和 Object 的区别
 
 ### 允许的键的类型
 
