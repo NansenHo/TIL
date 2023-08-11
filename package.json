@@ -1,0 +1,14 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "update": "update"
+  },
+  "keywords": ["blog", "frontend", "backend"],
+  "author": {
+    "name": "Nansen",
+    "email": "song.he0302@gmail.com"
+  },
+  "license": "MIT"
+}
