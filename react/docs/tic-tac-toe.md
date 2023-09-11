@@ -83,3 +83,17 @@ The result is the same but by not mutating (changing the underlying data) direct
 2. Immutability makes it very cheap for components to compare whether their data has changed or not.
 
 ---
+
+If the current list has a key that didn’t exist before, React creates a component.
+If the current list is missing a key that existed in the previous list, React destroys the previous component.
+If two keys match, the corresponding component is moved.
+
+Keys tell React about the identity of each component, which allows React to maintain state between re-renders.
+If a component’s key changes, the component will be destroyed and re-created with a new state.
+
+Keys tell React about the identity of each component, which allows React to maintain state between re-renders.
+If a component’s key changes, the component will be destroyed and re-created with a new state.
+
+Keys do not need to be globally unique; they only need to be unique between components and their siblings.
+
+Moves will never be re-ordered, deleted, or inserted in the middle, so it’s safe to use the move index as a key.
