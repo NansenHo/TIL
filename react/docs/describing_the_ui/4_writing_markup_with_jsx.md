@@ -30,7 +30,3 @@ JSX is stricter and has a few more rules than HTML!
     > Why does React use `className` instead of a `class` attribute?
     >
     > Because `class` is  a reserved keyword in JavaScript and since React uses JSX, which is a JavaScript extension, we must use `className` rather than `class`.
-
----
-
-
