@@ -1,0 +1,56 @@
+# Responding to Events
+
+You can define an event handler inline in the JSX:
+
+```jsx
+<button onClick={function handleClick() {
+  alert('You clicked me!');
+}}>
+```
+
+```jsx
+<button onClick={() => {
+  alert('You clicked me!');
+}}>
+```
+
+---
+
+Make sure that you use the appropriate HTML tags for your event handlers.
+
+For example, to handle clicks, use `<button onClick={handleClick}></button>` instead of `<div onClick={handleClick}></div>`.
+
+---
+
+Using a real browser `<button>` enables built-in browser behaviors like keyboard navigation.
+
+---
+
+Event handlers will also catch events from any children your component might have.
+
+We say that an event "bubbles" or "propagates" up the tree: it starts with where the event happened, and then goes up the tree.
+
+---
+
+```jsx
+export default function Toolbar() {
+  return (
+    <div className="Toolbar" onClick={() => {
+      alert('You clicked on the toolbar!');
+    }}>
+      <button onClick={() => alert('Playing!')}>
+        Play Movie
+      </button>
+      <button onClick={() => alert('Uploading!')}>
+        Upload Image
+      </button>
+    </div>
+  );
+}
+```
+
+If you click on either button, its `onClick` will run first, followed by the parent `<div>`'s `onClick`.
+
+---
+
+All events propagate in React except `onScroll`, which only works on the JSX tag you attach it to.
