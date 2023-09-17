@@ -54,3 +54,23 @@ If you click on either button, its `onClick` will run first, followed by the par
 ---
 
 All events propagate in React except `onScroll`, which only works on the JSX tag you attach it to.
+
+---
+
+If you want to prevent an event from reaching parent components, you need to call `e.stopPropagation()`.
+
+---
+
+[React Event Bubbling Capturing](https://www.robinwieruch.de/react-event-bubbling-capturing/)
+
+> **Do not stop event propagation by default.**
+> 
+> If you would use `stopPropagation()` on every button in your project, but later you want to track user clicks on a document level, you will not receive these events anymore.
+> 
+> Using `stopPropagation()` by default will often lead to bugs, so use it only when necessary.
+
+---
+
+
+
+
