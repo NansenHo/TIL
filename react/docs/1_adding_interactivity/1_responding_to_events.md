@@ -71,6 +71,20 @@ If you want to prevent an event from reaching parent components, you need to cal
 
 ---
 
+A `<form>` submit event, which happens when a button inside of it is clicked, will reload the whole page by default.
 
+We can use `e.preventDefault()` on the event object to stop this from happening.
 
+---
 
+> `e.stopPropagation()` and `e.preventDefault()` are unrelated.
+> 
+> - `e.stopPropagation()` stops the event handlers attached to the tags above from firing.
+> 
+> - `e.preventDefault()` prevents the default browser behavior for the few events that have it.
+
+---
+
+Event handlers are the best place for side effects.
+
+Unlike rendering functions, event handlers don't need to be pure, so it's great place to change something —— for example, change an input's value in response to typing, or change a list in response to a button press.
