@@ -1,6 +1,4 @@
-# Vim 命令 {ignore=true}
-
-[toc]
+# Vim 命令
 
 ## 移動
 
