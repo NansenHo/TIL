@@ -98,3 +98,61 @@ State is not kept in JSX tags. It’s associated with the tree position in which
 ---
 
 You can force a subtree to reset its state by giving it a different key.
+
+---
+
+This example shows a message when you press the button.
+However, pressing the button also accidentally resets the input.
+Why does this happen? Fix it so that pressing the button does not reset the input text.
+
+```jsx
+import { useState } from "react";
+
+export default function App() {
+  const [showHint, setShowHint] = useState(false);
+  if (showHint) {
+    return (
+      <div>
+        <p>
+          <i>Hint: Your favorite city?</i>
+        </p>
+        <Form />
+        <button
+          onClick={() => {
+            setShowHint(false);
+          }}
+        >
+          Hide hint
+        </button>
+      </div>
+    );
+  }
+  return (
+    <div>
+      <Form />
+      <button
+        onClick={() => {
+          setShowHint(true);
+        }}
+      >
+        Show hint
+      </button>
+    </div>
+  );
+}
+
+function Form() {
+  const [text, setText] = useState("");
+  return <textarea value={text} onChange={(e) => setText(e.target.value)} />;
+}
+```
+
+How to fix this:
+
+We should always let `Form` be the second child, so it stays in the same position and keeps its state.
+
+---
+
+State is associated with the tree position.
+
+A `key` lets you specify a named position instead of relying on order.
