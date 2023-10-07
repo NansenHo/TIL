@@ -4,21 +4,21 @@ Arrays are mutable in JavaScript, but you should treat them as immutable when yo
 
 ---
 
-| | avoid (mutates the array) | prefer (returns a new array) |
-| --- | --- | --- |
-| adding | `push`, `unshift` | `concat`, `[...arr]` |
-| removing | `pop`, `shift`, `splice` | `filter`, `slice` |
-| replacing | `splice`, `arr[i] = ...` | `map` |
-| sorting | `reverse`, `sort` | copy the array first |
+|           | avoid (mutates the array) | prefer (returns a new array) |
+| --------- | ------------------------- | ---------------------------- |
+| adding    | `push`, `unshift`         | `concat`, `[...arr]`         |
+| removing  | `pop`, `shift`, `splice`  | `filter`, `slice`            |
+| replacing | `splice`, `arr[i] = ...`  | `map`                        |
+| sorting   | `reverse`, `sort`         | copy the array first         |
 
 ---
 
 > **Pitfall**
-> 
-> Unfortunately, `slice` and `splice` are named similarly but are very different: 
-> 
+>
+> Unfortunately, `slice` and `splice` are named similarly but are very different:
+>
 > - `slice` lets you copy an array or a part of it.
-> 
+>
 > - `splice` mutates the array (to insert or delete items).
 
 ---
@@ -36,10 +36,10 @@ function handleClick() {
     // New item:
     { id: nextId++, name: name },
     // Items after the insertion point:
-    ...artists.slice(insertAt)
+    ...artists.slice(insertAt),
   ];
   setArtists(nextArtists);
-  setName('');
+  setName("");
 }
 ```
 
@@ -61,7 +61,7 @@ setList(nextList);
 
 Although, `nextList` and `list` are two different arrays, but `nextList[0]` and `list[0]` point to the same object.
 
-So by changing `nextList[0].seen`, you are also changing `list[0].seen`. 
+So by changing `nextList[0].seen`, you are also changing `list[0].seen`.
 
 This is a state mutation, which you should avoid.
 
@@ -71,22 +71,24 @@ When updating nested state, you need to create copies that from the point where 
 
 ```js
 const initialList = [
-  { id: 0, title: 'Big Bellies', seen: false },
-  { id: 1, title: 'Lunar Landscape', seen: false },
-  { id: 2, title: 'Terracotta Army', seen: true },
+  { id: 0, title: "Big Bellies", seen: false },
+  { id: 1, title: "Lunar Landscape", seen: false },
+  { id: 2, title: "Terracotta Army", seen: true },
 ];
 
 const [myList, setMyList] = useState(initialList);
 
-setMyList(myList.map(artwork => {
-  if (artwork.id === artworkId) {
-    // Create a *new* object with changes
-    return { ...artwork, seen: nextSeen };
-  } else {
-    // No changes
-    return artwork;
-  }
-}));
+setMyList(
+  myList.map((artwork) => {
+    if (artwork.id === artworkId) {
+      // Create a *new* object with changes
+      return { ...artwork, seen: nextSeen };
+    } else {
+      // No changes
+      return artwork;
+    }
+  })
+);
 ```
 
 You can use `map` to substitute an old item with its updated version without mutation.
