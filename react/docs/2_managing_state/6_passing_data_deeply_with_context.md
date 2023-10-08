@@ -55,10 +55,12 @@ Use cases for context:
 
 3. Routing
 
-    Most routing solutions use context internally to hold the current route.
+   Most routing solutions use context internally to hold the current route.
 
-    This is how every link “knows” whether it’s active or not.
+   This is how every link “knows” whether it’s active or not.
 
-    If you build your own router, you might want to do it too.
+   If you build your own router, you might want to do it too.
 
 4. Managing state
+
+5. ...

@@ -106,5 +106,3 @@ For UI patterns like selection, keep ID or index in state instead of the object 
 ---
 
 [hover_starred_highlight](https://codesandbox.io/s/hover-starred-highlight-lxlfvl)
-
-
