@@ -151,6 +151,8 @@ export default function Form() {
 }
 ```
 
+[component_dom_useRef_useImperativeHandle](https://codesandbox.io/s/component-dom-useref-useimperativehandle-lfpln9)
+
 In this case, the ref “handle” is not the DOM node, but the custom object you create inside `useImperativeHandle` call.
 
 ---
@@ -191,6 +193,14 @@ flushSync(() => {
 
 ---
 
+[useRef_list_flushSync](https://codesandbox.io/s/useref-list-flushsync-nsrm6z)
+
+> the `flushSync` call is necessary to force React to update the DOM before the scroll.
+>
+> Otherwise, `selectedRef.current` would always point at the previously selected item.
+
+---
+
 If you try to modify the DOM manually, you can risk conflicting with the changes React is making.
 
 **Avoid changing DOM nodes managed by React.**
@@ -200,3 +210,13 @@ Modifying, adding children to, or removing children from elements that are manag
 **You can safely modify parts of the DOM that React has no reason to update.**
 
 If some `<div>` is always empty in the JSX, React won’t have a reason to touch its children list. Therefore, it is safe to manually add or remove elements there.
+
+---
+
+Usually, you will use refs for **non-destructive actions** like focusing, scrolling, or measuring DOM elements.
+
+---
+
+Avoid changing DOM nodes managed by React.
+
+If you do modify DOM nodes managed by React, modify parts that React has no reason to update.
