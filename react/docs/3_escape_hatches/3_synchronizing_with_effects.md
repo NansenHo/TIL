@@ -109,7 +109,7 @@ In other words, `useEffect` “delays” a piece of code from running until that
 > const [count, setCount] = useState(0);
 > useEffect(() => {
 >   setCount(count + 1);
-> });
+> }); // No dependencies
 > ```
 >
 > Effects run as a result of rendering.
@@ -230,6 +230,286 @@ You’re writing a `ChatRoom` component that needs to connect to the chat server
 
 You are given a `createConnection()` API that returns an object with `connect()` and `disconnect()` methods.
 
-How do you keep the component connected while it is displayed to the user?
+---
 
+> ```jsx
+> import { useEffect } from "react";
+> import { createConnection } from "./chat.js";
+>
+> export default function ChatRoom() {
+>   useEffect(() => {
+>     const connection = createConnection();
+>     connection.connect();
+>   }, []);
+>   return <h1>Welcome to the chat!</h1>;
+> }
+> // Console (2)
+> // ✅ Connecting...
+> // ✅ Connecting...
+> ```
+>
+> This Effect only runs on mount, so you might expect `"✅ Connecting..."` to be printed once in the console.
+>
+> However, if you check the console, `"✅ Connecting..."` gets printed twice. Why does it happen?
+>
+> **In development React remounts every component once immediately after its initial mount.**
+>
+> Seeing the `"✅ Connecting..."` log twice helps you notice the real issue:
+>
+> your code doesn’t close the connection when the component unmounts.
+>
+> To fix the issue, return a cleanup function from your Effect:
+>
+> ```jsx
+> useEffect(() => {
+>   const connection = createConnection();
+>   connection.connect();
+>   return () => {
+>     connection.disconnect();
+>   };
+> }, []);
+> // Console (3)
+> // ✅ Connecting...
+> // ❌ Disconnected.
+> // ✅ Connecting...
+> ```
+>
+> React will call your cleanup function each time before the Effect runs again, and one final time when the component unmounts (gets removed).
+>
+> This is the correct behavior in development.
+>
+> There’s an extra connect/disconnect call pair because React is probing your code for bugs in development. This is normal—don’t try to make it go away!
+>
+> **In production, you would only see `"✅ Connecting..."` printed once.**
+>
+> Remounting components only happens in development to help you find Effects that need cleanup.
+>
+> You can turn off Strict Mode to opt out of the development behavior, but we recommend keeping it on.
+> This lets you find many bugs like the one above.
 
+---
+
+The cleanup function should stop or undo whatever the Effect was doing.
+
+The rule of thumb is that the user shouldn’t be able to distinguish between the Effect running once (as in production) and a setup → cleanup → setup sequence (as you’d see in development).
+
+---
+
+**Most of the Effects you’ll write will fit into one of the common patterns below.**
+
+1. **Controlling non-React widgets**
+
+   Sometimes you need to add UI widgets that aren’t written to React.
+
+   let’s say you’re adding a map component to your page.
+   It has a `setZoomLevel()` method, and you’d like to keep the zoom level in sync with a `zoomLevel` state variable in your React code.
+
+   ```js
+   useEffect(() => {
+     const map = mapRef.current;
+     map.setZoomLevel(zoomLevel);
+   }, [zoomLevel]);
+   ```
+
+   Note that there is no cleanup needed in this case.
+   In development, React will call the Effect twice, but this is not a problem because calling `setZoomLevel` twice with the same value does not do anything.
+   It may be slightly slower, but this doesn’t matter because it won’t remount needlessly in production.
+
+   Some APIs may not allow you to call them twice in a row.
+
+   For example, the `showModal` method of the built-in `<dialog>` element throws if you call it twice.
+
+   ```js
+   useEffect(() => {
+     const dialog = dialogRef.current;
+     dialog.showModal();
+     return () => dialog.close();
+   }, []);
+   ```
+
+   In development, your Effect will call `showModal()`, then immediately `close()`, and then `showModal()` again.
+   This has the same user-visible behavior as calling `showModal()` once, as you would see in production.
+
+2. **Subscribing to events**
+
+   If your Effect subscribes to something, the cleanup function should unsubscribe:
+
+   ```js
+   useEffect(() => {
+     function handleScroll(e) {
+       console.log(window.scrollX, window.scrollY);
+     }
+     window.addEventListener("scroll", handleScroll);
+     return () => window.removeEventListener("scroll", handleScroll);
+   }, []);
+   ```
+
+3. **Triggering animations**
+
+   If your Effect animates something in, the cleanup function should reset the animation to the initial values:
+
+   ```js
+   useEffect(() => {
+     const node = ref.current;
+     node.style.opacity = 1; // Trigger the animation
+     return () => {
+       node.style.opacity = 0; // Reset to the initial value
+     };
+   }, []);
+   ```
+
+4. **Fetching data**
+
+   If your Effect fetches something, the cleanup function should either **abort the fetch** or **ignore its result**:
+
+   > In addition to ignoring the result of an outdated API call, you can also use [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) to cancel the requests that are no longer needed.
+   >
+   > However, by itself this is not enough to protect against race conditions.
+
+   More asynchronous steps could be chained after the fetch, so using an explicit flag like ignore is the most reliable way to fix this type of problems.
+
+   ```js
+   useEffect(() => {
+     let ignore = false;
+
+     async function startFetching() {
+       const json = await fetchTodos(userId);
+       if (!ignore) {
+         setTodos(json);
+       }
+     }
+
+     startFetching();
+
+     return () => {
+       ignore = true;
+     };
+   }, [userId]);
+   ```
+
+   [useEffect_fetch_api](https://codesandbox.io/s/useeffect-fetch-api-9k3tc3)
+
+   You can’t “undo” a network request that already happened, but your cleanup function should ensure that the fetch that’s not relevant anymore does not keep affecting your application.
+
+   **In development, you will see two fetches in the Network tab.**
+
+   **In production, there will only be one request.**
+
+   If the second request in development is bothering you, the best approach is to use a solution that deduplicates requests and caches their responses between components:
+
+   ```js
+   function TodoList() {
+     const todos = useSomeDataLibrary(`/api/user/${userId}/todos`);
+     // ...
+   }
+   ```
+
+   This will not only improve the development experience, but also make your application feel faster.
+
+   For example, the user pressing the Back button won’t have to wait for some data to load again because it will be cached.
+
+   You can either build such a cache yourself or use one of the many alternatives to manual fetching in Effects.
+
+5. **Sending analytics**
+
+   Consider this code that sends an analytics event on the page visit:
+
+   ```js
+   useEffect(() => {
+     logVisit(url); // Sends a POST request
+   }, [url]);
+   ```
+
+   To debug the analytics events you’re sending, you can deploy your app to a staging environment (which runs in production mode) or temporarily opt out of Strict Mode and its development-only remounting checks.
+
+   You may also send analytics from the route change event handlers instead of Effects.
+
+   > For more precise analytics, [intersection observers](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) can help track which components are in the viewport and how long they remain visible.
+
+6. **Not an Effect: Initializing the application**
+
+   Some logic should only run once when the application starts.
+
+   You can put it outside your components:
+
+   ```jsx
+   if (typeof window !== "undefined") {
+     // Check if we're running in the browser.
+     checkAuthToken();
+     loadDataFromLocalStorage();
+   }
+
+   function App() {
+     // ...
+   }
+   ```
+
+   This guarantees that such logic only runs once after the browser loads the page.
+
+7. **Not an Effect: Buying a product**
+
+   Sometimes, even if you write a cleanup function, there’s no way to prevent user-visible consequences of running the Effect twice.
+
+   For example, maybe your Effect sends a POST request like buying a product:
+
+   ```jsx
+   useEffect(() => {
+     // 🔴 Wrong: This Effect fires twice in development, exposing a problem in the code.
+     fetch("/api/buy", { method: "POST" });
+   }, []);
+   ```
+
+   You wouldn’t want to buy the product twice.
+   You don’t want to buy the product when the user visits a page.
+
+   Buying is not caused by rendering; it’s caused by a specific interaction.
+
+   > From a user’s perspective, visiting a page shouldn’t be different from visiting it, clicking a link, then pressing Back to view the page again.
+   >
+   > React verifies that your components abide by this principle by remounting them once in development.
+
+---
+
+> **What are good alternatives to data fetching in Effects?**
+>
+> Writing `fetch` calls inside Effects is a popular way to fetch data, especially in fully client-side apps.
+>
+> However, this is a very manual approach and it has significant downsides:
+>
+> 1. Effects don’t run on the server.
+>
+>    This means that the initial server-rendered HTML will only include a loading state with no data.
+>    The client computer will have to download all JavaScript and render your app only to discover that now it needs to load the data.
+>    This is not very efficient.
+>
+> 2. Fetching directly in Effects makes it easy to create “network waterfalls”.
+>
+>    You render the parent component, it fetches some data, renders the child components, and then they start fetching their data.
+>    If the network is not very fast, this is significantly slower than fetching all data in parallel.
+>
+> 3. Fetching directly in Effects usually means you don’t preload or cache data.
+>
+>    If the component unmounts and then mounts again, it would have to fetch the data again.
+>
+> 4. It’s not very ergonomic.
+>
+> This list of downsides is not specific to React.
+> It applies to fetching data on mount with any library.
+>
+> Like with routing, data fetching is not trivial to do well, so we recommend the following approaches:
+>
+> 1. **If you use a framework, use its built-in data fetching mechanism.**
+>
+> 2. **Otherwise, consider using or building a client-side cache.**
+
+---
+
+React always cleans up the previous render’s Effect before the next render’s Effect.
+
+---
+
+**Each render has its own Effects**
+
+---
+
+React will remount the Effects whenever you save a file in development. Both of these behaviors are development-only.
