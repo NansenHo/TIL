@@ -1,4 +1,4 @@
-# data-* Attribute
+# `data-*` Attribute
 
 注意如果存储的是包含键值对的对象，那我们要注意 data-* 属性的单双引号，否则可能出现 undefined 的情况。
 

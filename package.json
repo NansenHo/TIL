@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "update": "update"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "keywords": ["blog", "frontend", "backend"],
+  "keywords": [
+    "blog",
+    "frontend",
+    "backend"
+  ],
   "author": {
     "name": "Nansen",
     "email": "song.he0302@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.67"
+  }
 }
