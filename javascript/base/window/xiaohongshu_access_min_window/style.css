@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  color: #666;
+  background-color: #EEE;
+  border-color: #EEE;
+  appearance: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #EEE;
+}
+
+.button:active {
+  color: #EEE;
+  transition: all .3;
+}
