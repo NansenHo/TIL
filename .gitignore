@@ -4,5 +4,5 @@
 .DS_Store?
 .vscode/
 node_modules/
-.temp
-.cache
+.temp/
+.cache/

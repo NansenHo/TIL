@@ -2,6 +2,7 @@
   "name": "til",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
