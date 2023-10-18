@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/简介/简介",
+  "id": "python/ryf/简介/简介",
+  "title": "Python 简介",
+  "description": "诞生",
+  "source": "@site/docs/python/ryf/0_简介/1_简介.md",
+  "sourceDirName": "python/ryf/0_简介",
+  "slug": "/python/ryf/简介/简介",
+  "permalink": "/docs/python/ryf/简介/简介",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/0_简介/1_简介.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/docs/python/ryf/简介/start"
+  },
+  "next": {
+    "title": "安装 Python",
+    "permalink": "/docs/python/ryf/安装/安装"
+  }
+}

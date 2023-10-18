@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/安装/安装",
+  "id": "python/ryf/安装/安装",
+  "title": "安装 Python",
+  "description": "Python 是跨平台的",
+  "source": "@site/docs/python/ryf/1_安装/0_安装.md",
+  "sourceDirName": "python/ryf/1_安装",
+  "slug": "/python/ryf/安装/安装",
+  "permalink": "/docs/python/ryf/安装/安装",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/1_安装/0_安装.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python 简介",
+    "permalink": "/docs/python/ryf/简介/简介"
+  },
+  "next": {
+    "title": "Python 解释器",
+    "permalink": "/docs/python/ryf/安装/python解释器"
+  }
+}

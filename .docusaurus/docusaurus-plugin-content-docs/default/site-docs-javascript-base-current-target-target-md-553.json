@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/currentTarget_target",
+  "id": "javascript/base/currentTarget_target",
+  "title": "the difference between",
+  "description": "what-is-the-exact-difference-between-currenttarget-property-and-target-property",
+  "source": "@site/docs/javascript/base/currentTarget_target.md",
+  "sourceDirName": "javascript/base",
+  "slug": "/javascript/base/currentTarget_target",
+  "permalink": "/docs/javascript/base/currentTarget_target",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/currentTarget_target.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loop Through An Array",
+    "permalink": "/docs/javascript/base/array/loop_array"
+  },
+  "next": {
+    "title": "Currying - Arrow Function",
+    "permalink": "/docs/javascript/base/currying/arrow_function"
+  }
+}

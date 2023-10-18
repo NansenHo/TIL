@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/高级特性/切片",
+  "id": "python/ryf/高级特性/切片",
+  "title": "切片",
+  "description": "取一个 list 或 tuple 的部分元素是非常常见的操作。",
+  "source": "@site/docs/python/ryf/5_高级特性/0_切片.md",
+  "sourceDirName": "python/ryf/5_高级特性",
+  "slug": "/python/ryf/高级特性/切片",
+  "permalink": "/docs/python/ryf/高级特性/切片",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/5_高级特性/0_切片.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "递归函数",
+    "permalink": "/docs/python/ryf/函数/递归函数"
+  },
+  "next": {
+    "title": "迭代",
+    "permalink": "/docs/python/ryf/高级特性/迭代"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/generics",
+  "id": "typescript/types/generics",
+  "title": "Generics (Type Placeholder)",
+  "description": "what's generics",
+  "source": "@site/docs/typescript/types/generics.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/generics",
+  "permalink": "/docs/typescript/types/generics",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/generics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Function",
+    "permalink": "/docs/typescript/types/function"
+  },
+  "next": {
+    "title": "Index Signatures",
+    "permalink": "/docs/typescript/types/index_signatures"
+  }
+}

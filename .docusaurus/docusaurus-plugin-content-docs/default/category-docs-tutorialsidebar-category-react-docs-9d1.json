@@ -1,0 +1,16 @@
+{
+  "title": "React Docs",
+  "description": "React Docs",
+  "slug": "/category/react-docs",
+  "permalink": "/docs/category/react-docs",
+  "navigation": {
+    "previous": {
+      "title": "useState",
+      "permalink": "/docs/react/built-in_hooks/useState"
+    },
+    "next": {
+      "title": "Quick Start",
+      "permalink": "/docs/react/docs/describing_the_ui/quick_start"
+    }
+  }
+}

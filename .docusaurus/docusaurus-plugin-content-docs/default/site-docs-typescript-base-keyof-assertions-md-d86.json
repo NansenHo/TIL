@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/base/keyof_assertions",
+  "id": "typescript/base/keyof_assertions",
+  "title": "The keyof type operator",
+  "description": "The keyof operator takes an object type and produces a string or numeric literal union of its keys.",
+  "source": "@site/docs/typescript/base/keyof_assertions.md",
+  "sourceDirName": "typescript/base",
+  "slug": "/typescript/base/keyof_assertions",
+  "permalink": "/docs/typescript/base/keyof_assertions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/base/keyof_assertions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The \".d.ts\" File",
+    "permalink": "/docs/typescript/base/d.ts_Files"
+  },
+  "next": {
+    "title": "Non-null assertion",
+    "permalink": "/docs/typescript/base/non-null_assertion"
+  }
+}

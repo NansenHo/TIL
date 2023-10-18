@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/operator/difference",
+  "id": "javascript/base/operator/difference",
+  "title": "|| operator and ?? operator",
+  "description": "The || operator evaluates to the right-hand side if and only if the left-hand side is a falsy value.",
+  "source": "@site/docs/javascript/base/operator/difference.md",
+  "sourceDirName": "javascript/base/operator",
+  "slug": "/javascript/base/operator/difference",
+  "permalink": "/docs/javascript/base/operator/difference",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/operator/difference.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Object.entries(obj) and Object.fromEntries(iterable)",
+    "permalink": "/docs/javascript/base/object/entries_fromEntries"
+  },
+  "next": {
+    "title": "?. operator",
+    "permalink": "/docs/javascript/base/operator/question_dot_"
+  }
+}

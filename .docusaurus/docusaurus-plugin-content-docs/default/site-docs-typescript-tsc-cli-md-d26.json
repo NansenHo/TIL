@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/tsc/cli",
+  "id": "typescript/tsc/cli",
+  "title": "TSC CLI",
+  "description": "",
+  "source": "@site/docs/typescript/tsc/cli.md",
+  "sourceDirName": "typescript/tsc",
+  "slug": "/typescript/tsc/cli",
+  "permalink": "/docs/typescript/tsc/cli",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/tsc/cli.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Non-null assertion",
+    "permalink": "/docs/typescript/base/non-null_assertion"
+  },
+  "next": {
+    "title": "Every TSconfig option",
+    "permalink": "/docs/typescript/tsc/tsconfig"
+  }
+}

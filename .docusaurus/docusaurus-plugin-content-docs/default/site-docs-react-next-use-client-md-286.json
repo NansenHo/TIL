@@ -1,0 +1,24 @@
+{
+  "unversionedId": "react/next/use_client",
+  "id": "react/next/use_client",
+  "title": "use client",
+  "description": "What's client component",
+  "source": "@site/docs/react/next/use_client.md",
+  "sourceDirName": "react/next",
+  "slug": "/react/next/use_client",
+  "permalink": "/docs/react/next/use_client",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/next/use_client.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Next, Nuxt, Nest {ignore=true}",
+    "permalink": "/docs/react/next/nest_next_nuxt"
+  },
+  "next": {
+    "title": "links",
+    "permalink": "/docs/rust/base/start/links"
+  }
+}

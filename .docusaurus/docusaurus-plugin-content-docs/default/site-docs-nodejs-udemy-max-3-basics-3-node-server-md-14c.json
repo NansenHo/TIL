@@ -1,0 +1,25 @@
+{
+  "unversionedId": "nodejs/udemy_max/basics/node_server",
+  "id": "nodejs/udemy_max/basics/node_server",
+  "title": "Creating a Node server",
+  "description": "Creating a basic Node server",
+  "source": "@site/docs/nodejs/udemy_max/3_basics/3_node_server.md",
+  "sourceDirName": "nodejs/udemy_max/3_basics",
+  "slug": "/nodejs/udemy_max/basics/node_server",
+  "permalink": "/docs/nodejs/udemy_max/basics/node_server",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nodejs/udemy_max/3_basics/3_node_server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "require keyword",
+    "permalink": "/docs/nodejs/udemy_max/basics/require"
+  },
+  "next": {
+    "title": "公司后端开发环境 - 记录",
+    "permalink": "/docs/python/env"
+  }
+}

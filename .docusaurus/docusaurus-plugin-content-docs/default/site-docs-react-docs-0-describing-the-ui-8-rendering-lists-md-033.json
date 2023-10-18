@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/describing_the_ui/rendering_lists",
+  "id": "react/docs/describing_the_ui/rendering_lists",
+  "title": "Rendering Lists",
+  "description": "keys tell React which array item each component corresponds to, so that it can match them up later.",
+  "source": "@site/docs/react/docs/0_describing_the_ui/8_rendering_lists.md",
+  "sourceDirName": "react/docs/0_describing_the_ui",
+  "slug": "/react/docs/describing_the_ui/rendering_lists",
+  "permalink": "/docs/react/docs/describing_the_ui/rendering_lists",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/0_describing_the_ui/8_rendering_lists.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditional Rendering",
+    "permalink": "/docs/react/docs/describing_the_ui/conditional_rendering"
+  },
+  "next": {
+    "title": "Keeping Components Pure",
+    "permalink": "/docs/react/docs/describing_the_ui/keeping_components_pure"
+  }
+}

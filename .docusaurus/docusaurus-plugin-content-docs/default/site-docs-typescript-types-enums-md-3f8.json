@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/enums",
+  "id": "typescript/types/enums",
+  "title": "Enums",
+  "description": "What's enums",
+  "source": "@site/docs/typescript/types/enums.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/enums",
+  "permalink": "/docs/typescript/types/enums",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/enums.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "class",
+    "permalink": "/docs/typescript/types/class"
+  },
+  "next": {
+    "title": "Function",
+    "permalink": "/docs/typescript/types/function"
+  }
+}

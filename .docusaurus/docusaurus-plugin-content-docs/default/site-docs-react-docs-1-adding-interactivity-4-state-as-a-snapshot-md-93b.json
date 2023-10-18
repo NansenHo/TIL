@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/adding_interactivity/state_as_a_snapshot",
+  "id": "react/docs/adding_interactivity/state_as_a_snapshot",
+  "title": "State as a Snapshot",
+  "description": "State variables might look like regular JavaScript variables that you can read and write to.",
+  "source": "@site/docs/react/docs/1_adding_interactivity/4_state_as_a_snapshot.md",
+  "sourceDirName": "react/docs/1_adding_interactivity",
+  "slug": "/react/docs/adding_interactivity/state_as_a_snapshot",
+  "permalink": "/docs/react/docs/adding_interactivity/state_as_a_snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/1_adding_interactivity/4_state_as_a_snapshot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Render and Commit",
+    "permalink": "/docs/react/docs/adding_interactivity/render_and_commit"
+  },
+  "next": {
+    "title": "Queueing a Series of State Updates",
+    "permalink": "/docs/react/docs/adding_interactivity/queueing_a_series_of_state_updates"
+  }
+}

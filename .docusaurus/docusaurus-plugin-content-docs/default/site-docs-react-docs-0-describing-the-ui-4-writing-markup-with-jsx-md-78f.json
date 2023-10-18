@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/describing_the_ui/writing_markup_with_jsx",
+  "id": "react/docs/describing_the_ui/writing_markup_with_jsx",
+  "title": "Writing Markup with JSX",
+  "description": "What's JSX",
+  "source": "@site/docs/react/docs/0_describing_the_ui/4_writing_markup_with_jsx.md",
+  "sourceDirName": "react/docs/0_describing_the_ui",
+  "slug": "/react/docs/describing_the_ui/writing_markup_with_jsx",
+  "permalink": "/docs/react/docs/describing_the_ui/writing_markup_with_jsx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/0_describing_the_ui/4_writing_markup_with_jsx.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Describing the UI",
+    "permalink": "/docs/react/docs/describing_the_ui/importing_and_exporting_components"
+  },
+  "next": {
+    "title": "JavaScript in JSX with Curly Braces",
+    "permalink": "/docs/react/docs/describing_the_ui/jsx_curly_braces"
+  }
+}

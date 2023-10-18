@@ -1,0 +1,24 @@
+{
+  "unversionedId": "html/form_element",
+  "id": "html/form_element",
+  "title": "<form> 表单标签",
+  "description": "form 会发一个 get 或 post 请求，然后刷新页面。",
+  "source": "@site/docs/html/form_element.md",
+  "sourceDirName": "html",
+  "slug": "/html/form_element",
+  "permalink": "/docs/html/form_element",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/html/form_element.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "data-* Attribute",
+    "permalink": "/docs/html/data-*"
+  },
+  "next": {
+    "title": "Head Element And Meta Element",
+    "permalink": "/docs/html/head_meta_element"
+  }
+}

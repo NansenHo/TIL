@@ -1,0 +1,1203 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "algorithm/hello-algo/初识算法/算法无处不在",
+              "path": "/docs/algorithm/hello-algo/初识算法/算法无处不在",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/hello-algo/初识算法/算法是什么",
+              "path": "/docs/algorithm/hello-algo/初识算法/算法是什么",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+              "path": "/docs/algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/leetcode/single_number/异或",
+              "path": "/docs/algorithm/leetcode/single_number/异或",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/linked_list/js实现简单链表",
+              "path": "/docs/algorithm/linked_list/js实现简单链表",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/linked_list/从react虚拟dom架构升级看树和链表的关系",
+              "path": "/docs/algorithm/linked_list/从react虚拟dom架构升级看树和链表的关系",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/从数据结构层面理解JS对象",
+              "path": "/docs/algorithm/从数据结构层面理解JS对象",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/位运算/位运算",
+              "path": "/docs/algorithm/位运算/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/位运算/位运算在Vue源码中的运用",
+              "path": "/docs/algorithm/位运算/位运算在Vue源码中的运用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithm/算法复杂度的计算",
+              "path": "/docs/algorithm/算法复杂度的计算",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "books/javascript设计模式与开发实践/index",
+              "path": "/docs/books/javascript设计模式与开发实践/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "books/the_clean_coder/index",
+              "path": "/docs/books/the_clean_coder/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "browser/devtools/$",
+              "path": "/docs/browser/devtools/$",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "browser/devtools/bug_of_console_log",
+              "path": "/docs/browser/devtools/bug_of_console_log",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "browser/devtools/command",
+              "path": "/docs/browser/devtools/command",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "browser/devtools/hot_keys",
+              "path": "/docs/browser/devtools/hot_keys",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bugs/react/react-datepicker_wrong_date",
+              "path": "/docs/bugs/react/react-datepicker_wrong_date",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer_fundamentals/absolute_relative_path",
+              "path": "/docs/computer_fundamentals/absolute_relative_path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "css/@",
+              "path": "/docs/css/@",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "css/image-rendering",
+              "path": "/docs/css/image-rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "css/styly_of_scrollbar",
+              "path": "/docs/css/styly_of_scrollbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "css/uiux/mask",
+              "path": "/docs/css/uiux/mask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data_structures/数据结构本质上只有数组和链表",
+              "path": "/docs/data_structures/数据结构本质上只有数组和链表",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data_structures/树结构入门",
+              "path": "/docs/data_structures/树结构入门",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data_structures/链表和数组",
+              "path": "/docs/data_structures/链表和数组",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design_patterns/creational_patterns/factory_method",
+              "path": "/docs/design_patterns/creational_patterns/factory_method",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design_patterns/design_patterns",
+              "path": "/docs/design_patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_engineering/webpack/proxy_events",
+              "path": "/docs/front-end_engineering/webpack/proxy_events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_security/note",
+              "path": "/docs/front-end_security/note",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/debug_vitest",
+              "path": "/docs/front-end_test/front-end_unit_testing/debug_vitest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/readme",
+              "path": "/docs/front-end_test/front-end_unit_testing/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/the_core_apis_of_vitest",
+              "path": "/docs/front-end_test/front-end_unit_testing/the_core_apis_of_vitest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/不写测试的原因",
+              "path": "/docs/front-end_test/front-end_unit_testing/不写测试的原因",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/为什么要写测试",
+              "path": "/docs/front-end_test/front-end_unit_testing/为什么要写测试",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/写单元测试的好处",
+              "path": "/docs/front-end_test/front-end_unit_testing/写单元测试的好处",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/写单元测试的顺序",
+              "path": "/docs/front-end_test/front-end_unit_testing/写单元测试的顺序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/单元级别的功能测试",
+              "path": "/docs/front-end_test/front-end_unit_testing/单元级别的功能测试",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/实现mini_test_runner",
+              "path": "/docs/front-end_test/front-end_unit_testing/实现mini_test_runner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/测试文件命名",
+              "path": "/docs/front-end_test/front-end_unit_testing/测试文件命名",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/front-end_unit_testing/编写第一个单元测试",
+              "path": "/docs/front-end_test/front-end_unit_testing/编写第一个单元测试",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end_test/readme",
+              "path": "/docs/front-end_test/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git/readme",
+              "path": "/docs/git/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git/rewrite_commit_msg",
+              "path": "/docs/git/rewrite_commit_msg",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/code_pre",
+              "path": "/docs/html/code_pre",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/contexteditable",
+              "path": "/docs/html/contexteditable",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/data-*",
+              "path": "/docs/html/data-*",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/form_element",
+              "path": "/docs/html/form_element",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/head_meta_element",
+              "path": "/docs/html/head_meta_element",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/input_element",
+              "path": "/docs/html/input_element",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/readme",
+              "path": "/docs/html/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "http/download/ban_download_pdf",
+              "path": "/docs/http/download/ban_download_pdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "http/request_methods",
+              "path": "/docs/http/request_methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "http/sstatus_code",
+              "path": "/docs/http/sstatus_code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "image/base64",
+              "path": "/docs/image/base64",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/java简介",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/java简介",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/readme",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/变量与数据类型",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/变量与数据类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/命令行参数",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/命令行参数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/多维数组",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/多维数组",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/如何执行java程序",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/如何执行java程序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/字符和字符串",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/字符和字符串",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/布尔运算",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/布尔运算",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/数组排序",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/数组排序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/数组类型",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/数组类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/整数的运算",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/整数的运算",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/浮点数计算",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/浮点数计算",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/第一个java程序",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/第一个java程序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/输入和输出",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/输入和输出",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/java快速入门/遍历",
+              "path": "/docs/java/java教程-廖雪峰/java快速入门/遍历",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/readme",
+              "path": "/docs/java/java教程-廖雪峰/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/多态",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/多态",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/抽象方法",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/抽象方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/接口",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/接口",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/方法",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/方法重载",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/方法重载",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/构造方法",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/构造方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/继承",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/继承",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/面向对象基础",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/java教程-廖雪峰/面向对象编程/面向对象基础/面向对象编程",
+              "path": "/docs/java/java教程-廖雪峰/面向对象编程/面向对象基础/面向对象编程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/readme",
+              "path": "/docs/java/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/array/array",
+              "path": "/docs/javascript/base/array/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/array/loop_array",
+              "path": "/docs/javascript/base/array/loop_array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/currentTarget_target",
+              "path": "/docs/javascript/base/currentTarget_target",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/currying/arrow_function",
+              "path": "/docs/javascript/base/currying/arrow_function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/currying/browser_monitoring",
+              "path": "/docs/javascript/base/currying/browser_monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/currying/defered_execute",
+              "path": "/docs/javascript/base/currying/defered_execute",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/currying/repeated_parameter",
+              "path": "/docs/javascript/base/currying/repeated_parameter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/destructuring_assignment",
+              "path": "/docs/javascript/base/destructuring_assignment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/function/arguments",
+              "path": "/docs/javascript/base/function/arguments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/function/bind_apply_call",
+              "path": "/docs/javascript/base/function/bind_apply_call",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/map/Iterator",
+              "path": "/docs/javascript/base/map/Iterator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/map/map和array互相转换",
+              "path": "/docs/javascript/base/map/map和array互相转换",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/map/map和object的区别",
+              "path": "/docs/javascript/base/map/map和object的区别",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/map/usage_of_map",
+              "path": "/docs/javascript/base/map/usage_of_map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/map/whats_map",
+              "path": "/docs/javascript/base/map/whats_map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/microtasks_macrotasks",
+              "path": "/docs/javascript/base/microtasks_macrotasks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/object/entries_fromEntries",
+              "path": "/docs/javascript/base/object/entries_fromEntries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/operator/difference",
+              "path": "/docs/javascript/base/operator/difference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/operator/question_dot_",
+              "path": "/docs/javascript/base/operator/question_dot_",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/optional_chaining",
+              "path": "/docs/javascript/base/optional_chaining",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/other/abort_controller",
+              "path": "/docs/javascript/base/other/abort_controller",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/other/closures",
+              "path": "/docs/javascript/base/other/closures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/other/intersection_observer_api",
+              "path": "/docs/javascript/base/other/intersection_observer_api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/promise",
+              "path": "/docs/javascript/base/promise",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/promise/async_await",
+              "path": "/docs/javascript/base/promise/async_await",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/base/string/convert_string_to_number",
+              "path": "/docs/javascript/base/string/convert_string_to_number",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/bugs/array.splice",
+              "path": "/docs/javascript/bugs/array.splice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/ignition",
+              "path": "/docs/javascript/codewhy_js/ignition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+              "path": "/docs/javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/js引擎",
+              "path": "/docs/javascript/codewhy_js/js引擎",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/parse",
+              "path": "/docs/javascript/codewhy_js/parse",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/script标签的async和defer属性",
+              "path": "/docs/javascript/codewhy_js/script标签的async和defer属性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/v8引擎运行原理",
+              "path": "/docs/javascript/codewhy_js/v8引擎运行原理",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/抽象语法树",
+              "path": "/docs/javascript/codewhy_js/抽象语法树",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/浏览器内核（渲染引擎）",
+              "path": "/docs/javascript/codewhy_js/浏览器内核（渲染引擎）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/浏览器内核和js引擎的关系",
+              "path": "/docs/javascript/codewhy_js/浏览器内核和js引擎的关系",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/浏览器渲染过程",
+              "path": "/docs/javascript/codewhy_js/浏览器渲染过程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/codewhy_js/编程语言的三个阶段",
+              "path": "/docs/javascript/codewhy_js/编程语言的三个阶段",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/buffer",
+              "path": "/docs/nodejs/buffer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/fs",
+              "path": "/docs/nodejs/fs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/global",
+              "path": "/docs/nodejs/global",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/npm/additional_flags_npm_install",
+              "path": "/docs/nodejs/npm/additional_flags_npm_install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/npm/package_versions",
+              "path": "/docs/nodejs/npm/package_versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/udemy_max/basics/http_https",
+              "path": "/docs/nodejs/udemy_max/basics/http_https",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/udemy_max/basics/node_server",
+              "path": "/docs/nodejs/udemy_max/basics/node_server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/udemy_max/basics/require",
+              "path": "/docs/nodejs/udemy_max/basics/require",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/udemy_max/introduction/nodejs",
+              "path": "/docs/nodejs/udemy_max/introduction/nodejs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/env",
+              "path": "/docs/python/env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/内置函数",
+              "path": "/docs/python/ryf/函数/内置函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/函数",
+              "path": "/docs/python/ryf/函数/函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/函数的参数",
+              "path": "/docs/python/ryf/函数/函数的参数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/定义函数",
+              "path": "/docs/python/ryf/函数/定义函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/调用函数",
+              "path": "/docs/python/ryf/函数/调用函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/函数/递归函数",
+              "path": "/docs/python/ryf/函数/递归函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/使用dict和set",
+              "path": "/docs/python/ryf/基础/使用dict和set",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/使用list和tuple",
+              "path": "/docs/python/ryf/基础/使用list和tuple",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/基础",
+              "path": "/docs/python/ryf/基础/基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/字符串和编码",
+              "path": "/docs/python/ryf/基础/字符串和编码",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/循环",
+              "path": "/docs/python/ryf/基础/循环",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/数据类型和变量",
+              "path": "/docs/python/ryf/基础/数据类型和变量",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/基础/条件判断",
+              "path": "/docs/python/ryf/基础/条件判断",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/安装/python解释器",
+              "path": "/docs/python/ryf/安装/python解释器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/安装/安装",
+              "path": "/docs/python/ryf/安装/安装",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/第一个程序/第一个程序",
+              "path": "/docs/python/ryf/第一个程序/第一个程序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/第一个程序/输入输出",
+              "path": "/docs/python/ryf/第一个程序/输入输出",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/简介/start",
+              "path": "/docs/python/ryf/简介/start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/简介/简介",
+              "path": "/docs/python/ryf/简介/简介",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/高级特性/切片",
+              "path": "/docs/python/ryf/高级特性/切片",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/高级特性/列表生成式",
+              "path": "/docs/python/ryf/高级特性/列表生成式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/高级特性/生成器",
+              "path": "/docs/python/ryf/高级特性/生成器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/高级特性/迭代",
+              "path": "/docs/python/ryf/高级特性/迭代",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/ryf/高级特性/迭代器",
+              "path": "/docs/python/ryf/高级特性/迭代器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/built-in_hooks/performance/memo",
+              "path": "/docs/react/built-in_hooks/performance/memo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/built-in_hooks/performance/useCallback",
+              "path": "/docs/react/built-in_hooks/performance/useCallback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/built-in_hooks/useContext",
+              "path": "/docs/react/built-in_hooks/useContext",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/built-in_hooks/useState",
+              "path": "/docs/react/built-in_hooks/useState",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/adding_interactivity",
+              "path": "/docs/react/docs/adding_interactivity/adding_interactivity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/queueing_a_series_of_state_updates",
+              "path": "/docs/react/docs/adding_interactivity/queueing_a_series_of_state_updates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/render_and_commit",
+              "path": "/docs/react/docs/adding_interactivity/render_and_commit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/responding_to_events",
+              "path": "/docs/react/docs/adding_interactivity/responding_to_events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/state_a_componts_memory",
+              "path": "/docs/react/docs/adding_interactivity/state_a_componts_memory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/state_as_a_snapshot",
+              "path": "/docs/react/docs/adding_interactivity/state_as_a_snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/updating_arrays_in_state",
+              "path": "/docs/react/docs/adding_interactivity/updating_arrays_in_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/adding_interactivity/updating_objects_in_state",
+              "path": "/docs/react/docs/adding_interactivity/updating_objects_in_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/conditional_rendering",
+              "path": "/docs/react/docs/describing_the_ui/conditional_rendering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/importing_and_exporting_components",
+              "path": "/docs/react/docs/describing_the_ui/importing_and_exporting_components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/jsx_curly_braces",
+              "path": "/docs/react/docs/describing_the_ui/jsx_curly_braces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/keeping_components_pure",
+              "path": "/docs/react/docs/describing_the_ui/keeping_components_pure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/passing_props_to_components",
+              "path": "/docs/react/docs/describing_the_ui/passing_props_to_components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/quick_start",
+              "path": "/docs/react/docs/describing_the_ui/quick_start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/rendering_lists",
+              "path": "/docs/react/docs/describing_the_ui/rendering_lists",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/thinging_in_react",
+              "path": "/docs/react/docs/describing_the_ui/thinging_in_react",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/tic-tac-toe",
+              "path": "/docs/react/docs/describing_the_ui/tic-tac-toe",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/describing_the_ui/writing_markup_with_jsx",
+              "path": "/docs/react/docs/describing_the_ui/writing_markup_with_jsx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/escape_hatches",
+              "path": "/docs/react/docs/escape_hatches/escape_hatches",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/lifecycle_reactive_effects",
+              "path": "/docs/react/docs/escape_hatches/lifecycle_reactive_effects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/manipulating_the_dom_with_refs",
+              "path": "/docs/react/docs/escape_hatches/manipulating_the_dom_with_refs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/referencing_values_with_refs",
+              "path": "/docs/react/docs/escape_hatches/referencing_values_with_refs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/separating_events_from_events",
+              "path": "/docs/react/docs/escape_hatches/separating_events_from_events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/synchronizing_with_effects",
+              "path": "/docs/react/docs/escape_hatches/synchronizing_with_effects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/escape_hatches/you_might_not_need_a_effect",
+              "path": "/docs/react/docs/escape_hatches/you_might_not_need_a_effect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/choosing_the_state_structure",
+              "path": "/docs/react/docs/managing_state/choosing_the_state_structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/extracting_state_logic_into_a_reducer",
+              "path": "/docs/react/docs/managing_state/extracting_state_logic_into_a_reducer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/managing_state",
+              "path": "/docs/react/docs/managing_state/managing_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/passing_data_deeply_with_context",
+              "path": "/docs/react/docs/managing_state/passing_data_deeply_with_context",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/preserving_and_resetting_state",
+              "path": "/docs/react/docs/managing_state/preserving_and_resetting_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/reacting_to_input_with_state",
+              "path": "/docs/react/docs/managing_state/reacting_to_input_with_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/scaling_up_with_reducer_and_context",
+              "path": "/docs/react/docs/managing_state/scaling_up_with_reducer_and_context",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/managing_state/sharing_state_between_components",
+              "path": "/docs/react/docs/managing_state/sharing_state_between_components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/docs/other/fixing_race_conditions_in_react_with_useEffect",
+              "path": "/docs/react/docs/other/fixing_race_conditions_in_react_with_useEffect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/next/nest_next_nuxt",
+              "path": "/docs/react/next/nest_next_nuxt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/next/use_client",
+              "path": "/docs/react/next/use_client",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust/base/start/links",
+              "path": "/docs/rust/base/start/links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust/base/start/认识cargo",
+              "path": "/docs/rust/base/start/认识cargo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/base/d.ts_Files",
+              "path": "/docs/typescript/base/d.ts_Files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/base/keyof_assertions",
+              "path": "/docs/typescript/base/keyof_assertions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/base/non-null_assertion",
+              "path": "/docs/typescript/base/non-null_assertion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/base/typescript",
+              "path": "/docs/typescript/base/typescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/tsc/cli",
+              "path": "/docs/typescript/tsc/cli",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/tsc/tsconfig",
+              "path": "/docs/typescript/tsc/tsconfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/tsconfig/path",
+              "path": "/docs/typescript/tsconfig/path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/any",
+              "path": "/docs/typescript/types/any",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/array",
+              "path": "/docs/typescript/types/array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/class",
+              "path": "/docs/typescript/types/class",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/enums",
+              "path": "/docs/typescript/types/enums",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/function",
+              "path": "/docs/typescript/types/function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/generics",
+              "path": "/docs/typescript/types/generics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/index_signatures",
+              "path": "/docs/typescript/types/index_signatures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/index_signatures_record_type",
+              "path": "/docs/typescript/types/index_signatures_record_type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/literal",
+              "path": "/docs/typescript/types/literal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/never",
+              "path": "/docs/typescript/types/never",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/object",
+              "path": "/docs/typescript/types/object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/reg_exp",
+              "path": "/docs/typescript/types/reg_exp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/tuple",
+              "path": "/docs/typescript/types/tuple",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/type_assertions",
+              "path": "/docs/typescript/types/type_assertions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/type_interface",
+              "path": "/docs/typescript/types/type_interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/union_type",
+              "path": "/docs/typescript/types/union_type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/unknown",
+              "path": "/docs/typescript/types/unknown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/types/utility_types",
+              "path": "/docs/typescript/types/utility_types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vim/base/vim",
+              "path": "/docs/vim/base/vim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vim/base/vim_commands",
+              "path": "/docs/vim/base/vim_commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vim/hhkb",
+              "path": "/docs/vim/hhkb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vim/vimium/keyboard_bindings",
+              "path": "/docs/vim/vimium/keyboard_bindings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/algorithm",
+              "path": "/docs/category/algorithm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/adding_interactivity/adding_interactivity",
+  "id": "react/docs/adding_interactivity/adding_interactivity",
+  "title": "Adding Interactivity",
+  "description": "In React, data that changes over time is called state.",
+  "source": "@site/docs/react/docs/1_adding_interactivity/0_adding_interactivity.md",
+  "sourceDirName": "react/docs/1_adding_interactivity",
+  "slug": "/react/docs/adding_interactivity/adding_interactivity",
+  "permalink": "/docs/react/docs/adding_interactivity/adding_interactivity",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/1_adding_interactivity/0_adding_interactivity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Keeping Components Pure",
+    "permalink": "/docs/react/docs/describing_the_ui/keeping_components_pure"
+  },
+  "next": {
+    "title": "Responding to Events",
+    "permalink": "/docs/react/docs/adding_interactivity/responding_to_events"
+  }
+}

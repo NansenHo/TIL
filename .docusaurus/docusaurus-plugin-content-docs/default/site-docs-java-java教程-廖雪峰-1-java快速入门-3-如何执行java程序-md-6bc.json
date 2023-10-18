@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/java教程-廖雪峰/java快速入门/如何执行java程序",
+  "id": "java/java教程-廖雪峰/java快速入门/如何执行java程序",
+  "title": "如何执行 Java 程序",
+  "description": "执行 Java 程序的流程图",
+  "source": "@site/docs/java/java教程-廖雪峰/1_java快速入门/3_如何执行java程序.md",
+  "sourceDirName": "java/java教程-廖雪峰/1_java快速入门",
+  "slug": "/java/java教程-廖雪峰/java快速入门/如何执行java程序",
+  "permalink": "/docs/java/java教程-廖雪峰/java快速入门/如何执行java程序",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/java教程-廖雪峰/1_java快速入门/3_如何执行java程序.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第一个 Java 程序",
+    "permalink": "/docs/java/java教程-廖雪峰/java快速入门/第一个java程序"
+  },
+  "next": {
+    "title": "Java 变量与数据类型",
+    "permalink": "/docs/java/java教程-廖雪峰/java快速入门/变量与数据类型"
+  }
+}

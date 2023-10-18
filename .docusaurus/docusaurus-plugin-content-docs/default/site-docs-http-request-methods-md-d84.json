@@ -1,0 +1,24 @@
+{
+  "unversionedId": "http/request_methods",
+  "id": "http/request_methods",
+  "title": "HTTP Request Methods",
+  "description": "上传文件应该使用 PUT",
+  "source": "@site/docs/http/request_methods.md",
+  "sourceDirName": "http",
+  "slug": "/http/request_methods",
+  "permalink": "/docs/http/request_methods",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/http/request_methods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ban_download_pdf",
+    "permalink": "/docs/http/download/ban_download_pdf"
+  },
+  "next": {
+    "title": "HTTP Status Code",
+    "permalink": "/docs/http/sstatus_code"
+  }
+}

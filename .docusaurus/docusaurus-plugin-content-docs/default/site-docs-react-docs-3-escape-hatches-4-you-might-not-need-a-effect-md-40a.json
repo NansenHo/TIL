@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/escape_hatches/you_might_not_need_a_effect",
+  "id": "react/docs/escape_hatches/you_might_not_need_a_effect",
+  "title": "Fixing Race Conditions in React with useEffect - Notes",
+  "description": "If there is no external system involved (for example, if you want to update a component’s state when some props or state change), you shouldn’t need an Effect.",
+  "source": "@site/docs/react/docs/3_escape_hatches/4_you_might_not_need_a_effect.md",
+  "sourceDirName": "react/docs/3_escape_hatches",
+  "slug": "/react/docs/escape_hatches/you_might_not_need_a_effect",
+  "permalink": "/docs/react/docs/escape_hatches/you_might_not_need_a_effect",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/3_escape_hatches/4_you_might_not_need_a_effect.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronizing with Effects",
+    "permalink": "/docs/react/docs/escape_hatches/synchronizing_with_effects"
+  },
+  "next": {
+    "title": "Lifecycle of Reactive Effects",
+    "permalink": "/docs/react/docs/escape_hatches/lifecycle_reactive_effects"
+  }
+}

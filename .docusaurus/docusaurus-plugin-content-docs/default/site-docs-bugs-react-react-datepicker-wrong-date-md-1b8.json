@@ -1,0 +1,24 @@
+{
+  "unversionedId": "bugs/react/react-datepicker_wrong_date",
+  "id": "bugs/react/react-datepicker_wrong_date",
+  "title": "React-datepicker Wrong Date",
+  "description": "Bug 描述",
+  "source": "@site/docs/bugs/react/react-datepicker_wrong_date.md",
+  "sourceDirName": "bugs/react",
+  "slug": "/bugs/react/react-datepicker_wrong_date",
+  "permalink": "/docs/bugs/react/react-datepicker_wrong_date",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bugs/react/react-datepicker_wrong_date.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Most Useful HotKeys",
+    "permalink": "/docs/browser/devtools/hot_keys"
+  },
+  "next": {
+    "title": "Absolute Path And  Relative Path",
+    "permalink": "/docs/computer_fundamentals/absolute_relative_path"
+  }
+}

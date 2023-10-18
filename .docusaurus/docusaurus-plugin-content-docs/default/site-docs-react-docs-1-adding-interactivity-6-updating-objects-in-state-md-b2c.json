@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/adding_interactivity/updating_objects_in_state",
+  "id": "react/docs/adding_interactivity/updating_objects_in_state",
+  "title": "Updating Objects in State",
+  "description": "State can hold any kind of JavaScript value, including objects.",
+  "source": "@site/docs/react/docs/1_adding_interactivity/6_updating_objects_in_state.md",
+  "sourceDirName": "react/docs/1_adding_interactivity",
+  "slug": "/react/docs/adding_interactivity/updating_objects_in_state",
+  "permalink": "/docs/react/docs/adding_interactivity/updating_objects_in_state",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/1_adding_interactivity/6_updating_objects_in_state.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Queueing a Series of State Updates",
+    "permalink": "/docs/react/docs/adding_interactivity/queueing_a_series_of_state_updates"
+  },
+  "next": {
+    "title": "Updating Arrays in State",
+    "permalink": "/docs/react/docs/adding_interactivity/updating_arrays_in_state"
+  }
+}

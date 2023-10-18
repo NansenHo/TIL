@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/函数/内置函数",
+  "id": "python/ryf/函数/内置函数",
+  "title": "内置函数",
+  "description": "Python内置了很多有用的函数，我们可以直接调用。",
+  "source": "@site/docs/python/ryf/4_函数/2_内置函数.md",
+  "sourceDirName": "python/ryf/4_函数",
+  "slug": "/python/ryf/函数/内置函数",
+  "permalink": "/docs/python/ryf/函数/内置函数",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/4_函数/2_内置函数.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "调用函数",
+    "permalink": "/docs/python/ryf/函数/调用函数"
+  },
+  "next": {
+    "title": "定义函数",
+    "permalink": "/docs/python/ryf/函数/定义函数"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/operator/question_dot_",
+  "id": "javascript/base/operator/question_dot_",
+  "title": "?. operator",
+  "description": "The optional chaining operator returns undefined instead of causing an error if a reference is nullish (null or undefined).",
+  "source": "@site/docs/javascript/base/operator/question_dot_.md",
+  "sourceDirName": "javascript/base/operator",
+  "slug": "/javascript/base/operator/question_dot_",
+  "permalink": "/docs/javascript/base/operator/question_dot_",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/operator/question_dot_.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "|| operator and ?? operator",
+    "permalink": "/docs/javascript/base/operator/difference"
+  },
+  "next": {
+    "title": "Optional Chaining(?.) 可选链操作符",
+    "permalink": "/docs/javascript/base/optional_chaining"
+  }
+}

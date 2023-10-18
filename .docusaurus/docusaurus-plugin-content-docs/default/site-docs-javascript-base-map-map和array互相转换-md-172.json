@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/map/map和array互相转换",
+  "id": "javascript/base/map/map和array互相转换",
+  "title": "Map 和 Array 相互转换",
+  "description": "使用常规的 Map 的构造函数可以将一个二维键值对数组转换成一个 Map 对象。",
+  "source": "@site/docs/javascript/base/map/map和array互相转换.md",
+  "sourceDirName": "javascript/base/map",
+  "slug": "/javascript/base/map/map和array互相转换",
+  "permalink": "/docs/javascript/base/map/map和array互相转换",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/map/map和array互相转换.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Iterator",
+    "permalink": "/docs/javascript/base/map/Iterator"
+  },
+  "next": {
+    "title": "Map 和 Object 的区别",
+    "permalink": "/docs/javascript/base/map/map和object的区别"
+  }
+}

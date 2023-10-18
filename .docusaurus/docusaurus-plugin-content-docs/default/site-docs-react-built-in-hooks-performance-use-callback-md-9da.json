@@ -1,0 +1,24 @@
+{
+  "unversionedId": "react/built-in_hooks/performance/useCallback",
+  "id": "react/built-in_hooks/performance/useCallback",
+  "title": "useCallback",
+  "description": "the problem",
+  "source": "@site/docs/react/built-in_hooks/performance/useCallback.md",
+  "sourceDirName": "react/built-in_hooks/performance",
+  "slug": "/react/built-in_hooks/performance/useCallback",
+  "permalink": "/docs/react/built-in_hooks/performance/useCallback",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/built-in_hooks/performance/useCallback.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "memo",
+    "permalink": "/docs/react/built-in_hooks/performance/memo"
+  },
+  "next": {
+    "title": "useContext",
+    "permalink": "/docs/react/built-in_hooks/useContext"
+  }
+}

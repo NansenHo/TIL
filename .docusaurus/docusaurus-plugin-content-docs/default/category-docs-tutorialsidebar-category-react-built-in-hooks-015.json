@@ -1,0 +1,16 @@
+{
+  "title": "React Built-in Hooks",
+  "description": "React Built-in Hooks",
+  "slug": "/category/react-built-in-hooks",
+  "permalink": "/docs/category/react-built-in-hooks",
+  "navigation": {
+    "previous": {
+      "title": "React",
+      "permalink": "/docs/category/react"
+    },
+    "next": {
+      "title": "memo",
+      "permalink": "/docs/react/built-in_hooks/performance/memo"
+    }
+  }
+}

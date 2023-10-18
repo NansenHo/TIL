@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/基础/使用dict和set",
+  "id": "python/ryf/基础/使用dict和set",
+  "title": "使用dict和set",
+  "description": "dict",
+  "source": "@site/docs/python/ryf/3_基础/6_使用dict和set.md",
+  "sourceDirName": "python/ryf/3_基础",
+  "slug": "/python/ryf/基础/使用dict和set",
+  "permalink": "/docs/python/ryf/基础/使用dict和set",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/3_基础/6_使用dict和set.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "循环",
+    "permalink": "/docs/python/ryf/基础/循环"
+  },
+  "next": {
+    "title": "函数",
+    "permalink": "/docs/python/ryf/函数/函数"
+  }
+}

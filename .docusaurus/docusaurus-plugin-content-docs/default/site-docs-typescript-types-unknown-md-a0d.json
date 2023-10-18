@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/unknown",
+  "id": "typescript/types/unknown",
+  "title": "unknown",
+  "description": "unknown is the type-safe counterpart of the any type.",
+  "source": "@site/docs/typescript/types/unknown.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/unknown",
+  "permalink": "/docs/typescript/types/unknown",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/unknown.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "union types",
+    "permalink": "/docs/typescript/types/union_type"
+  },
+  "next": {
+    "title": "Utility Types",
+    "permalink": "/docs/typescript/types/utility_types"
+  }
+}

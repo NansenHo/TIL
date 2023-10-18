@@ -1,0 +1,24 @@
+{
+  "unversionedId": "git/rewrite_commit_msg",
+  "id": "git/rewrite_commit_msg",
+  "title": "Rewrite Commit Message",
+  "description": "",
+  "source": "@site/docs/git/rewrite_commit_msg.md",
+  "sourceDirName": "git",
+  "slug": "/git/rewrite_commit_msg",
+  "permalink": "/docs/git/rewrite_commit_msg",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/git/rewrite_commit_msg.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/docs/git/"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/docs/html/"
+  }
+}

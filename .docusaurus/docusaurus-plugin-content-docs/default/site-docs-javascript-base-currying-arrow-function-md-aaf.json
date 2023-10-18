@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/currying/arrow_function",
+  "id": "javascript/base/currying/arrow_function",
+  "title": "Currying - Arrow Function",
+  "description": "We can use currying to optimize the code above:",
+  "source": "@site/docs/javascript/base/currying/arrow_function.md",
+  "sourceDirName": "javascript/base/currying",
+  "slug": "/javascript/base/currying/arrow_function",
+  "permalink": "/docs/javascript/base/currying/arrow_function",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/currying/arrow_function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "the difference between",
+    "permalink": "/docs/javascript/base/currentTarget_target"
+  },
+  "next": {
+    "title": "Currying - Achieve functionality across different compatibilities",
+    "permalink": "/docs/javascript/base/currying/browser_monitoring"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+  "id": "javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+  "title": "JavaScript 代码在浏览器里是如何被执行的",
+  "description": "1. 下载 JavaScript 文件，获取 JavaScript 代码",
+  "source": "@site/docs/javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的.md",
+  "sourceDirName": "javascript/codewhy_js",
+  "slug": "/javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+  "permalink": "/docs/javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/codewhy_js/javaScript代码在浏览器里是如何被执行的.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ignition",
+    "permalink": "/docs/javascript/codewhy_js/ignition"
+  },
+  "next": {
+    "title": "JS 引擎",
+    "permalink": "/docs/javascript/codewhy_js/js引擎"
+  }
+}

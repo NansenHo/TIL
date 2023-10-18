@@ -1,0 +1,25 @@
+{
+  "unversionedId": "front-end_test/front-end_unit_testing/debug_vitest",
+  "id": "front-end_test/front-end_unit_testing/debug_vitest",
+  "title": "Debug of Vitest",
+  "description": "JavaScript debug terminal",
+  "source": "@site/docs/front-end_test/front-end_unit_testing/8_debug_vitest.md",
+  "sourceDirName": "front-end_test/front-end_unit_testing",
+  "slug": "/front-end_test/front-end_unit_testing/debug_vitest",
+  "permalink": "/docs/front-end_test/front-end_unit_testing/debug_vitest",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front-end_test/front-end_unit_testing/8_debug_vitest.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The core API of Vitest",
+    "permalink": "/docs/front-end_test/front-end_unit_testing/the_core_apis_of_vitest"
+  },
+  "next": {
+    "title": "实现 Mini Test Runner",
+    "permalink": "/docs/front-end_test/front-end_unit_testing/实现mini_test_runner"
+  }
+}

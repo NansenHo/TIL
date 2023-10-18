@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/第一个程序/输入输出",
+  "id": "python/ryf/第一个程序/输入输出",
+  "title": "输入和输出",
+  "description": "输出 print()",
+  "source": "@site/docs/python/ryf/2_第一个程序/1_输入输出.md",
+  "sourceDirName": "python/ryf/2_第一个程序",
+  "slug": "/python/ryf/第一个程序/输入输出",
+  "permalink": "/docs/python/ryf/第一个程序/输入输出",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/2_第一个程序/1_输入输出.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第一个 Python 程序",
+    "permalink": "/docs/python/ryf/第一个程序/第一个程序"
+  },
+  "next": {
+    "title": "Python 基础",
+    "permalink": "/docs/python/ryf/基础/基础"
+  }
+}

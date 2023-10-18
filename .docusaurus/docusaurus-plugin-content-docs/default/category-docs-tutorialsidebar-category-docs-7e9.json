@@ -1,0 +1,16 @@
+{
+  "title": " Docs",
+  "description": "React Docs",
+  "slug": "/category/-docs",
+  "permalink": "/docs/category/-docs",
+  "navigation": {
+    "previous": {
+      "title": "React",
+      "permalink": "/docs/category/react"
+    },
+    "next": {
+      "title": "memo",
+      "permalink": "/docs/react/built-in_hooks/performance/memo"
+    }
+  }
+}

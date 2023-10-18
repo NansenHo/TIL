@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/高级特性/生成器",
+  "id": "python/ryf/高级特性/生成器",
+  "title": "生成器",
+  "description": "",
+  "source": "@site/docs/python/ryf/5_高级特性/3_生成器.md",
+  "sourceDirName": "python/ryf/5_高级特性",
+  "slug": "/python/ryf/高级特性/生成器",
+  "permalink": "/docs/python/ryf/高级特性/生成器",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/5_高级特性/3_生成器.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "列表生成式",
+    "permalink": "/docs/python/ryf/高级特性/列表生成式"
+  },
+  "next": {
+    "title": "迭代器",
+    "permalink": "/docs/python/ryf/高级特性/迭代器"
+  }
+}

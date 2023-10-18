@@ -1,0 +1,24 @@
+{
+  "unversionedId": "algorithm/leetcode/single_number/异或",
+  "id": "algorithm/leetcode/single_number/异或",
+  "title": "异或",
+  "description": "异或，英文为 exclusive OR，缩写成 xor。",
+  "source": "@site/docs/algorithm/leetcode/136_single_number/异或.md",
+  "sourceDirName": "algorithm/leetcode/136_single_number",
+  "slug": "/algorithm/leetcode/single_number/异或",
+  "permalink": "/docs/algorithm/leetcode/single_number/异或",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/algorithm/leetcode/136_single_number/异或.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "算法和数据结构",
+    "permalink": "/docs/algorithm/hello-algo/初识算法/算法是什么"
+  },
+  "next": {
+    "title": "Keep-alive 组件中的 LRU Cache 缓存机制",
+    "permalink": "/docs/algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制"
+  }
+}

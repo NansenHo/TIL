@@ -1,0 +1,25 @@
+{
+  "unversionedId": "python/ryf/基础/基础",
+  "id": "python/ryf/基础/基础",
+  "title": "Python 基础",
+  "description": "基本语法 - 缩进",
+  "source": "@site/docs/python/ryf/3_基础/0_基础.md",
+  "sourceDirName": "python/ryf/3_基础",
+  "slug": "/python/ryf/基础/基础",
+  "permalink": "/docs/python/ryf/基础/基础",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/ryf/3_基础/0_基础.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "输入和输出",
+    "permalink": "/docs/python/ryf/第一个程序/输入输出"
+  },
+  "next": {
+    "title": "数据类型和变量",
+    "permalink": "/docs/python/ryf/基础/数据类型和变量"
+  }
+}

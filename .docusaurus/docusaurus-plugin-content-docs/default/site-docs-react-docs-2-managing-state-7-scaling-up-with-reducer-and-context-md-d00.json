@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/managing_state/scaling_up_with_reducer_and_context",
+  "id": "react/docs/managing_state/scaling_up_with_reducer_and_context",
+  "title": "Scaling Up with Reducer and Context",
+  "description": "Reducers let you consolidate a component’s state update logic.",
+  "source": "@site/docs/react/docs/2_managing_state/7_scaling_up_with_reducer_and_context.md",
+  "sourceDirName": "react/docs/2_managing_state",
+  "slug": "/react/docs/managing_state/scaling_up_with_reducer_and_context",
+  "permalink": "/docs/react/docs/managing_state/scaling_up_with_reducer_and_context",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/2_managing_state/7_scaling_up_with_reducer_and_context.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Passing Data Deeply with Context",
+    "permalink": "/docs/react/docs/managing_state/passing_data_deeply_with_context"
+  },
+  "next": {
+    "title": "Escape Hatches",
+    "permalink": "/docs/react/docs/escape_hatches/escape_hatches"
+  }
+}

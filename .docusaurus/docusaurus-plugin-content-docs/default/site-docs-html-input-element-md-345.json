@@ -1,0 +1,24 @@
+{
+  "unversionedId": "html/input_element",
+  "id": "html/input_element",
+  "title": "<input> element",
+  "description": "如果我们没有填写，就提交的话，会说请填写。这就是自带的验证。",
+  "source": "@site/docs/html/input_element.md",
+  "sourceDirName": "html",
+  "slug": "/html/input_element",
+  "permalink": "/docs/html/input_element",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/html/input_element.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Head Element And Meta Element",
+    "permalink": "/docs/html/head_meta_element"
+  },
+  "next": {
+    "title": "ban_download_pdf",
+    "permalink": "/docs/http/download/ban_download_pdf"
+  }
+}

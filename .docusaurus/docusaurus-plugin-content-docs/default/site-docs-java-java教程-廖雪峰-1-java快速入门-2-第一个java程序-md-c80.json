@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/java教程-廖雪峰/java快速入门/第一个java程序",
+  "id": "java/java教程-廖雪峰/java快速入门/第一个java程序",
+  "title": "第一个 Java 程序",
+  "description": "Java 规定，某个类定义的 public static void main(String[] args) 是 Java 程序的固定入口方法，因此，Java 程序总是从 main 方法开始执行。",
+  "source": "@site/docs/java/java教程-廖雪峰/1_java快速入门/2_第一个java程序.md",
+  "sourceDirName": "java/java教程-廖雪峰/1_java快速入门",
+  "slug": "/java/java教程-廖雪峰/java快速入门/第一个java程序",
+  "permalink": "/docs/java/java教程-廖雪峰/java快速入门/第一个java程序",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/java教程-廖雪峰/1_java快速入门/2_第一个java程序.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Java 简介",
+    "permalink": "/docs/java/java教程-廖雪峰/java快速入门/java简介"
+  },
+  "next": {
+    "title": "如何执行 Java 程序",
+    "permalink": "/docs/java/java教程-廖雪峰/java快速入门/如何执行java程序"
+  }
+}

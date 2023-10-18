@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/codewhy_js/编程语言的三个阶段",
+  "id": "javascript/codewhy_js/编程语言的三个阶段",
+  "title": "编程语言的三个阶段 {ignore=true}",
+  "description": "一、机器语言",
+  "source": "@site/docs/javascript/codewhy_js/编程语言的三个阶段.md",
+  "sourceDirName": "javascript/codewhy_js",
+  "slug": "/javascript/codewhy_js/编程语言的三个阶段",
+  "permalink": "/docs/javascript/codewhy_js/编程语言的三个阶段",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/codewhy_js/编程语言的三个阶段.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "浏览器渲染过程",
+    "permalink": "/docs/javascript/codewhy_js/浏览器渲染过程"
+  },
+  "next": {
+    "title": "Buffer {ignore=true}",
+    "permalink": "/docs/nodejs/buffer"
+  }
+}

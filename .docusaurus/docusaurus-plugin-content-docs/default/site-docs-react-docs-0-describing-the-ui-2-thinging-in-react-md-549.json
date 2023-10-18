@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/describing_the_ui/thinging_in_react",
+  "id": "react/docs/describing_the_ui/thinging_in_react",
+  "title": "Thinking in React",
+  "description": "props is called one-way data flow because the data flows down from the top-level component to the ones at the bottom of the tree.",
+  "source": "@site/docs/react/docs/0_describing_the_ui/2_thinging_in_react.md",
+  "sourceDirName": "react/docs/0_describing_the_ui",
+  "slug": "/react/docs/describing_the_ui/thinging_in_react",
+  "permalink": "/docs/react/docs/describing_the_ui/thinging_in_react",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/0_describing_the_ui/2_thinging_in_react.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tic-tac-toe",
+    "permalink": "/docs/react/docs/describing_the_ui/tic-tac-toe"
+  },
+  "next": {
+    "title": "Describing the UI",
+    "permalink": "/docs/react/docs/describing_the_ui/importing_and_exporting_components"
+  }
+}

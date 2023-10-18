@@ -1,0 +1,24 @@
+{
+  "unversionedId": "html/data-*",
+  "id": "html/data-*",
+  "title": "data-* Attribute",
+  "description": "注意如果存储的是包含键值对的对象，那我们要注意 data-* 属性的单双引号，否则可能出现 undefined 的情况。",
+  "source": "@site/docs/html/data-*.md",
+  "sourceDirName": "html",
+  "slug": "/html/data-*",
+  "permalink": "/docs/html/data-*",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/html/data-*.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "contenteditable Attribute",
+    "permalink": "/docs/html/contexteditable"
+  },
+  "next": {
+    "title": "<form> 表单标签",
+    "permalink": "/docs/html/form_element"
+  }
+}

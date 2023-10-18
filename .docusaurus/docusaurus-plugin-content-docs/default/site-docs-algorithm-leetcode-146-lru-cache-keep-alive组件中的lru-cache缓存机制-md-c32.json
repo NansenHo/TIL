@@ -1,0 +1,24 @@
+{
+  "unversionedId": "algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+  "id": "algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+  "title": "Keep-alive 组件中的 LRU Cache 缓存机制",
+  "description": "试想在 keep-alive 里包裹成百上千个组件，那它会将其所有的状态都保存吗？",
+  "source": "@site/docs/algorithm/leetcode/146_lru_cache/Keep-alive组件中的lru_cache缓存机制.md",
+  "sourceDirName": "algorithm/leetcode/146_lru_cache",
+  "slug": "/algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+  "permalink": "/docs/algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/algorithm/leetcode/146_lru_cache/Keep-alive组件中的lru_cache缓存机制.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "异或",
+    "permalink": "/docs/algorithm/leetcode/single_number/异或"
+  },
+  "next": {
+    "title": "JS 实现简单链表",
+    "permalink": "/docs/algorithm/linked_list/js实现简单链表"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/index_signatures_record_type",
+  "id": "typescript/types/index_signatures_record_type",
+  "title": "The differences between index signatures and record type",
+  "description": "",
+  "source": "@site/docs/typescript/types/index_signatures_record_type.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/index_signatures_record_type",
+  "permalink": "/docs/typescript/types/index_signatures_record_type",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/index_signatures_record_type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Index Signatures",
+    "permalink": "/docs/typescript/types/index_signatures"
+  },
+  "next": {
+    "title": "literal types",
+    "permalink": "/docs/typescript/types/literal"
+  }
+}

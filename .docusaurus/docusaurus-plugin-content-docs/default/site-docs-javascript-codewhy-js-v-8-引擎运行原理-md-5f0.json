@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/codewhy_js/v8引擎运行原理",
+  "id": "javascript/codewhy_js/v8引擎运行原理",
+  "title": "V8 引擎运行原理 {ignore=true}",
+  "description": "[toc]",
+  "source": "@site/docs/javascript/codewhy_js/v8引擎运行原理.md",
+  "sourceDirName": "javascript/codewhy_js",
+  "slug": "/javascript/codewhy_js/v8引擎运行原理",
+  "permalink": "/docs/javascript/codewhy_js/v8引擎运行原理",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/codewhy_js/v8引擎运行原理.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "script 标签中的 async 和 defer 属性",
+    "permalink": "/docs/javascript/codewhy_js/script标签的async和defer属性"
+  },
+  "next": {
+    "title": "抽象语法树",
+    "permalink": "/docs/javascript/codewhy_js/抽象语法树"
+  }
+}

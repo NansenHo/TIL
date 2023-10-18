@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/managing_state/extracting_state_logic_into_a_reducer",
+  "id": "react/docs/managing_state/extracting_state_logic_into_a_reducer",
+  "title": "Extracting State Logic into a Reducer",
+  "description": "Components with many state updates spread across many event handlers can get overwhelming.",
+  "source": "@site/docs/react/docs/2_managing_state/5_extracting_state_logic_into_a_reducer.md",
+  "sourceDirName": "react/docs/2_managing_state",
+  "slug": "/react/docs/managing_state/extracting_state_logic_into_a_reducer",
+  "permalink": "/docs/react/docs/managing_state/extracting_state_logic_into_a_reducer",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/2_managing_state/5_extracting_state_logic_into_a_reducer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preserving and Resetting State",
+    "permalink": "/docs/react/docs/managing_state/preserving_and_resetting_state"
+  },
+  "next": {
+    "title": "Passing Data Deeply with Context",
+    "permalink": "/docs/react/docs/managing_state/passing_data_deeply_with_context"
+  }
+}

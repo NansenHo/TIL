@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/microtasks_macrotasks",
+  "id": "javascript/base/microtasks_macrotasks",
+  "title": "EventLoop: Microtasks and Macrotasks",
+  "description": "事件循环 & 宏任务队列",
+  "source": "@site/docs/javascript/base/microtasks_macrotasks.md",
+  "sourceDirName": "javascript/base",
+  "slug": "/javascript/base/microtasks_macrotasks",
+  "permalink": "/docs/javascript/base/microtasks_macrotasks",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/microtasks_macrotasks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What's Map",
+    "permalink": "/docs/javascript/base/map/whats_map"
+  },
+  "next": {
+    "title": "Object.entries(obj) and Object.fromEntries(iterable)",
+    "permalink": "/docs/javascript/base/object/entries_fromEntries"
+  }
+}

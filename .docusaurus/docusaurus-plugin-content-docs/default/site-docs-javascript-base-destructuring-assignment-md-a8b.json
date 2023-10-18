@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/destructuring_assignment",
+  "id": "javascript/base/destructuring_assignment",
+  "title": "Destructuring assignment",
+  "description": "解构赋值可以让我们将 属性/值 从对象/数组中取出，赋值给其他变量。",
+  "source": "@site/docs/javascript/base/destructuring_assignment.md",
+  "sourceDirName": "javascript/base",
+  "slug": "/javascript/base/destructuring_assignment",
+  "permalink": "/docs/javascript/base/destructuring_assignment",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/destructuring_assignment.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Currying - Reuse Parameter",
+    "permalink": "/docs/javascript/base/currying/repeated_parameter"
+  },
+  "next": {
+    "title": "Function Arguments",
+    "permalink": "/docs/javascript/base/function/arguments"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/tsc/tsconfig",
+  "id": "typescript/tsc/tsconfig",
+  "title": "Every TSconfig option",
+  "description": "",
+  "source": "@site/docs/typescript/tsc/tsconfig.md",
+  "sourceDirName": "typescript/tsc",
+  "slug": "/typescript/tsc/tsconfig",
+  "permalink": "/docs/typescript/tsc/tsconfig",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/tsc/tsconfig.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TSC CLI",
+    "permalink": "/docs/typescript/tsc/cli"
+  },
+  "next": {
+    "title": "Paths",
+    "permalink": "/docs/typescript/tsconfig/path"
+  }
+}

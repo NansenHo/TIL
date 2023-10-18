@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/never",
+  "id": "typescript/types/never",
+  "title": "never",
+  "description": "never is a basic type, but you don't see it often.",
+  "source": "@site/docs/typescript/types/never.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/never",
+  "permalink": "/docs/typescript/types/never",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/never.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "literal types",
+    "permalink": "/docs/typescript/types/literal"
+  },
+  "next": {
+    "title": "object",
+    "permalink": "/docs/typescript/types/object"
+  }
+}

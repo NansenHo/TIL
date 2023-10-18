@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/other/closures",
+  "id": "javascript/base/other/closures",
+  "title": "Closures",
+  "description": "// TODO",
+  "source": "@site/docs/javascript/base/other/closures.md",
+  "sourceDirName": "javascript/base/other",
+  "slug": "/javascript/base/other/closures",
+  "permalink": "/docs/javascript/base/other/closures",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/other/closures.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AbortController",
+    "permalink": "/docs/javascript/base/other/abort_controller"
+  },
+  "next": {
+    "title": "Intersection Observer API",
+    "permalink": "/docs/javascript/base/other/intersection_observer_api"
+  }
+}

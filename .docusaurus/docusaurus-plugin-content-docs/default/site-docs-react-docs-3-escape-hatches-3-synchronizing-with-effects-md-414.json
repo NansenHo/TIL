@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/escape_hatches/synchronizing_with_effects",
+  "id": "react/docs/escape_hatches/synchronizing_with_effects",
+  "title": "Synchronizing with Effects",
+  "description": "Some components need to synchronize with external systems.",
+  "source": "@site/docs/react/docs/3_escape_hatches/3_synchronizing_with_effects.md",
+  "sourceDirName": "react/docs/3_escape_hatches",
+  "slug": "/react/docs/escape_hatches/synchronizing_with_effects",
+  "permalink": "/docs/react/docs/escape_hatches/synchronizing_with_effects",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/3_escape_hatches/3_synchronizing_with_effects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manipulating the DOM with Refs",
+    "permalink": "/docs/react/docs/escape_hatches/manipulating_the_dom_with_refs"
+  },
+  "next": {
+    "title": "Fixing Race Conditions in React with useEffect - Notes",
+    "permalink": "/docs/react/docs/escape_hatches/you_might_not_need_a_effect"
+  }
+}

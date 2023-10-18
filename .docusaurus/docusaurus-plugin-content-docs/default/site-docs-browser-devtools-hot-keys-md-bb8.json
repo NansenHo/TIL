@@ -1,0 +1,24 @@
+{
+  "unversionedId": "browser/devtools/hot_keys",
+  "id": "browser/devtools/hot_keys",
+  "title": "Most Useful HotKeys",
+  "description": "| HotKey | Action |",
+  "source": "@site/docs/browser/devtools/hot_keys.md",
+  "sourceDirName": "browser/devtools",
+  "slug": "/browser/devtools/hot_keys",
+  "permalink": "/docs/browser/devtools/hot_keys",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/browser/devtools/hot_keys.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Command in DevTools",
+    "permalink": "/docs/browser/devtools/command"
+  },
+  "next": {
+    "title": "React-datepicker Wrong Date",
+    "permalink": "/docs/bugs/react/react-datepicker_wrong_date"
+  }
+}

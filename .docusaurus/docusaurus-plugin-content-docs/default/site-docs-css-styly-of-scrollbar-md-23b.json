@@ -1,0 +1,24 @@
+{
+  "unversionedId": "css/styly_of_scrollbar",
+  "id": "css/styly_of_scrollbar",
+  "title": "滚动条样式的修改",
+  "description": "滚动条相关选择器",
+  "source": "@site/docs/css/styly_of_scrollbar.md",
+  "sourceDirName": "css",
+  "slug": "/css/styly_of_scrollbar",
+  "permalink": "/docs/css/styly_of_scrollbar",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/css/styly_of_scrollbar.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "image-rendering 属性",
+    "permalink": "/docs/css/image-rendering"
+  },
+  "next": {
+    "title": "点击某按钮后，为整个页面添加遮罩",
+    "permalink": "/docs/css/uiux/mask"
+  }
+}

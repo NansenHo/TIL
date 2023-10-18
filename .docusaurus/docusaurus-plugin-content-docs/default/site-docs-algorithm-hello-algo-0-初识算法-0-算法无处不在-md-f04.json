@@ -1,0 +1,25 @@
+{
+  "unversionedId": "algorithm/hello-algo/初识算法/算法无处不在",
+  "id": "algorithm/hello-algo/初识算法/算法无处不在",
+  "title": "算法无处不在",
+  "description": "你已经在不知不觉中学会了许多算法，并习惯将它们应用到日常生活中了。",
+  "source": "@site/docs/algorithm/hello-algo/0_初识算法/0_算法无处不在.md",
+  "sourceDirName": "algorithm/hello-algo/0_初识算法",
+  "slug": "/algorithm/hello-algo/初识算法/算法无处不在",
+  "permalink": "/docs/algorithm/hello-algo/初识算法/算法无处不在",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/algorithm/hello-algo/0_初识算法/0_算法无处不在.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithm",
+    "permalink": "/docs/category/algorithm"
+  },
+  "next": {
+    "title": "算法和数据结构",
+    "permalink": "/docs/algorithm/hello-algo/初识算法/算法是什么"
+  }
+}

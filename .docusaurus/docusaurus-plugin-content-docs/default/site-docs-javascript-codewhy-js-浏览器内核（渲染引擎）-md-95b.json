@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/codewhy_js/浏览器内核（渲染引擎）",
+  "id": "javascript/codewhy_js/浏览器内核（渲染引擎）",
+  "title": "浏览器内核（渲染引擎）",
+  "description": "",
+  "source": "@site/docs/javascript/codewhy_js/浏览器内核（渲染引擎）.md",
+  "sourceDirName": "javascript/codewhy_js",
+  "slug": "/javascript/codewhy_js/浏览器内核（渲染引擎）",
+  "permalink": "/docs/javascript/codewhy_js/浏览器内核（渲染引擎）",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/codewhy_js/浏览器内核（渲染引擎）.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "浏览器引擎和 JS 引擎的关系",
+    "permalink": "/docs/javascript/codewhy_js/浏览器内核和js引擎的关系"
+  },
+  "next": {
+    "title": "浏览器渲染过程",
+    "permalink": "/docs/javascript/codewhy_js/浏览器渲染过程"
+  }
+}

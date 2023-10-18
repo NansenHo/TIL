@@ -1,0 +1,24 @@
+{
+  "unversionedId": "css/image-rendering",
+  "id": "css/image-rendering",
+  "title": "image-rendering 属性",
+  "description": "image-rendering 用来设置 图像缩放算法。",
+  "source": "@site/docs/css/image-rendering.md",
+  "sourceDirName": "css",
+  "slug": "/css/image-rendering",
+  "permalink": "/docs/css/image-rendering",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/css/image-rendering.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "@ import keyword",
+    "permalink": "/docs/css/@"
+  },
+  "next": {
+    "title": "滚动条样式的修改",
+    "permalink": "/docs/css/styly_of_scrollbar"
+  }
+}

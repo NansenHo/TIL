@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/codewhy_js/parse",
+  "id": "javascript/codewhy_js/parse",
+  "title": "Parse",
+  "description": "Parse 主要包括词法分析和语法分析。",
+  "source": "@site/docs/javascript/codewhy_js/parse.md",
+  "sourceDirName": "javascript/codewhy_js",
+  "slug": "/javascript/codewhy_js/parse",
+  "permalink": "/docs/javascript/codewhy_js/parse",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/codewhy_js/parse.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JS 引擎",
+    "permalink": "/docs/javascript/codewhy_js/js引擎"
+  },
+  "next": {
+    "title": "script 标签中的 async 和 defer 属性",
+    "permalink": "/docs/javascript/codewhy_js/script标签的async和defer属性"
+  }
+}

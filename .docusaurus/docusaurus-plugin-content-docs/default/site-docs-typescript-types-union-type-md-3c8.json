@@ -1,0 +1,24 @@
+{
+  "unversionedId": "typescript/types/union_type",
+  "id": "typescript/types/union_type",
+  "title": "union types",
+  "description": "",
+  "source": "@site/docs/typescript/types/union_type.md",
+  "sourceDirName": "typescript/types",
+  "slug": "/typescript/types/union_type",
+  "permalink": "/docs/typescript/types/union_type",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typescript/types/union_type.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "type and interface",
+    "permalink": "/docs/typescript/types/type_interface"
+  },
+  "next": {
+    "title": "unknown",
+    "permalink": "/docs/typescript/types/unknown"
+  }
+}

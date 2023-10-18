@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/describing_the_ui/quick_start",
+  "id": "react/docs/describing_the_ui/quick_start",
+  "title": "Quick Start",
+  "description": "React component names must always start with a capital letter, while HTML tags must be lowercase.",
+  "source": "@site/docs/react/docs/0_describing_the_ui/0_quick_start.md",
+  "sourceDirName": "react/docs/0_describing_the_ui",
+  "slug": "/react/docs/describing_the_ui/quick_start",
+  "permalink": "/docs/react/docs/describing_the_ui/quick_start",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/0_describing_the_ui/0_quick_start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useState",
+    "permalink": "/docs/react/built-in_hooks/useState"
+  },
+  "next": {
+    "title": "tic-tac-toe",
+    "permalink": "/docs/react/docs/describing_the_ui/tic-tac-toe"
+  }
+}

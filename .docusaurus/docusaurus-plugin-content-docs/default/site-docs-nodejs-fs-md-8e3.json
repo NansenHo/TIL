@@ -1,0 +1,24 @@
+{
+  "unversionedId": "nodejs/fs",
+  "id": "nodejs/fs",
+  "title": "File System",
+  "description": "fs",
+  "source": "@site/docs/nodejs/fs.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/fs",
+  "permalink": "/docs/nodejs/fs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nodejs/fs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Buffer {ignore=true}",
+    "permalink": "/docs/nodejs/buffer"
+  },
+  "next": {
+    "title": "Global {ignore=true}",
+    "permalink": "/docs/nodejs/global"
+  }
+}

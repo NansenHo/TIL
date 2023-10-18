@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/adding_interactivity/state_a_componts_memory",
+  "id": "react/docs/adding_interactivity/state_a_componts_memory",
+  "title": "State: A Component's Memory",
+  "description": "Components need to \"remember\" things: the current input value, the current image, the shopping cart.",
+  "source": "@site/docs/react/docs/1_adding_interactivity/2_state_a_componts_memory.md",
+  "sourceDirName": "react/docs/1_adding_interactivity",
+  "slug": "/react/docs/adding_interactivity/state_a_componts_memory",
+  "permalink": "/docs/react/docs/adding_interactivity/state_a_componts_memory",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/1_adding_interactivity/2_state_a_componts_memory.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Responding to Events",
+    "permalink": "/docs/react/docs/adding_interactivity/responding_to_events"
+  },
+  "next": {
+    "title": "Render and Commit",
+    "permalink": "/docs/react/docs/adding_interactivity/render_and_commit"
+  }
+}

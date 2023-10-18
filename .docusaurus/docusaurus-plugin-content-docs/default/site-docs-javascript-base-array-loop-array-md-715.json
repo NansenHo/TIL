@@ -1,0 +1,24 @@
+{
+  "unversionedId": "javascript/base/array/loop_array",
+  "id": "javascript/base/array/loop_array",
+  "title": "Loop Through An Array",
+  "description": "1. map",
+  "source": "@site/docs/javascript/base/array/loop_array.md",
+  "sourceDirName": "javascript/base/array",
+  "slug": "/javascript/base/array/loop_array",
+  "permalink": "/docs/javascript/base/array/loop_array",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/base/array/loop_array.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Nature of JavaScript",
+    "permalink": "/docs/javascript/base/array/"
+  },
+  "next": {
+    "title": "the difference between",
+    "permalink": "/docs/javascript/base/currentTarget_target"
+  }
+}

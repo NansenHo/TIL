@@ -1,0 +1,24 @@
+{
+  "unversionedId": "algorithm/linked_list/js实现简单链表",
+  "id": "algorithm/linked_list/js实现简单链表",
+  "title": "JS 实现简单链表",
+  "description": "使用 node 执行该段 代码。",
+  "source": "@site/docs/algorithm/linked_list/js实现简单链表.md",
+  "sourceDirName": "algorithm/linked_list",
+  "slug": "/algorithm/linked_list/js实现简单链表",
+  "permalink": "/docs/algorithm/linked_list/js实现简单链表",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/algorithm/linked_list/js实现简单链表.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Keep-alive 组件中的 LRU Cache 缓存机制",
+    "permalink": "/docs/algorithm/leetcode/lru_cache/Keep-alive组件中的lru_cache缓存机制"
+  },
+  "next": {
+    "title": "从 React 虚拟 DOM 架构升级看树和链表的关系",
+    "permalink": "/docs/algorithm/linked_list/从react虚拟dom架构升级看树和链表的关系"
+  }
+}

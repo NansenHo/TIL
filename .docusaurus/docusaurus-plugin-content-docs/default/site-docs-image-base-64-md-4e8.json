@@ -1,0 +1,24 @@
+{
+  "unversionedId": "image/base64",
+  "id": "image/base64",
+  "title": "Base64",
+  "description": "What’s Base64",
+  "source": "@site/docs/image/base64.md",
+  "sourceDirName": "image",
+  "slug": "/image/base64",
+  "permalink": "/docs/image/base64",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/image/base64.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP Status Code",
+    "permalink": "/docs/http/sstatus_code"
+  },
+  "next": {
+    "title": "Java",
+    "permalink": "/docs/java/"
+  }
+}

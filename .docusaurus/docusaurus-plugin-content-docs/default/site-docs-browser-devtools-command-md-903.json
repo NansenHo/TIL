@@ -1,0 +1,24 @@
+{
+  "unversionedId": "browser/devtools/command",
+  "id": "browser/devtools/command",
+  "title": "Use Command in DevTools",
+  "description": "What's Command in DevTools",
+  "source": "@site/docs/browser/devtools/command.md",
+  "sourceDirName": "browser/devtools",
+  "slug": "/browser/devtools/command",
+  "permalink": "/docs/browser/devtools/command",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/browser/devtools/command.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Console.log() 的 bug",
+    "permalink": "/docs/browser/devtools/bug_of_console_log"
+  },
+  "next": {
+    "title": "Most Useful HotKeys",
+    "permalink": "/docs/browser/devtools/hot_keys"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "algorithm/位运算/位运算",
+  "id": "algorithm/位运算/位运算",
+  "title": "位运算",
+  "description": "什么是位运算",
+  "source": "@site/docs/algorithm/位运算/位运算.md",
+  "sourceDirName": "algorithm/位运算",
+  "slug": "/algorithm/位运算/",
+  "permalink": "/docs/algorithm/位运算/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/algorithm/位运算/位运算.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "从数据结构层面理解 JS 对象",
+    "permalink": "/docs/algorithm/从数据结构层面理解JS对象"
+  },
+  "next": {
+    "title": "位运算符在 Vue 源码中的运用例子",
+    "permalink": "/docs/algorithm/位运算/位运算在Vue源码中的运用"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "nodejs/npm/additional_flags_npm_install",
+  "id": "nodejs/npm/additional_flags_npm_install",
+  "title": "Additional Flags For npm install",
+  "description": "NPM DOCS - npm install",
+  "source": "@site/docs/nodejs/npm/additional_flags_npm_install.md",
+  "sourceDirName": "nodejs/npm",
+  "slug": "/nodejs/npm/additional_flags_npm_install",
+  "permalink": "/docs/nodejs/npm/additional_flags_npm_install",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nodejs/npm/additional_flags_npm_install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Global {ignore=true}",
+    "permalink": "/docs/nodejs/global"
+  },
+  "next": {
+    "title": "package.json",
+    "permalink": "/docs/nodejs/npm/package_versions"
+  }
+}

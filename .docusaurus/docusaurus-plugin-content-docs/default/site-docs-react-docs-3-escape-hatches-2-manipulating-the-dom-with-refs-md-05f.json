@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/escape_hatches/manipulating_the_dom_with_refs",
+  "id": "react/docs/escape_hatches/manipulating_the_dom_with_refs",
+  "title": "Manipulating the DOM with Refs",
+  "description": "React automatically updates the DOM to match your render output, so your components won’t often need to manipulate it.",
+  "source": "@site/docs/react/docs/3_escape_hatches/2_manipulating_the_dom_with_refs.md",
+  "sourceDirName": "react/docs/3_escape_hatches",
+  "slug": "/react/docs/escape_hatches/manipulating_the_dom_with_refs",
+  "permalink": "/docs/react/docs/escape_hatches/manipulating_the_dom_with_refs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/3_escape_hatches/2_manipulating_the_dom_with_refs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Referencing Values with Refs",
+    "permalink": "/docs/react/docs/escape_hatches/referencing_values_with_refs"
+  },
+  "next": {
+    "title": "Synchronizing with Effects",
+    "permalink": "/docs/react/docs/escape_hatches/synchronizing_with_effects"
+  }
+}

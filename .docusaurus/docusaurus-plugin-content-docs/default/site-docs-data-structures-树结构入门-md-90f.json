@@ -1,0 +1,24 @@
+{
+  "unversionedId": "data_structures/树结构入门",
+  "id": "data_structures/树结构入门",
+  "title": "树结构入门",
+  "description": "数组和链表，是所有数据结构的基础。",
+  "source": "@site/docs/data_structures/树结构入门.md",
+  "sourceDirName": "data_structures",
+  "slug": "/data_structures/树结构入门",
+  "permalink": "/docs/data_structures/树结构入门",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data_structures/树结构入门.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "数据结构本质上只有数组和链表",
+    "permalink": "/docs/data_structures/数据结构本质上只有数组和链表"
+  },
+  "next": {
+    "title": "链表和数组",
+    "permalink": "/docs/data_structures/链表和数组"
+  }
+}

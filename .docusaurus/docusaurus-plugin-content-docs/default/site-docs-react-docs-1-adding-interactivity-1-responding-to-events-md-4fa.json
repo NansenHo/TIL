@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/adding_interactivity/responding_to_events",
+  "id": "react/docs/adding_interactivity/responding_to_events",
+  "title": "Responding to Events",
+  "description": "You can define an event handler inline in the JSX:",
+  "source": "@site/docs/react/docs/1_adding_interactivity/1_responding_to_events.md",
+  "sourceDirName": "react/docs/1_adding_interactivity",
+  "slug": "/react/docs/adding_interactivity/responding_to_events",
+  "permalink": "/docs/react/docs/adding_interactivity/responding_to_events",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/1_adding_interactivity/1_responding_to_events.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Adding Interactivity",
+    "permalink": "/docs/react/docs/adding_interactivity/adding_interactivity"
+  },
+  "next": {
+    "title": "State: A Component's Memory",
+    "permalink": "/docs/react/docs/adding_interactivity/state_a_componts_memory"
+  }
+}

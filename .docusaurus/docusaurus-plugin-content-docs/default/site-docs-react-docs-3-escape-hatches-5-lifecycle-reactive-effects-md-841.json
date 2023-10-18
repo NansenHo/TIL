@@ -1,0 +1,25 @@
+{
+  "unversionedId": "react/docs/escape_hatches/lifecycle_reactive_effects",
+  "id": "react/docs/escape_hatches/lifecycle_reactive_effects",
+  "title": "Lifecycle of Reactive Effects",
+  "description": "Effects have a different lifecycle from components. Components may mount, update, or unmount.",
+  "source": "@site/docs/react/docs/3_escape_hatches/5_lifecycle_reactive_effects.md",
+  "sourceDirName": "react/docs/3_escape_hatches",
+  "slug": "/react/docs/escape_hatches/lifecycle_reactive_effects",
+  "permalink": "/docs/react/docs/escape_hatches/lifecycle_reactive_effects",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/docs/3_escape_hatches/5_lifecycle_reactive_effects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fixing Race Conditions in React with useEffect - Notes",
+    "permalink": "/docs/react/docs/escape_hatches/you_might_not_need_a_effect"
+  },
+  "next": {
+    "title": "Separating Events from Events",
+    "permalink": "/docs/react/docs/escape_hatches/separating_events_from_events"
+  }
+}

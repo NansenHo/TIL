@@ -1,0 +1,24 @@
+{
+  "unversionedId": "books/the_clean_coder/index",
+  "id": "books/the_clean_coder/index",
+  "title": "The Clean Coder《代码整洁之道：程序员的职业素养》",
+  "description": "罗伯特 C. 马丁",
+  "source": "@site/docs/books/the_clean_coder/index.md",
+  "sourceDirName": "books/the_clean_coder",
+  "slug": "/books/the_clean_coder/",
+  "permalink": "/docs/books/the_clean_coder/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/books/the_clean_coder/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "《JavaScript 设计模式与开发实践》",
+    "permalink": "/docs/books/javascript设计模式与开发实践/"
+  },
+  "next": {
+    "title": "$ in Console",
+    "permalink": "/docs/browser/devtools/$"
+  }
+}

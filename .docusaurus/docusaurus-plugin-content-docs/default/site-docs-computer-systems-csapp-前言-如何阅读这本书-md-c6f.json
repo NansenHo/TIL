@@ -1,0 +1,20 @@
+{
+  "unversionedId": "computer_systems/csapp/前言/如何阅读这本书",
+  "id": "computer_systems/csapp/前言/如何阅读这本书",
+  "title": "如何阅读这本书",
+  "description": "",
+  "source": "@site/docs/computer_systems/csapp/前言/如何阅读这本书.md",
+  "sourceDirName": "computer_systems/csapp/前言",
+  "slug": "/computer_systems/csapp/前言/如何阅读这本书",
+  "permalink": "/docs/computer_systems/csapp/前言/如何阅读这本书",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer_systems/csapp/前言/如何阅读这本书.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "关于作者 - Randal E. Bryant",
+    "permalink": "/docs/computer_systems/csapp/前言/关于作者"
+  }
+}
