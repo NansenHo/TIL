@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "算法复杂度的计算",
+    "permalink": "/docs/algorithm/算法复杂度的计算"
   },
   "next": {
-    "title": "The Clean Coder《代码整洁之道：程序员的职业素养》",
-    "permalink": "/docs/books/the_clean_coder/"
+    "title": "前言",
+    "permalink": "/docs/books/javascript设计模式与开发实践/前言"
   }
 }

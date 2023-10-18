@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Factory Method",
-    "permalink": "/docs/design_patterns/creational_patterns/factory_method"
+    "title": "Docker Commands",
+    "permalink": "/docs/docker/docker_commands"
   },
   "next": {
     "title": "接觸資安才發現我不懂前端 - Notes",

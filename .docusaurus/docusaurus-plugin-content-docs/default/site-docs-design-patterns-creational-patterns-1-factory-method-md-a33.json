@@ -19,7 +19,7 @@
     "permalink": "/docs/design_patterns/"
   },
   "next": {
-    "title": "Webpack Proxy 的三个事件",
-    "permalink": "/docs/front-end_engineering/webpack/proxy_events"
+    "title": "Docker Commands",
+    "permalink": "/docs/docker/docker_commands"
   }
 }

@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '2da'),
+    component: ComponentCreator('/docs', 'c47'),
     routes: [
       {
         path: '/docs/algorithm/hello-algo/初识算法/算法无处不在',
@@ -162,8 +162,44 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/books/javascript设计模式与开发实践/',
-        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/', '6a0'),
+        path: '/docs/books/javascript设计模式与开发实践/前言',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/前言', '4c1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript', 'e59'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply', 'bfb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数', '751'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第一部分/第一部分',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第一部分/第一部分', '276'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第二部分/2_4_单例模式',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第二部分/2_4_单例模式', 'de3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/books/javascript设计模式与开发实践/第二部分/第二部分',
+        component: ComponentCreator('/docs/books/javascript设计模式与开发实践/第二部分/第二部分', '87b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -206,18 +242,6 @@ export default [
       {
         path: '/docs/category/algorithm',
         component: ComponentCreator('/docs/category/algorithm', 'bec'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -278,6 +302,12 @@ export default [
       {
         path: '/docs/design_patterns/creational_patterns/factory_method',
         component: ComponentCreator('/docs/design_patterns/creational_patterns/factory_method', 'c19'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docker/docker_commands',
+        component: ComponentCreator('/docs/docker/docker_commands', '196'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -440,12 +470,6 @@ export default [
       {
         path: '/docs/image/base64',
         component: ComponentCreator('/docs/image/base64', 'feb'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -1286,54 +1310,6 @@ export default [
       {
         path: '/docs/rust/base/start/认识cargo',
         component: ComponentCreator('/docs/rust/base/start/认识cargo', '403'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

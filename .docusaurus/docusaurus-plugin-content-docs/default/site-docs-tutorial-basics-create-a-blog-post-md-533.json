@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
   },
   "next": {
     "title": "Markdown Features",

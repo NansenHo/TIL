@@ -4,8 +4,8 @@
   "permalink": "/docs/category/tutorial---extras",
   "navigation": {
     "previous": {
-      "title": "Congratulations!",
-      "permalink": "/docs/tutorial-basics/congratulations"
+      "title": "算法复杂度的计算",
+      "permalink": "/docs/algorithm/算法复杂度的计算"
     },
     "next": {
       "title": "Manage Docs Versions",

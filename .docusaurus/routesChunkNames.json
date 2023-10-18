@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-2da": {
+  "/docs-c47": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docse-4-e-950"
@@ -233,9 +233,33 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-algorithm-算法复杂度的计算-340-651"
   },
-  "/docs/books/javascript设计模式与开发实践/-6a0": {
+  "/docs/books/javascript设计模式与开发实践/前言-4c1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-books-javascript设计模式与开发实践-995-0df"
+    "content": "content---docs-books-javascript设计模式与开发实践-前言-9-ef-bae"
+  },
+  "/docs/books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript-e59": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第一部分-1-1-面向对象的javascripte-03-633"
+  },
+  "/docs/books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply-bfb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第一部分-1-2-this-call-applyc-29-11e"
+  },
+  "/docs/books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数-751": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第一部分-1-3-闭包和高阶函数f-03-f40"
+  },
+  "/docs/books/javascript设计模式与开发实践/第一部分/第一部分-276": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第一部分-第一部分a-68-6cd"
+  },
+  "/docs/books/javascript设计模式与开发实践/第二部分/2_4_单例模式-de3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第二部分-2-4-单例模式-9-c-5-e2d"
+  },
+  "/docs/books/javascript设计模式与开发实践/第二部分/第二部分-87b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-javascript设计模式与开发实践-第二部分-第二部分-77-b-f29"
   },
   "/docs/books/the_clean_coder/-a5f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -264,14 +288,6 @@
   "/docs/category/algorithm-bec": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-algorithm-278-62b"
-  },
-  "/docs/category/tutorial---basics-d44": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-basicsea-8-8c8"
-  },
-  "/docs/category/tutorial---extras-f09": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-extrasc-84-abc"
   },
   "/docs/computer_fundamentals/absolute_relative_path-a19": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -312,6 +328,10 @@
   "/docs/design_patterns/creational_patterns/factory_method-c19": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-design-patterns-creational-patterns-factory-methoda-33-e1c"
+  },
+  "/docs/docker/docker_commands-196": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-docker-commands-12-b-2fd"
   },
   "/docs/front-end_engineering/webpack/proxy_events-c06": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -420,10 +440,6 @@
   "/docs/image/base64-feb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-image-base-644-e-8-4f3"
-  },
-  "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/java/-e31": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -984,38 +1000,6 @@
   "/docs/rust/base/start/认识cargo-403": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rust-base-start-认识cargo-45-d-4c7"
-  },
-  "/docs/tutorial-basics/congratulations-793": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
-  },
-  "/docs/tutorial-basics/create-a-document-c2d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
-  },
-  "/docs/tutorial-basics/create-a-page-f44": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
-  },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/docs/tutorial-basics/markdown-features-4b7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
   "/docs/typescript/base/d.ts_Files-aef": {
     "__comp": "__comp---theme-doc-item-178-a40",

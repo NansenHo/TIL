@@ -10,12 +10,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
-      {
         "type": "category",
         "label": "Algorithm",
         "collapsible": true,
@@ -137,81 +131,75 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
-          }
-        ],
-        "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
-      },
-      {
-        "type": "category",
         "label": "books",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "《JavaScript 设计模式与开发实践》",
-            "href": "/docs/books/javascript设计模式与开发实践/",
-            "docId": "books/javascript设计模式与开发实践/index"
+            "type": "category",
+            "label": "javascript设计模式与开发实践",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "前言",
+                "href": "/docs/books/javascript设计模式与开发实践/前言",
+                "docId": "books/javascript设计模式与开发实践/前言"
+              },
+              {
+                "type": "category",
+                "label": "第一部分",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "第一部分 基础知识",
+                    "href": "/docs/books/javascript设计模式与开发实践/第一部分/第一部分",
+                    "docId": "books/javascript设计模式与开发实践/第一部分/第一部分"
+                  },
+                  {
+                    "type": "link",
+                    "label": "第一章：面向对象的 JavaScript",
+                    "href": "/docs/books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript",
+                    "docId": "books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript"
+                  },
+                  {
+                    "type": "link",
+                    "label": "第二章：this, call 和 apply",
+                    "href": "/docs/books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply",
+                    "docId": "books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply"
+                  },
+                  {
+                    "type": "link",
+                    "label": "第三章 闭包和高阶函数",
+                    "href": "/docs/books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数",
+                    "docId": "books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "第二部分",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "第二部分 设计模式",
+                    "href": "/docs/books/javascript设计模式与开发实践/第二部分/第二部分",
+                    "docId": "books/javascript设计模式与开发实践/第二部分/第二部分"
+                  },
+                  {
+                    "type": "link",
+                    "label": "第四章 单例模式",
+                    "href": "/docs/books/javascript设计模式与开发实践/第二部分/2_4_单例模式",
+                    "docId": "books/javascript设计模式与开发实践/第二部分/2_4_单例模式"
+                  }
+                ]
+              }
+            ]
           },
           {
             "type": "link",
@@ -385,6 +373,20 @@
           }
         ],
         "href": "/docs/design_patterns/"
+      },
+      {
+        "type": "category",
+        "label": "docker",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Docker Commands",
+            "href": "/docs/docker/docker_commands",
+            "docId": "docker/docker_commands"
+          }
+        ]
       },
       {
         "type": "category",
@@ -2076,10 +2078,46 @@
       "description": "时间复杂度 & 空间复杂度",
       "sidebar": "tutorialSidebar"
     },
-    "books/javascript设计模式与开发实践/index": {
-      "id": "books/javascript设计模式与开发实践/index",
-      "title": "《JavaScript 设计模式与开发实践》",
-      "description": "曾探",
+    "books/javascript设计模式与开发实践/前言": {
+      "id": "books/javascript设计模式与开发实践/前言",
+      "title": "前言",
+      "description": "有些程序员把设计模式视为圣经，唯模式至上；",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript": {
+      "id": "books/javascript设计模式与开发实践/第一部分/1_1_面向对象的javascript",
+      "title": "第一章：面向对象的 JavaScript",
+      "description": "1.1 动态类型语言和鸭子类型",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply": {
+      "id": "books/javascript设计模式与开发实践/第一部分/1_2_this_call_apply",
+      "title": "第二章：this, call 和 apply",
+      "description": "2.1 this",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数": {
+      "id": "books/javascript设计模式与开发实践/第一部分/1_3_闭包和高阶函数",
+      "title": "第三章 闭包和高阶函数",
+      "description": "虽然 JavaScript 是一门完整的面向对象的编程语言，但这门语言同时也拥有许多函数式语言的特性。",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第一部分/第一部分": {
+      "id": "books/javascript设计模式与开发实践/第一部分/第一部分",
+      "title": "第一部分 基础知识",
+      "description": "JavaScript 没有提供传统面向对象语言中的类式继承，而是通过原型委托的方式来实现对象与对象之间的继承。",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第二部分/2_4_单例模式": {
+      "id": "books/javascript设计模式与开发实践/第二部分/2_4_单例模式",
+      "title": "第四章 单例模式",
+      "description": "单例模式的定义是：",
+      "sidebar": "tutorialSidebar"
+    },
+    "books/javascript设计模式与开发实践/第二部分/第二部分": {
+      "id": "books/javascript设计模式与开发实践/第二部分/第二部分",
+      "title": "第二部分 设计模式",
+      "description": "在将函数作为一等对象的语言中，有许多需要利用对象多态性的设计模式，比如命令模式、策略模式等，",
       "sidebar": "tutorialSidebar"
     },
     "books/the_clean_coder/index": {
@@ -2176,6 +2214,12 @@
       "id": "design_patterns/design_patterns",
       "title": "What's a design pattern?",
       "description": "Design patterns are typical solutions to commonly occurring problems in software design.",
+      "sidebar": "tutorialSidebar"
+    },
+    "docker/docker_commands": {
+      "id": "docker/docker_commands",
+      "title": "Docker Commands",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "front-end_engineering/webpack/proxy_events": {
@@ -2338,12 +2382,6 @@
       "id": "image/base64",
       "title": "Base64",
       "description": "What’s Base64",
-      "sidebar": "tutorialSidebar"
-    },
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },
     "java/java教程-廖雪峰/java快速入门/java简介": {
@@ -3184,54 +3222,6 @@
       "id": "rust/base/start/认识cargo",
       "title": "认识 Cargo",
       "description": "cargo 是什么",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
       "sidebar": "tutorialSidebar"
     },
     "typescript/base/d.ts_Files": {

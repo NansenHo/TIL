@@ -4,10 +4,6 @@
   "slug": "/category/algorithm",
   "permalink": "/docs/category/algorithm",
   "navigation": {
-    "previous": {
-      "title": "Tutorial Intro",
-      "permalink": "/docs/intro"
-    },
     "next": {
       "title": "算法无处不在",
       "permalink": "/docs/algorithm/hello-algo/初识算法/算法无处不在"
