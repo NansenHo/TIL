@@ -3,13 +3,31 @@
 使用常规的 Map 的构造函数可以将一个**二维键值对数组**转换成一个 Map 对象。
 
 ```javascript
-let codeTable = new Map([['zh', '86'], ['zh-CN', '86'], ['ja', '81'], ['ja-JP', '81'], ['en-US', '1'],['en-GB', '44'], ['ko', '82'], ['ko-KR', '82']]);
+let codeTable = new Map([
+  ["zh", "86"],
+  ["zh-CN", "86"],
+  ["ja", "81"],
+  ["ja-JP", "81"],
+  ["en-US", "1"],
+  ["en-GB", "44"],
+  ["ko", "82"],
+  ["ko-KR", "82"],
+]);
 ```
 
 使用 `... 展开运算符` / `Array.from()` 方法又可以将一个 Map 对象转换成一个**二维键值对数组**。
 
 ```javascript
-let codeTable = new Map([['zh', '86'], ['zh-CN', '86'], ['ja', '81'], ['ja-JP', '81'], ['en-US', '1'],['en-GB', '44'], ['ko', '82'], ['ko-KR', '82']]);
+let codeTable = new Map([
+  ["zh", "86"],
+  ["zh-CN", "86"],
+  ["ja", "81"],
+  ["ja-JP", "81"],
+  ["en-US", "1"],
+  ["en-GB", "44"],
+  ["ko", "82"],
+  ["ko-KR", "82"],
+]);
 console.log(codeTable);
 
 // 展开运算符

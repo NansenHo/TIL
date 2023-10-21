@@ -1,4 +1,4 @@
-# package.json 
+# package.json
 
 ```json
   "dependencies": {
@@ -22,8 +22,8 @@
 
 1. `^major.minor.patch`
 
-The `^` symbol signifies that any higher `MINOR` or `PATCH` version would satisfy this version constraint. 
-   
+The `^` symbol signifies that any higher `MINOR` or `PATCH` version would satisfy this version constraint.
+
 2. `~major.minor.patch`
 
-The `~` symbol signifies that any higher `PATCH` version would satisfy the version constraint. 
+The `~` symbol signifies that any higher `PATCH` version would satisfy the version constraint.
