@@ -2,7 +2,7 @@
 
 ## Bug 描述
 
-有一个日期选择器（只选日期，不选几点钟），在选到第三次的时候，选中的日期就会自己增长一天。
+有一个日期选择器（只选日期，不选时间），在选到第三次的时候，选中的日期就会自己增长一天。
 
 比如，我选了 2023/10/10， 实际组件展示的数据是 2023/10/10，
 2023/10/09，实际组件展示的数据是 2023/10/09，
@@ -85,5 +85,3 @@
    > 相关 issue：[Hacker0x01 / react-datepicker - Function bound to onChange receives wrong date #226](https://github.com/Hacker0x01/react-datepicker/issues/226)
 
 3. **选择解决方案**
-
-    
