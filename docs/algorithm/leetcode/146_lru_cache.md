@@ -93,6 +93,10 @@ console.log(cache.keys());
 ## 题解
 
 ```js
+/**
+ * @param {number} capacity
+ */
+// 构造函数
 var LRUCache = function (capacity) {
   this.cache = new Map();
   this.max = capacity;
@@ -104,12 +108,10 @@ var LRUCache = function (capacity) {
  */
 LRUCache.prototype.get = function (key) {
   if (this.cache.has(key)) {
-    let val = this.cache.get(key);
-    // 如果再放进来一个已经存在的组件
-    // 那需要将该组件放到最前面，表示最近最常被使用
+    const value = this.cache.get(key);
     this.cache.delete(key);
-    this.cache.set(key, val);
-    return val;
+    this.cache.set(key, value);
+    return value;
   }
   return -1;
 };
@@ -120,14 +122,32 @@ LRUCache.prototype.get = function (key) {
  * @return {void}
  */
 LRUCache.prototype.put = function (key, value) {
-  // 如果 key 已存在，那就是需要更新 key 的 value
+  // 如果已经存在，就更新其 value，并将其放到最近被使用的位置
   if (this.cache.has(key)) {
     this.cache.delete(key);
-  } else if (this.cache.size === this.max) {
-    // this.cache.keys().next().value 就是 least recently used key
-    // map.keys()，即Interator 生成器类型的 LRU 在最左边
-    this.cache.delete(this.cache.keys().next().value);
+  } else if (this.cache.size >= this.max) {
+    const lru_key = this.cache.keys().next().value;
+    this.cache.delete(lru_key);
   }
   this.cache.set(key, value);
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * var obj = new LRUCache(capacity)
+ * var param_1 = obj.get(key)
+ * obj.put(key,value)
+ */
+
+//TEST
+lRUCache = new LRUCache(2);
+lRUCache.put(1, 1); // cache is {1=1}
+lRUCache.put(2, 2); // cache is {1=1, 2=2}
+lRUCache.get(1); // return 1
+lRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+lRUCache.get(2); // returns -1 (not found)
+lRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
+lRUCache.get(1); // return -1 (not found)
+lRUCache.get(3); // return 3
+lRUCache.get(4); // return 4
 ```
