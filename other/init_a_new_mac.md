@@ -23,6 +23,7 @@
   > 注意，邮箱最好要和 GitHub 帐号邮箱一致，否则有可能提交代码不算入 contribution。
 
 - node
+- ts-node `pnpm add -g ts-node`
 - yarn
 - pnpm
 - python

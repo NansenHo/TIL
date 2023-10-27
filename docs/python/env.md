@@ -15,14 +15,14 @@ brew install sam
 在项目中，
 
 ```bash
+# 创建虚拟环境
 python3 -m venv .venv
 
 # 安装所有项目依赖
 pip install -r requirements.txt
 
-#
+# 激活虚拟环境
 source .venv/bin/activate
-
 ```
 
 ## 跑 Python 项目
@@ -54,5 +54,5 @@ pip install -r requirements.txt
 
 ```bash
 # 运行 pytest 文件
-python . -vs
+pytest path
 ```
