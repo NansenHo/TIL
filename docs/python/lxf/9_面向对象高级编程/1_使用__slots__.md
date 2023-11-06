@@ -48,5 +48,12 @@ Student.set_score = set_score
 class Student(object):
     # 用 tuple 来定义允许绑定的属性名称
     __slots__ = ('name', 'age')
+
+s = Student()
+s.score = 99
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# AttributeError: 'Student' object has no attribute 'score'
 ```
 
+`__slots__` 定义的属性仅对当前类实例起作用，对继承的子类是不起作用的。
