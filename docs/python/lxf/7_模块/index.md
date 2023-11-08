@@ -31,9 +31,9 @@ mycompany
 
 包里面的 `__init__.py` 可以是空文件，也可以有 Python 代码。
 
-`__init__.py` 本身就是一个模块。
+`__init__.py` 本身也是一个模块。
 
-这个示例 `__init__.py` 的模块名就是 `mycompany`。
+这个示例下， `__init__.py` 的模块名就是 `mycompany`。
 
 ### 多级目录
 

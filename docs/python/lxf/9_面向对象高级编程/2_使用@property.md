@@ -63,7 +63,9 @@ class Student(object):
 
 而 `age` 就是一个只读属性，因为 `age` 可以根据 `birth` 和当前时间计算出来。
 
-属性的方法名不要和实例变量重名。
+注意属性的方法名不要和实例变量重名。
+
+下面代码就是错误的：
 
 ```python
 class Student(object):
@@ -74,4 +76,42 @@ class Student(object):
         return self.birth
 ```
 
+因为调用 `s.birth` 时，首先转换为方法调用，在执行 `return self.birth` 时，又视为访问 `self` 的属性，于是又转换为方法调用，造成无限递归，最终导致栈溢出报错 `RecursionError`。
 
+`@property` 广泛应用在类的定义中，可以让调用者写出简短的代码，同时保证对参数进行必要的检查。这样，程序运行时就减少了出错的可能性。
+
+## 练习
+
+请利用 `@property` 给一个 `Screen` 对象加上 `width` 和 `height` 属性，以及一个只读属性 `resolution`：
+
+```python
+# -*- coding: utf-8 -*-
+class Screen(object):
+    @property
+    def width(self):
+        return self._width
+    @width.setter
+    def width(self, value):
+        self._width = value
+
+    @property
+    def height(self):
+        return self._height
+    @height.setter
+    def height(self, value):
+        self._height = value
+
+    @property
+    def resolution(self):
+        return self._width * self._height
+
+# 测试:
+s = Screen()
+s.width = 1024
+s.height = 768
+print('resolution =', s.resolution)
+if s.resolution == 786432:
+    print('测试通过!')
+else:
+    print('测试失败!')
+```
