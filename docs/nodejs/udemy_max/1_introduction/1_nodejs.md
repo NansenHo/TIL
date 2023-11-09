@@ -10,7 +10,7 @@ NodeJS is an open-source, cross-platform JavaScript runtime environment.
 
 ## Starting and stopping the REPL
 
-> What is REPL: 
+> What is REPL:
 >
 > - Read - Read user input
 > - Eval - Evaluate user input
@@ -27,6 +27,7 @@ node
 ### The REPL vs Using files
 
 - The REPL
+
   - a great playground
   - execute code as you write it
 
@@ -37,31 +38,30 @@ node
 ## Understanding the role & usage of Node.js
 
 1. **Run Server**
-   
-	 - Create Server
-	 - Listen to Incoming Requests
+
+   - Create Server
+   - Listen to Incoming Requests
 
 With Node.js, you don't just write the code that is running on your server, you also write the server yourself.
 
 > In PHP, you have extra tools like apache or nginx which run the servers which listen to incoming requests and then execute your PHP code.
-> 
+>
 > Here, Node.js does both.
 
 2. **Your Business Logic**
 
-	- Handle Requests
-	- Validate Input
-	- Connect to Database
-	- Authentication
-	- ...
+   - Handle Requests
+   - Validate Input
+   - Connect to Database
+   - Authentication
+   - ...
 
 > The browser can always be tricked, users can even edit their browser side code.
 
 > Everything our users shouldn't see which takes too much time to run in the browser.
 
 3. **Responses**
-   
-	 - Return Responses (rendered HTML, JSON, XML, Files, ...) 
+
+   - Return Responses (rendered HTML, JSON, XML, Files, ...)
 
 We can use Node.js for more than just Server-side Code. Node.js is also a great tool for writing **utility scripts** and **building tools** and so on.
-

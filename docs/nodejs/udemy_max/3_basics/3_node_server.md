@@ -1,6 +1,6 @@
-# Creating a Node server
+# Creating a Node Server
 
-## Creating a basic Node server
+## creating a basic Node server
 
 Follow these steps to create a basic Node server using TypeScript:
 
@@ -18,7 +18,7 @@ import * as http from "http";
 
 const server = http.createServer((req, res) => {
   console.log(req);
-	// process.exit();
+  // process.exit();
 });
 
 // listen() starts a process.
@@ -60,11 +60,11 @@ function line() {
 
 const server = http.createServer((req, res) => {
   console.log(req.url);
-	line()
+  line();
   console.log(req.headers);
-	line()
+  line();
   console.log(req.method);
-	line()
+  line();
   // process.exit();
 });
 
