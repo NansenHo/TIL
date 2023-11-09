@@ -61,7 +61,7 @@ console.log(myObj);
 
 ### 可迭代性对比
 
-- Map 是[可迭代的](Usage_of_Map.md#iterating-map)。
+- Map 是[可迭代的](usage_of_map.md#iterating-map)。
   Map 直接可迭代，性能肯定比还需要去转一遍才能迭代的 Object 更好。
 
 - Object 没有实现迭代协议，不能用 `for ... of` 表达式来直接迭代对象。

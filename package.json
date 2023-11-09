@@ -1,7 +1,6 @@
 {
   "name": "til",
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
