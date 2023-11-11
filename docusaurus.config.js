@@ -1,38 +1,18 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Today I Learned",
-  tagline: "Dinosaurs are cool",
+  tagline: "Nansen's learning notes and technical articles.",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://nansenho.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://til-nansenho.netlify.app/",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "NansenHo", // Usually your GitHub org/user name.
-  projectName: "TIL", // Usually your repo name.
+  organizationName: "NansenHo",
+  projectName: "TIL",
   deploymentBranch: "main",
   trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en"],
-  // },
 
   presets: [
     [
@@ -41,15 +21,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/nansenho/til/edit/main/docs/",
+          editUrl: "https://github.com/nansenho/til/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/nansenho/til/edit/main/docs/blog/",
+          editUrl: "https://github.com/nansenho/til/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,86 +34,77 @@ const config = {
     ],
   ],
 
-  themeConfig:
+  themeConfig: {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      navbar: {
-        title: "Today I Learned",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+    image: "img/docusaurus-social-card.jpg",
+    navbar: {
+      title: "TIL",
+      logo: {
+        alt: "My Site Logo",
+        src: "img/logo.svg",
+      },
+      items: [
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Notes",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Notes",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/nansenho/til",
-            label: "GitHub",
-            position: "right",
-          },
-          // {
-          //   type: "localeDropdown",
-          //   position: "left",
-          // },
-        ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs",
-              },
-            ],
-          },
-          {
-            title: "Contact",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/nansenho/til",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/_n_a_n_s_e_n_",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/nansenho/til",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://github.com/nansenho/til",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Notes",
+          items: [
+            {
+              label: "Notes",
+              to: "/docs",
+            },
+          ],
+        },
+        {
+          title: "Contact",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/nansenho/til",
+            },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/_n_a_n_s_e_n_",
+            },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/nansen_nansong/",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              to: "/blog",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    },
+  },
 };
 
 module.exports = config;
