@@ -4,4 +4,4 @@
 
 2. Mount this proxy object onto `render` function.
 
-Then, we can use `this.key` to get value of `setupState` in `render` funtion.
+Then, we can use `this.key` to get value of `setupState` in `render` function.
