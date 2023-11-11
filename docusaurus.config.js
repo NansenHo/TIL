@@ -1,7 +1,7 @@
 const config = {
   title: "Today I Learned",
   tagline: "Nansen's learning notes and technical articles.",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   url: "https://til-nansenho.netlify.app/",
   baseUrl: "/",
