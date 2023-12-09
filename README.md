@@ -1,41 +1,34 @@
-# TIL | Today I Learned
+[EN](./README.md) / [CN](./README_CN.md) / [JP](./README_JP.md)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+> If you like this repository or think it's useful, feel free to :star: it!
+> If you want to receive notifications about updates to this repository, feel free to watch it!
 
-### Installation
+# TIL
 
-```
-$ yarn
-```
+> Today I Learn
 
-### Local Development
+Welcome to my TIL repository!
 
-```
-$ yarn start
-```
+This is a collection of concise notes and personal tech blogs that I've written in my daily learning, using various languages and technologies.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The primary language for documentation in this repository is Chinese, followed by English, with Japanese being the least used.
 
-### Build
+You can start reading by going [here](https://til-nansenho.netlify.app/).
 
-```
-$ yarn build
-```
+## Getting Started
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+```bash
+# clone the project
+git clone https://github.com/NansenHo/mini-vue.git
+cd til
 
-### Deployment
+# install packages
+pnpm install
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+pnpm start
 ```
 
-Not using SSH:
+## Content Structure
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- `/docs` - Learning notes and quick references.
+- `/blog` - Blog posts.
