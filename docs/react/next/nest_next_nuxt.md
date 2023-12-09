@@ -1,6 +1,4 @@
-# Next, Nuxt, Nest {ignore=true}
-
-[toc]
+# Next, Nuxt, Nest
 
 ## links
 

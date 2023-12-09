@@ -1,6 +1,4 @@
-# Buffer {ignore=true}
-
-[toc]
+# Buffer
 
 ## Why we need Buffer
 

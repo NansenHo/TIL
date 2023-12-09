@@ -1,6 +1,4 @@
-# Global {ignore=true}
-
-[toc]
+# Global
 
 ## What's `global`
 
