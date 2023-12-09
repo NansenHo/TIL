@@ -45,3 +45,5 @@ MySQL Client 和 MySQL Server 的关系如下：
 ```sql
 mysql -h 10.0.1.99 -u root -p
 ```
+
+命令行程序 mysql 实际上是 MySQL 客户端，真正的 MySQL 服务器程序是 `mysqld`，在后台运行。
