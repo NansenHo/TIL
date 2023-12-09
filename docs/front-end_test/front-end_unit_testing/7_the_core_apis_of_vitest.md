@@ -66,13 +66,13 @@ You can also nest describe blocks if you have a hierarchy of tests or benchmarks
 ```js
 import { describe, test, it } from "vitest";
 
-bescripe("", () => {
-  bescripe("", () => {
+describe("", () => {
+  describe("", () => {
     it("", () => {});
     it("", () => {});
   });
 
-  bescripe("", () => {
+  describe("", () => {
     it("", () => {});
     it("", () => {});
   });
@@ -379,7 +379,7 @@ afterAll(() => {
 You can pass an additional argument as the filter of the rest files to run. for Example
 
 ```bash
-# api.spec.te
+# api.spec.ts
 vitest api
 ```
 
