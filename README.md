@@ -1,6 +1,7 @@
 [EN](./README.md) / [CN](./README_CN.md) / [JP](./README_JP.md)
 
 > If you like this repository or think it's useful, feel free to :star: it!
+>
 > If you want to receive notifications about updates to this repository, feel free to watch it!
 
 # TIL
