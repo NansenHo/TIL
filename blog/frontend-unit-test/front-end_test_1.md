@@ -1,4 +1,4 @@
-# フロントエンド単体テスト
+# フロントエンド単体テスト - 第一回
 
 ## ファイル命名規則
 
@@ -132,7 +132,7 @@
 
 3. **リファクタリング**
 
-![](../docs/front-end_test/front-end_unit_testing/assets/test-driven-development-TDD.webp)
+![](../../docs/front-end_test/front-end_unit_testing/assets/test-driven-development-TDD.webp)
 
 ## 単体テストの作成流れ
 
