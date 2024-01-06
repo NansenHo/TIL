@@ -17,7 +17,7 @@ We can configure the JavaScript debug terminal in `yourProject/.vscode/setting.j
 
 This file closely resembles `launch.json`.
 
-## :star: launch.json
+## launch.json
 
 [debugging of Vitest](https://vitest.dev/guide/debugging.html)
 
@@ -25,7 +25,6 @@ To debug a test file in VSCode, You can add a dedicated launch configuration in 
 
 ```js
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
@@ -48,16 +47,17 @@ Then in the debug tab, ensure 'Debug Current Test File' is selected.
 
 Finally we can open the test file, and press F5 to start debugging.
 
-## :star: Vitest for VSCode plugin
+## Vitest for VSCode plugin
 
-> Test-related Shortcuts in VSCode:
->
-> - debug all tests: `command + ;`, `command + A`
-> - debug test at cursor: `command + ;`, `command + C`
-> - debug last run: `command + ;`, `command + L`
-> - run all tests: `command + ;`, `A`
-> - run test at cursor: `command + ;`, `C`
-> - run last run: `command + ;`, `L`
+Test-related Shortcuts in VSCode:
+
+- debug all tests: `command + ;`, `command + A`
+- debug test at cursor: `command + ;`, `command + C`
+- debug last run: `command + ;`, `command + L`
+
+- run all tests: `command + ;`, `A`
+- run test at cursor: `command + ;`, `C`
+- run last run: `command + ;`, `L`
 
 ## vitest --ui
 
