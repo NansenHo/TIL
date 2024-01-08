@@ -132,7 +132,7 @@
 
 3. **リファクタリング**
 
-![](../../docs/test/front-end_unit_testing/assets/test-driven-development-TDD.webp)
+![](../../docs/test/frontend_unit_testing/assets/test-driven-development-TDD.webp)
 
 ## 単体テストの作成流れ
 
