@@ -1,10 +1,14 @@
 # フロントエンド単体テスト - 第一回
 
-## ファイル命名規則
+> この文章が役に立つと思われる方は、ぜひ [Github リポジトリ](https://github.com/NansenHo/TIL)に ⭐ をつけてください！
+
+![frontend-test.001.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3515257/6fb3b9fd-40d1-772d-dfad-37d423661d5d.jpeg)
+
+## テストファイル命名規則
 
 テストファイルの命名は通常
 
-1. `*.spec.ts` :star:
+1. `*.spec.ts`（おすすめ）
 2. `*.unit.ts`
 3. `*.test.ts`
 
@@ -90,6 +94,8 @@
 
 ### 機能を単位として
 
+![frontend-test.012.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3515257/beb4fc64-c889-4231-bba7-826d815a73bc.jpeg)
+
 > **単位レベルの機能テスト** は [Test Driven Development: By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/) に由来します。
 
 正しいアプローチは、機能を単位として単体テストを行うことです。
@@ -120,6 +126,8 @@
 
 ### TDD の 3 ステップ
 
+![frontend-test.013.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3515257/6ed679f2-5da5-584f-77ef-6e12101c3b23.jpeg)
+
 1. **テストを書く（まだ通過できない）**
 
    これにより、要件を明確に理解することができます。
@@ -132,19 +140,32 @@
 
 3. **リファクタリング**
 
-![](../../docs/test/frontend_unit_testing/assets/test-driven-development-TDD.webp)
+> Bug を修正する時にも、必ずその Bug を再現できるテスト、または Demo を作成した次第、修正してきましょう。
 
 ## 単体テストの作成流れ
 
-1. **データの準備**
+![frontend-test.019.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3515257/4be10d7c-1a8e-05cc-29c4-ef55720d6b66.jpeg)
 
-2. **テスト対象の機能/関数を呼び出す**
+| Steps                                  |       |                 |
+| -------------------------------------- | ----- | --------------- |
+| 1. **テスト用データを準備**            | given | Arrange（準備） |
+| 2. **テスト対象の機能/関数を呼び出す** | when  | Act（実行）     |
+| 3. **機能の出力を検証**                | then  | Assert（検証）  |
+| 4. **ティアダウン**                    |       |                 |
 
-3. **機能の出力を検証する**
+> Arrange-Act-Assert (AAA) パターンに従う：準備（Arrange）、実行（Act）、アサート（Assert）。
 
-4. **後処理を行う**
+第一歩と第四歩は必ずしも必要ではありませんが、第二歩と第三歩は必要です。
+
+例えば、`getName()` をテストする時に、データの準備は必要ありません。
+
+また、グローバルなデータに関わらない場合は、ティアダウンの必要がありません。
+
+テスト中に、グローバルなデータやキャッシュを扱うことがあり、これらは元に戻す必要があります。これはティアダウンの役割です。
 
 ## Vitest は何
+
+![frontend-test.020.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3515257/92d5586e-a38a-acf2-6cef-2cf01e6678ee.jpeg)
 
 Vitest は、特にパフォーマンスの最適化や最新の JavaScript 機能への対応において、Jest に比べて、より現代的なテストフレームワークです。
 
@@ -220,7 +241,7 @@ it("should do something", () => {});
 
 `describe` を使用すると、現在のコンテキストで新しいスイートを定義できます。
 
-これは関連するテストやベンチマーク、その他のネストされたスイートのセットとしてです。
+これは関連するテストやベンチマーク、その他のネストされたスイートのセットです。
 
 スイートを使用すると、テストやベンチマークを整理して、レポートをより明確にすることができます。
 
@@ -287,7 +308,7 @@ describe("", () => {
 import { it, expect } from "vitest";
 
 it("toBe", () => {
-  // `toBe` equals to ===
+  // `toBe` は === と同じです
   expect(1).toBe(1);
 });
 ```
@@ -328,7 +349,7 @@ test("toBeTruthy", () => {
 
 `toContain` は、実際の値が配列内にあるかどうかをアサートします。
 
-また、ある文字列が別の文字列の部分文字列であるかどうかもチェックできます。
+また、ある文字列が別の文字列の一部文字列であるかどうかもチェックできます。
 
 ```js
 import { expect, it } from "vitest";
@@ -410,7 +431,7 @@ beforeAll(async () => {
 });
 ```
 
-:thumbsup: Vitest v0.10.0 以降では、`beforeEach` と `beforeAll` はオプションのクリーンアップ関数（`afterEach` / `afterAll` に相当）を受け入れるようになりました。
+> `beforeEach` と `beforeAll` はオプションのクリーンアップ関数（`afterEach` / `afterAll` に相当）を受け入れます。
 
 ```js
 import { beforeEach, beforeAll } from "vitest";
@@ -551,7 +572,7 @@ afterAll(() => {
 
 #### `only`
 
-1. `test.only()` Type: `(name: string, fn: TestFunction, timeout?: number) => void`
+1. `test.only()`
 2. `bench.only()`
 3. `describe.only()`
 
@@ -561,12 +582,19 @@ afterAll(() => {
 2. `bench.skip()`
 3. `describe.skip()`
 
+#### `todo`
+
+1. `test.todo()`
+2. `bench.todo()`
+3. `describe.todo()`
+
 #### Vitest CLI
 
 実行するテストファイルのフィルターとして追加の引数を渡すことができます。例えば
 
 ```bash
-# api.spec.ts
+# api.spec.ts のみをテストする場合
+
 vitest api
 ```
 
