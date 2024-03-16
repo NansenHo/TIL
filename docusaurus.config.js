@@ -98,10 +98,6 @@ const config = {
               href: "https://github.com/nansenho/til",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/_n_a_n_s_e_n_",
-            },
-            {
               label: "Instagram",
               href: "https://www.instagram.com/nansen_nansong/",
             },

@@ -17,7 +17,7 @@
   --ifm-code-font-size: 95%;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #ffcd00;
   --ifm-color-primary-dark: #e6b900;
   --ifm-color-primary-darker: #d9ae00;
@@ -49,5 +49,26 @@
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white);
   background-color: var(--ifm-footer-background-color);
-  color: var(--ifm-footer-color)
+  color: var(--ifm-footer-color);
+}
+
+.creedSection {
+  color: #c0c0c0;
+  margin: 0 auto;
+  max-width: 580px;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.creedList {
+  text-align: left;
+}
+
+.creed {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 640px) {
+  .creedSection {
+    max-width: 260px;
+  }
 }
