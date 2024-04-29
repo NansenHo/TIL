@@ -1,6 +1,6 @@
-# 公司后端开发环境 - 记录
+# 启动 Python 项目
 
-## Terminal
+系统环境搭建：
 
 ```bash
 brew install python3
@@ -10,22 +10,7 @@ brew install mysql
 brew install sam
 ```
 
-## Inside the Project
-
-在项目中，
-
-```bash
-# 创建虚拟环境
-python3 -m venv .venv
-
-# 安装所有项目依赖
-pip install -r requirements.txt
-
-# 激活虚拟环境
-source .venv/bin/activate
-```
-
-## 跑 Python 项目
+启动项目：
 
 Python 的虚拟环境是一个隔离的环境，使得项目可以独立地安装所需的库和依赖，而不会影响系统全局的 Python 安装或其他项目。
 
@@ -50,9 +35,4 @@ source .venv/bin/activate
 
 # 安装依赖
 pip install -r requirements.txt
-```
-
-```bash
-# 运行 pytest 文件
-pytest path
 ```
