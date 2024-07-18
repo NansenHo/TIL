@@ -19,5 +19,3 @@ Mac 使用 homebrew 安装即可：
 ```bash
 brew install python3
 ```
-
-##

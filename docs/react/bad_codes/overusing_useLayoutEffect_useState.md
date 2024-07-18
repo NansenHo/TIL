@@ -49,8 +49,6 @@ function Index() {
 
 但她绕了一大圈，先用一个 `state` 来包裹想显示的内容，接着用 `useLayoutEffect` 来根据 `isLoggedIn` 更新这个 `state`。
 
-> 真的太烂了，一整个狠狠无语住了。
-
 ## 调整之后的代码
 
 ```ts

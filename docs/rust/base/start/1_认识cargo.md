@@ -12,8 +12,10 @@ cargo 提供了一系列工具，从项目的创建、构建、测试、运行�
 ## 创建 hello world 项目
 
 ```bash
-cargo new hello_world
-cd hello_world
+mdkir rust-demo
+cd rust-demo
+
+cargo init
 ```
 
 该项目的结构和配置文件都由 cargo 生成。
@@ -27,4 +29,3 @@ Rust 项目分两种类型：
 
 1. `bin`：一个可运行的项目
 2. `lib`：一个依赖库项目
-
