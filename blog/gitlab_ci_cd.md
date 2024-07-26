@@ -1,4 +1,4 @@
-# GitLab CI/CD
+# 基本的な GitLab CI/CD 設定を紹介します！
 
 ## `.gitlab-ci.yml`
 

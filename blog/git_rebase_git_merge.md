@@ -1,4 +1,4 @@
-# `git rebase` と `git merge` の基本的な使い方と使用シーンを紹介します！
+# `git rebase` と `git merge` の使い方と使用シーンを紹介します！
 
 ## `git merge` の紹介
 
