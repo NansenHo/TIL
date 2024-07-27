@@ -1,4 +1,4 @@
-# 这个知识点，是 React 的命脉 —— `useState`
+# useState
 
 ## 基本
 

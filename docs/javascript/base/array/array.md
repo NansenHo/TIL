@@ -29,7 +29,7 @@ a[1] // 6
 2. 方括号结构：`object[key]`
    用方括号 `arr[0]` 可以，是因为方括号是运算符，可以接受数值
 
-## Length Attribute
+## Length 属性
 
 数组的 `length` 属性，返回数组的成员数量。
 

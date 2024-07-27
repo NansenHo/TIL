@@ -1,4 +1,4 @@
-# 这个 hook API，是 useState 的双生兄弟 —— `useRef`
+# useRef
 
 使用函数创建组件，那就是当组件重新刷新时，组件函数会重新执行。
 
