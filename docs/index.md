@@ -70,6 +70,9 @@
     - [测试 Custom Hooks](test/unit_test/34_react/1_测试_custom_hooks.md)
   - Vitest 环境配置
     - [基于 Vitest 的单元测试环境构建](test/unit_test/35_vitest_config/vitest_unit_test_env.md)
+  - Coverage
+    - [解决 Vitest Coverage 下报 JavaScript heap out of memory 错误](test/unit_test/36_coverage/javascript_heap_out_of_memory_under_.md)
+  - [The Differences between `jsdom` and `happy-dom`](test/unit_test/37_jsdom_happy-dom_differences.md)
 - E2E Test
   - Playwright
     - [不要并行地执行 Playwright E2E 测试](test/e2e_test/playwright/no_parallel.md)
@@ -198,3 +201,10 @@
   - [30. 实现 `getCurrentInstance`](vue/mini-vue/30_getCurrentInstance.md)
   - [31. 实现 `provide` 和 `inject` 功能](vue/mini-vue/31_provide_inject.md)
   - [47. parse 的实现原理](vue/mini-vue/47_parse的实现原理.md)
+
+### Git
+
+- [Git Flow](git/git_flow.md)
+- [`git rebase` 和 `git merge` 的使用方法和使用场景](git/git_rebase_git_merge.md)
+- [Git Commit Date](git/git_commit_date.md)
+- [Rewrite Commit Message](git/rewrite_commit_msg.md)

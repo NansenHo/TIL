@@ -21,6 +21,8 @@
 
    如 `release-2023-10-19`。
 
+   > 生产环境的每一次更新，都要使用 `git tag` 来存档，方便代码回滚。
+
 4. 功能/修复等分支从 `master` 分支拉取。
 
    如 `feature/user-authentication` 或 `bugfix/wrong-date`。
