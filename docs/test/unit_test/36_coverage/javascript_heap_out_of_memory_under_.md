@@ -20,11 +20,11 @@
 
 下面是修改之后的 `vitest.config.mts` 代码：
 
-```ts
-// vitest.config.mts
+```ts title="vitest.config.mts"
 import { defineConfig } from "vitest/config";
 import path from "path";
 
+// 这里 include 和 coverageInclude 只有文件后缀不一样，可以封装一下
 const include = [
   "shared/**/*.spec.{ts,js}",
   "auth/**/*.spec.{ts,js}",
