@@ -90,19 +90,6 @@
   - [浏览器内核和 JavaScript 引擎的关系](javascript/advanced_javascript/浏览器内核和js引擎的关系.md)
   - [浏览器渲染过程](javascript/advanced_javascript/浏览器渲染过程.md)
   - [编程语言的三个阶段](javascript/advanced_javascript/编程语言的三个阶段.md)
-- Function
-  - [Function Arguments](javascript/function/arguments.md)
-  - [The differences between `bind` and `apply` and `call`](javascript/function/bind_apply_call.md)
-- Promise
-  - [Async / Await](javascript/promise/async_await.md)
-- Map
-  - [1. whats map](javascript/map/1_whats_map.md)
-  - [2. usage of map](javascript/map/2_usage_of_map.md)
-  - [3. map 和 object 的区别](javascript/map/3_map和object的区别.md)
-  - [4. Iterator](javascript/map/4_Iterator.md)
-  - [5. map 和 array 互相转换](javascript/map/5_map和array互相转换.md)
-- Object
-  - [`Object.entries(obj)` 和 `Object.fromEntries(iterable)`](javascript/object/entries_fromEntries.md)
 - Array
   - [loop array](javascript/array/loop_array.md)
   - [the nature of array](javascript/array/the_nature_of_array.md)
@@ -111,14 +98,7 @@
     - [Currying - Achieve functionality across different compatibilities](javascript/array/currying/browser_monitoring.md)
     - [Curring - Defered Execution](javascript/array/currying/defered_execute.md)
     - [Currying - Reuse Parameter](javascript/array/currying/repeated_parameter.md)
-- Number
-  - [Convert Number to Currency](javascript/number/number_convert_to_currency.md)
-  - [Convert Number to Percentage](javascript/number/number_convert_to_percentage.md)
-- String
-  - [URL Parameters to Object](javascript/string/url_parameters_to_object.md)
-- Operator
-  - [difference](javascript/operator/difference.md)
-  - [question dot ](javascript/operator/question_dot_.md)
+- Blob
 - Books
   - JavaScript 设计模式与开发实践
     - [前言](javascript/books/javascript设计模式与开发实践/index.md)
@@ -134,6 +114,29 @@
     - [2.8. 发布-订阅模式](javascript/books/javascript设计模式与开发实践/第二部分/2_8_发布-订阅模式.md)
     - [2.9. 命令模式](javascript/books/javascript设计模式与开发实践/第二部分/2_9_命令模式.md)
     - [2.10. 组合模式](javascript/books/javascript设计模式与开发实践/第二部分/2_10_组合模式.md)
+  - [下载 CSV 文件](javascript/blob/download_csv_file.md)
+- Function
+  - [Function Arguments](javascript/function/arguments.md)
+  - [The differences between `bind` and `apply` and `call`](javascript/function/bind_apply_call.md)
+- Promise
+  - [Async / Await](javascript/promise/async_await.md)
+- Map
+  - [1. What's Map](javascript/map/1_whats_map.md)
+  - [2. Usage of Map](javascript/map/2_usage_of_map.md)
+  - [3. Map 和 Object 的区别](javascript/map/3_map和object的区别.md)
+  - [4. Iterator](javascript/map/4_Iterator.md)
+  - [5. Map 和 Array 互相转换](javascript/map/5_map和array互相转换.md)
+  - [6. Map and WeakMap](javascript/map/6_map_weak-map.md)
+- Number
+  - [Convert Number to Currency](javascript/number/number_convert_to_currency.md)
+  - [Convert Number to Percentage](javascript/number/number_convert_to_percentage.md)
+- String
+  - [URL Parameters to Object](javascript/string/url_parameters_to_object.md)
+- Object
+  - [`Object.entries(obj)` & `Object.fromEntries(iterable)`](javascript/object/entries_from-entries.md)
+- Operator
+  - [`||` operator & `??` operator](javascript/operator/logical-or_nullish-coalescing-operator.md)
+  - [`?.` operator](javascript/operator/optional-chaining.md)
 
 ### TypeScript
 

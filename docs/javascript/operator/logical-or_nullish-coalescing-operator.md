@@ -1,4 +1,4 @@
-# `||` operator and `??` operator
+# `||` Operator & `??` Operator
 
 The `||` operator evaluates to the right-hand side if and only if the left-hand side is a falsy value.
 

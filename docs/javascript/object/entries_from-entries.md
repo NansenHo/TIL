@@ -1,4 +1,4 @@
-# Object.entries(obj) 和 Object.fromEntries(iterable)
+# `Object.entries(obj)` & `Object.fromEntries(iterable)`
 
 `Object.entries()` 和 `Object.fromEntries()` 是互逆的操作。
 
