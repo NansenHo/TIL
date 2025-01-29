@@ -204,7 +204,8 @@
 
 ### Git
 
-- [Git Flow](git/git_flow.md)
-- [`git rebase` 和 `git merge` 的使用方法和使用场景](git/git_rebase_git_merge.md)
-- [Git Commit Date](git/git_commit_date.md)
+- [Git Flow](git/work_flow.md)
+- [`git rebase` 和 `git merge` 的使用方法和使用场景](git/rebase_merge.md)
+- [Git Commit Date](git/commit_date.md)
 - [Rewrite Commit Message](git/rewrite_commit_msg.md)
+- [Fixing `send-pack` Errors in Git Push](git/send-pack_errors.md)
