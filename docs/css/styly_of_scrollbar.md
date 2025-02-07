@@ -1,4 +1,4 @@
-# 滚动条样式的修改
+# 滚动条样式
 
 ## 滚动条相关选择器
 
@@ -27,18 +27,18 @@
 这时我们可以尝试利用 `滚动条上的按钮（上下箭头）` 来处理：
 
 ```css
-&::-webkit-scrollbar-button{
-    display: none;
+&::-webkit-scrollbar-button {
+  display: none;
 }
-&::-webkit-scrollbar-button:vertical:end:increment{
-    display: block;
-    height: 8px;
-    background-color: transparent;
+&::-webkit-scrollbar-button:vertical:end:increment {
+  display: block;
+  height: 8px;
+  background-color: transparent;
 }
-&::-webkit-scrollbar-button:vertical:start:increment{
-    display: block;
-    height: 8px;
-    background-color: transparent;
+&::-webkit-scrollbar-button:vertical:start:increment {
+  display: block;
+  height: 8px;
+  background-color: transparent;
 }
 ```
 
@@ -47,12 +47,12 @@
 当我们在 div 等容器中使用，用来美化滚动条。
 
 ```css
-&::-webkit-scrollbar-thumb{
-    background: rgba(0, 0, 0, 0.24);
-    border: 4px solid transparent;
-    border-radius: 8px;
-    /* 使用 background-clip 裁剪背景，可以让滚动滑块与边框隔开一定距离 */
-    background-clip: content-box;
+&::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.24);
+  border: 4px solid transparent;
+  border-radius: 8px;
+  /* 使用 background-clip 裁剪背景，可以让滚动滑块与边框隔开一定距离 */
+  background-clip: content-box;
 }
 ```
 
@@ -62,36 +62,36 @@
 
 ```css
 &::-webkit-scrollbar {
-    width: 21px;
-    height: 80px;
+  width: 21px;
+  height: 80px;
 }
 &::-webkit-scrollbar-button {
-    display: none;
+  display: none;
 }
 &::-webkit-scrollbar-button:vertical:end:increment {
-    display: block;
-    height: 8px;
-    background-color: transparent;
+  display: block;
+  height: 8px;
+  background-color: transparent;
 }
 &::-webkit-scrollbar-button:vertical:start:increment {
-    display: block;
-    height: 8px;
-    background-color: transparent;
+  display: block;
+  height: 8px;
+  background-color: transparent;
 }
 &::-webkit-scrollbar-track {
-    background: #fff;
+  background: #fff;
 }
 &::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.24);
-    border: 6px solid transparent;
-    border-radius: 12px;
-    background-clip: content-box;
+  background: rgba(0, 0, 0, 0.24);
+  border: 6px solid transparent;
+  border-radius: 12px;
+  background-clip: content-box;
 }
 &::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.24);
-    border: 6px solid transparent;
-    border-radius: 12px;
-    background-clip: content-box;
+  background: rgba(0, 0, 0, 0.24);
+  border: 6px solid transparent;
+  border-radius: 12px;
+  background-clip: content-box;
 }
 ```
 
@@ -101,4 +101,4 @@
 
 对于非 Webkit 的浏览器我们需要另外写一套针对的 CSS。
 
-除了 CSS ，我们也可以用 `el-scrollbar` / 自己写一个 div 来充当滚动条等，用来处理特殊的滚动条样式。
+除了 CSS ，我们也可以用 `el-scrollbar` 这样的组件库里设计好的滚动条组件, 或者自己写一个 `div` 来充当滚动条等，用来处理特殊的滚动条样式。
